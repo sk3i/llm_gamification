@@ -1,0 +1,36 @@
+{
+    "date": "2025-06-16",
+    "day": "Friday",
+    "events": [
+    {
+        "title": "Weekly Report Writing",
+        "start_time": "08:00",
+        "end_time": "09:30",
+        "location": "Home Office"
+    },
+    {
+        "title": "Errands (Groceries, Dry Cleaning)",
+        "start_time": "10:00",
+        "end_time": "11:00",
+        "location": "Local Shops"
+    },
+    {
+        "title": "Gym Workout",
+        "start_time": "11:30",
+        "end_time": "12:30",
+        "location": "Fitness Center"
+    },
+    {
+        "title": "Brunch with Friends",
+        "start_time": "13:00",
+        "end_time": "14:30",
+        "location": "Cafe Milano"
+    },
+    {
+        "title": "Nap / Rest",
+        "start_time": "15:00",
+        "end_time": "16:00",
+        "location": "Home"
+    }
+    ]
+}

@@ -1,0 +1,36 @@
+{
+  "date": "2025-06-16",
+  "day": "Saturday",
+  "events": [
+    {
+      "title": "Morning Hike",
+      "start_time": "08:30",
+      "end_time": "10:30",
+      "location": "Maple Trail"
+    },
+    {
+      "title": "Farmer's Market Visit",
+      "start_time": "11:00",
+      "end_time": "12:00",
+      "location": "Downtown Market"
+    },
+    {
+      "title": "Lunch and Board Games",
+      "start_time": "12:30",
+      "end_time": "14:30",
+      "location": "Friend's House"
+    },
+    {
+      "title": "Read Novel",
+      "start_time": "15:00",
+      "end_time": "16:30",
+      "location": "Backyard"
+    },
+    {
+      "title": "Movie Night",
+      "start_time": "19:00",
+      "end_time": "21:30",
+      "location": "Home Theater"
+    }
+  ]
+}

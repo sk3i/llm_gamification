@@ -1,0 +1,36 @@
+{
+    "date": "2025-06-16",
+    "day": "Tuesday",
+    "events": [
+    {
+        "title": "Morning Standup",
+        "start_time": "09:00",
+        "end_time": "09:30",
+        "location": "Zoom"
+    },
+    {
+        "title": "Project Planning Meeting",
+        "start_time": "10:00",
+        "end_time": "11:30",
+        "location": "Conference Room A"
+    },
+    {
+        "title": "Lunch Break",
+        "start_time": "12:30",
+        "end_time": "13:00",
+        "location": "Cafeteria"
+    },
+    {
+        "title": "Code Review Session",
+        "start_time": "13:30",
+        "end_time": "15:00",
+        "location": "GitHub / Zoom"
+    },
+    {
+        "title": "Client Call",
+        "start_time": "16:00",
+        "end_time": "17:00",
+        "location": "Zoom"
+    }
+  ]
+}

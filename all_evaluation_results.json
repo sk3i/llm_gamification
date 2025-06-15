@@ -1,0 +1,650 @@
+[
+  {
+    "relevance": 5,
+    "specificity": 5,
+    "creativity": 4,
+    "feasibility": 5,
+    "alignment": 4,
+    "file": "half_ex_neg_few_bas.txt",
+    "prompt_type": "few_bas"
+  },
+  {
+    "relevance": 4,
+    "specificity": 4,
+    "creativity": 3,
+    "feasibility": 4,
+    "alignment": 4,
+    "file": "half_ex_neg_few_det.txt",
+    "prompt_type": "few_det"
+  },
+  {
+    "relevance": 4,
+    "specificity": 4,
+    "creativity": 3,
+    "feasibility": 4,
+    "alignment": 4,
+    "file": "half_ex_neg_one_bas.txt",
+    "prompt_type": "one_bas"
+  },
+  {
+    "relevance": 4,
+    "specificity": 4,
+    "creativity": 4,
+    "feasibility": 3,
+    "alignment": 4,
+    "file": "half_ex_neg_one_det.txt",
+    "prompt_type": "one_det"
+  },
+  {
+    "relevance": 4,
+    "specificity": 4,
+    "creativity": 3,
+    "feasibility": 4,
+    "alignment": 4,
+    "file": "half_ex_neg_zer_bas.txt",
+    "prompt_type": "zer_bas"
+  },
+  {
+    "relevance": 4,
+    "specificity": 5,
+    "creativity": 4,
+    "feasibility": 3,
+    "alignment": 4,
+    "file": "half_ex_neg_zer_det.txt",
+    "prompt_type": "zer_det"
+  },
+  {
+    "relevance": 5,
+    "specificity": 4,
+    "creativity": 4,
+    "feasibility": 5,
+    "alignment": 5,
+    "file": "half_ex_pos_few_bas.txt",
+    "prompt_type": "few_bas"
+  },
+  {
+    "relevance": 4,
+    "specificity": 4,
+    "creativity": 4,
+    "feasibility": 3,
+    "alignment": 4,
+    "file": "half_ex_pos_few_det.txt",
+    "prompt_type": "few_det"
+  },
+  {
+    "relevance": 4,
+    "specificity": 4,
+    "creativity": 3,
+    "feasibility": 4,
+    "alignment": 4,
+    "file": "half_ex_pos_one_bas.txt",
+    "prompt_type": "one_bas"
+  },
+  {
+    "relevance": 4,
+    "specificity": 4,
+    "creativity": 3,
+    "feasibility": 3,
+    "alignment": 4,
+    "file": "half_ex_pos_one_det.txt",
+    "prompt_type": "one_det"
+  },
+  {
+    "relevance": 4,
+    "specificity": 4,
+    "creativity": 3,
+    "feasibility": 4,
+    "alignment": 4,
+    "file": "half_ex_pos_zer_bas.txt",
+    "prompt_type": "zer_bas"
+  },
+  {
+    "relevance": 4,
+    "specificity": 4,
+    "creativity": 3,
+    "feasibility": 3,
+    "alignment": 4,
+    "file": "half_ex_pos_zer_det.txt",
+    "prompt_type": "zer_det"
+  },
+  {
+    "relevance": 4,
+    "specificity": 4,
+    "creativity": 4,
+    "feasibility": 3,
+    "alignment": 4,
+    "file": "half_me_neg_few_bas.txt",
+    "prompt_type": "few_bas"
+  },
+  {
+    "relevance": 4,
+    "specificity": 4,
+    "creativity": 4,
+    "feasibility": 3,
+    "alignment": 4,
+    "file": "half_me_neg_few_det.txt",
+    "prompt_type": "few_det"
+  },
+  {
+    "relevance": 4,
+    "specificity": 4,
+    "creativity": 3,
+    "feasibility": 3,
+    "alignment": 4,
+    "file": "half_me_neg_one_bas.txt",
+    "prompt_type": "one_bas"
+  },
+  {
+    "relevance": 4,
+    "specificity": 4,
+    "creativity": 3,
+    "feasibility": 3,
+    "alignment": 4,
+    "file": "half_me_neg_one_det.txt",
+    "prompt_type": "one_det"
+  },
+  {
+    "relevance": 4,
+    "specificity": 4,
+    "creativity": 3,
+    "feasibility": 4,
+    "alignment": 3,
+    "file": "half_me_neg_zer_bas.txt",
+    "prompt_type": "zer_bas"
+  },
+  {
+    "relevance": 4,
+    "specificity": 4,
+    "creativity": 3,
+    "feasibility": 4,
+    "alignment": 4,
+    "file": "half_me_neg_zer_det.txt",
+    "prompt_type": "zer_det"
+  },
+  {
+    "relevance": 4,
+    "specificity": 4,
+    "creativity": 3,
+    "feasibility": 4,
+    "alignment": 4,
+    "file": "half_me_pos_few_bas.txt",
+    "prompt_type": "few_bas"
+  },
+  {
+    "relevance": 4,
+    "specificity": 4,
+    "creativity": 4,
+    "feasibility": 3,
+    "alignment": 4,
+    "file": "half_me_pos_few_det.txt",
+    "prompt_type": "few_det"
+  },
+  {
+    "relevance": 4,
+    "specificity": 4,
+    "creativity": 4,
+    "feasibility": 3,
+    "alignment": 5,
+    "file": "half_me_pos_one_bas.txt",
+    "prompt_type": "one_bas"
+  },
+  {
+    "relevance": 4,
+    "specificity": 4,
+    "creativity": 3,
+    "feasibility": 3,
+    "alignment": 4,
+    "file": "half_me_pos_one_det.txt",
+    "prompt_type": "one_det"
+  },
+  {
+    "relevance": 5,
+    "specificity": 4,
+    "creativity": 4,
+    "feasibility": 4,
+    "alignment": 5,
+    "file": "half_me_pos_zer_bas.txt",
+    "prompt_type": "zer_bas"
+  },
+  {
+    "relevance": 4,
+    "specificity": 4,
+    "creativity": 3,
+    "feasibility": 4,
+    "alignment": 4,
+    "file": "half_me_pos_zer_det.txt",
+    "prompt_type": "zer_det"
+  },
+  {
+    "relevance": 5,
+    "specificity": 4,
+    "creativity": 4,
+    "feasibility": 5,
+    "alignment": 4,
+    "file": "week_ex_neg_few_bas.txt",
+    "prompt_type": "few_bas"
+  },
+  {
+    "relevance": 4,
+    "specificity": 4,
+    "creativity": 4,
+    "feasibility": 3,
+    "alignment": 4,
+    "file": "week_ex_neg_few_det.txt",
+    "prompt_type": "few_det"
+  },
+  {
+    "relevance": 4,
+    "specificity": 4,
+    "creativity": 3,
+    "feasibility": 4,
+    "alignment": 4,
+    "file": "week_ex_neg_one_bas.txt",
+    "prompt_type": "one_bas"
+  },
+  {
+    "relevance": 4,
+    "specificity": 4,
+    "creativity": 3,
+    "feasibility": 3,
+    "alignment": 4,
+    "file": "week_ex_neg_one_det.txt",
+    "prompt_type": "one_det"
+  },
+  {
+    "relevance": 4,
+    "specificity": 4,
+    "creativity": 3,
+    "feasibility": 4,
+    "alignment": 4,
+    "file": "week_ex_neg_zer_bas.txt",
+    "prompt_type": "zer_bas"
+  },
+  {
+    "relevance": 4,
+    "specificity": 4,
+    "creativity": 3,
+    "feasibility": 4,
+    "alignment": 3,
+    "file": "week_ex_neg_zer_det.txt",
+    "prompt_type": "zer_det"
+  },
+  {
+    "relevance": 5,
+    "specificity": 4,
+    "creativity": 4,
+    "feasibility": 5,
+    "alignment": 5,
+    "file": "week_ex_pos_few_bas.txt",
+    "prompt_type": "few_bas"
+  },
+  {
+    "relevance": 4,
+    "specificity": 4,
+    "creativity": 4,
+    "feasibility": 3,
+    "alignment": 4,
+    "file": "week_ex_pos_few_det.txt",
+    "prompt_type": "few_det"
+  },
+  {
+    "relevance": 4,
+    "specificity": 4,
+    "creativity": 4,
+    "feasibility": 3,
+    "alignment": 4,
+    "file": "week_ex_pos_one_bas.txt",
+    "prompt_type": "one_bas"
+  },
+  {
+    "relevance": 4,
+    "specificity": 4,
+    "creativity": 4,
+    "feasibility": 3,
+    "alignment": 4,
+    "file": "week_ex_pos_one_det.txt",
+    "prompt_type": "one_det"
+  },
+  {
+    "relevance": 4,
+    "specificity": 4,
+    "creativity": 4,
+    "feasibility": 3,
+    "alignment": 4,
+    "file": "week_ex_pos_zer_bas.txt",
+    "prompt_type": "zer_bas"
+  },
+  {
+    "relevance": 4,
+    "specificity": 4,
+    "creativity": 4,
+    "feasibility": 3,
+    "alignment": 4,
+    "file": "week_ex_pos_zer_det.txt",
+    "prompt_type": "zer_det"
+  },
+  {
+    "relevance": 4,
+    "specificity": 4,
+    "creativity": 3,
+    "feasibility": 5,
+    "alignment": 4,
+    "file": "week_me_neg_few_bas.txt",
+    "prompt_type": "few_bas"
+  },
+  {
+    "relevance": 4,
+    "specificity": 4,
+    "creativity": 4,
+    "feasibility": 3,
+    "alignment": 4,
+    "file": "week_me_neg_few_det.txt",
+    "prompt_type": "few_det"
+  },
+  {
+    "relevance": 4,
+    "specificity": 4,
+    "creativity": 3,
+    "feasibility": 4,
+    "alignment": 4,
+    "file": "week_me_neg_one_bas.txt",
+    "prompt_type": "one_bas"
+  },
+  {
+    "relevance": 4,
+    "specificity": 4,
+    "creativity": 4,
+    "feasibility": 3,
+    "alignment": 3,
+    "file": "week_me_neg_one_det.txt",
+    "prompt_type": "one_det"
+  },
+  {
+    "relevance": 4,
+    "specificity": 4,
+    "creativity": 3,
+    "feasibility": 4,
+    "alignment": 4,
+    "file": "week_me_neg_zer_bas.txt",
+    "prompt_type": "zer_bas"
+  },
+  {
+    "relevance": 4,
+    "specificity": 4,
+    "creativity": 3,
+    "feasibility": 3,
+    "alignment": 4,
+    "file": "week_me_neg_zer_det.txt",
+    "prompt_type": "zer_det"
+  },
+  {
+    "relevance": 4,
+    "specificity": 4,
+    "creativity": 4,
+    "feasibility": 5,
+    "alignment": 4,
+    "file": "week_me_pos_few_bas.txt",
+    "prompt_type": "few_bas"
+  },
+  {
+    "relevance": 4,
+    "specificity": 4,
+    "creativity": 4,
+    "feasibility": 4,
+    "alignment": 5,
+    "file": "week_me_pos_few_det.txt",
+    "prompt_type": "few_det"
+  },
+  {
+    "relevance": 5,
+    "specificity": 4,
+    "creativity": 4,
+    "feasibility": 4,
+    "alignment": 5,
+    "file": "week_me_pos_one_bas.txt",
+    "prompt_type": "one_bas"
+  },
+  {
+    "relevance": 4,
+    "specificity": 4,
+    "creativity": 4,
+    "feasibility": 4,
+    "alignment": 4,
+    "file": "week_me_pos_one_det.txt",
+    "prompt_type": "one_det"
+  },
+  {
+    "relevance": 4,
+    "specificity": 4,
+    "creativity": 3,
+    "feasibility": 4,
+    "alignment": 4,
+    "file": "week_me_pos_zer_bas.txt",
+    "prompt_type": "zer_bas"
+  },
+  {
+    "relevance": 4,
+    "specificity": 4,
+    "creativity": 4,
+    "feasibility": 3,
+    "alignment": 4,
+    "file": "week_me_pos_zer_det.txt",
+    "prompt_type": "zer_det"
+  },
+  {
+    "relevance": 4,
+    "specificity": 4,
+    "creativity": 3,
+    "feasibility": 3,
+    "alignment": 4,
+    "file": "work_ex_neg_few_bas.txt",
+    "prompt_type": "few_bas"
+  },
+  {
+    "relevance": 4,
+    "specificity": 4,
+    "creativity": 4,
+    "feasibility": 3,
+    "alignment": 4,
+    "file": "work_ex_neg_few_det.txt",
+    "prompt_type": "few_det"
+  },
+  {
+    "relevance": 4,
+    "specificity": 4,
+    "creativity": 3,
+    "feasibility": 3,
+    "alignment": 4,
+    "file": "work_ex_neg_one_bas.txt",
+    "prompt_type": "one_bas"
+  },
+  {
+    "relevance": 4,
+    "specificity": 4,
+    "creativity": 3,
+    "feasibility": 4,
+    "alignment": 4,
+    "file": "work_ex_neg_one_det.txt",
+    "prompt_type": "one_det"
+  },
+  {
+    "relevance": 4,
+    "specificity": 4,
+    "creativity": 3,
+    "feasibility": 3,
+    "alignment": 4,
+    "file": "work_ex_neg_zer_bas.txt",
+    "prompt_type": "zer_bas"
+  },
+  {
+    "relevance": 4,
+    "specificity": 4,
+    "creativity": 4,
+    "feasibility": 3,
+    "alignment": 4,
+    "file": "work_ex_neg_zer_det.txt",
+    "prompt_type": "zer_det"
+  },
+  {
+    "relevance": 4,
+    "specificity": 4,
+    "creativity": 3,
+    "feasibility": 3,
+    "alignment": 4,
+    "file": "work_ex_pos_few_bas.txt",
+    "prompt_type": "few_bas"
+  },
+  {
+    "relevance": 4,
+    "specificity": 4,
+    "creativity": 3,
+    "feasibility": 4,
+    "alignment": 4,
+    "file": "work_ex_pos_few_det.txt",
+    "prompt_type": "few_det"
+  },
+  {
+    "relevance": 4,
+    "specificity": 4,
+    "creativity": 4,
+    "feasibility": 3,
+    "alignment": 4,
+    "file": "work_ex_pos_one_bas.txt",
+    "prompt_type": "one_bas"
+  },
+  {
+    "relevance": 5,
+    "specificity": 4,
+    "creativity": 4,
+    "feasibility": 4,
+    "alignment": 5,
+    "file": "work_ex_pos_one_det.txt",
+    "prompt_type": "one_det"
+  },
+  {
+    "relevance": 4,
+    "specificity": 4,
+    "creativity": 3,
+    "feasibility": 4,
+    "alignment": 4,
+    "file": "work_ex_pos_zer_bas.txt",
+    "prompt_type": "zer_bas"
+  },
+  {
+    "relevance": 4,
+    "specificity": 4,
+    "creativity": 3,
+    "feasibility": 3,
+    "alignment": 4,
+    "file": "work_ex_pos_zer_det.txt",
+    "prompt_type": "zer_det"
+  },
+  {
+    "relevance": 4,
+    "specificity": 4,
+    "creativity": 3,
+    "feasibility": 3,
+    "alignment": 4,
+    "file": "work_me_neg_few_bas.txt",
+    "prompt_type": "few_bas"
+  },
+  {
+    "relevance": 5,
+    "specificity": 4,
+    "creativity": 4,
+    "feasibility": 4,
+    "alignment": 4,
+    "file": "work_me_neg_few_det.txt",
+    "prompt_type": "few_det"
+  },
+  {
+    "relevance": 5,
+    "specificity": 4,
+    "creativity": 4,
+    "feasibility": 4,
+    "alignment": 5,
+    "file": "work_me_neg_one_bas.txt",
+    "prompt_type": "one_bas"
+  },
+  {
+    "relevance": 4,
+    "specificity": 4,
+    "creativity": 4,
+    "feasibility": 3,
+    "alignment": 4,
+    "file": "work_me_neg_one_det.txt",
+    "prompt_type": "one_det"
+  },
+  {
+    "relevance": 4,
+    "specificity": 4,
+    "creativity": 4,
+    "feasibility": 3,
+    "alignment": 4,
+    "file": "work_me_neg_zer_bas.txt",
+    "prompt_type": "zer_bas"
+  },
+  {
+    "relevance": 4,
+    "specificity": 4,
+    "creativity": 3,
+    "feasibility": 3,
+    "alignment": 4,
+    "file": "work_me_neg_zer_det.txt",
+    "prompt_type": "zer_det"
+  },
+  {
+    "relevance": 5,
+    "specificity": 4,
+    "creativity": 4,
+    "feasibility": 4,
+    "alignment": 5,
+    "file": "work_me_pos_few_bas.txt",
+    "prompt_type": "few_bas"
+  },
+  {
+    "relevance": 5,
+    "specificity": 4,
+    "creativity": 4,
+    "feasibility": 4,
+    "alignment": 5,
+    "file": "work_me_pos_few_det.txt",
+    "prompt_type": "few_det"
+  },
+  {
+    "relevance": 4,
+    "specificity": 4,
+    "creativity": 4,
+    "feasibility": 3,
+    "alignment": 4,
+    "file": "work_me_pos_one_bas.txt",
+    "prompt_type": "one_bas"
+  },
+  {
+    "relevance": 5,
+    "specificity": 4,
+    "creativity": 4,
+    "feasibility": 4,
+    "alignment": 5,
+    "file": "work_me_pos_one_det.txt",
+    "prompt_type": "one_det"
+  },
+  {
+    "relevance": 4,
+    "specificity": 4,
+    "creativity": 4,
+    "feasibility": 3,
+    "alignment": 5,
+    "file": "work_me_pos_zer_bas.txt",
+    "prompt_type": "zer_bas"
+  },
+  {
+    "relevance": 4,
+    "specificity": 4,
+    "creativity": 4,
+    "feasibility": 3,
+    "alignment": 4,
+    "file": "work_me_pos_zer_det.txt",
+    "prompt_type": "zer_det"
+  }
+]

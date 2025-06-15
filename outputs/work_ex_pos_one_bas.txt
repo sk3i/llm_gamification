@@ -1,0 +1,110 @@
+MODEL: gpt-4o
+TEMPERATURE: 0.7
+TOTAL RESPONSES: 3
+CALENDAR: days\workday.json
+USER: personas\ex_positive.json
+PROMPT: prompts\one_basic.txt
+============================================================
+
+--- RESPONSE 1 ---
+{
+  "quests": [
+    {
+      "title": "Morning Cardio Kickstart",
+      "description": "Boost your energy with a morning cardio session before the day begins.",
+      "start_time": "07:30",
+      "end_time": "08:30",
+      "stat_rewards": {"str": 1, "int": 0, "res": 0},
+      "success_criteria": 4000,
+      "measure": "steps"
+    },
+    {
+      "title": "Code Mastery Challenge",
+      "description": "Dedicate focused time to improve your coding skills by reviewing and contributing to codebases.",
+      "start_time": "15:15",
+      "end_time": "16:00",
+      "stat_rewards": {"str": 0, "int": 2, "res": 0},
+      "success_criteria": 45,
+      "measure": "minutes"
+    },
+    {
+      "title": "Evening Wind Down",
+      "description": "End your day with a relaxing activity, such as reading or meditation, to enhance resilience.",
+      "start_time": "17:30",
+      "end_time": "18:00",
+      "stat_rewards": {"str": 0, "int": 0, "res": 2},
+      "success_criteria": 30,
+      "measure": "minutes"
+    }
+  ]
+}
+----------------------------------------
+
+--- RESPONSE 2 ---
+{
+  "quests": [
+    {
+      "title": "Morning Cardio Kickstart",
+      "description": "Start the day with a refreshing cardio session to boost your energy.",
+      "start_time": "07:30",
+      "end_time": "08:15",
+      "stat_rewards": {"str": 1, "int": 0, "res": 1},
+      "success_criteria": 3000,
+      "measure": "steps"
+    },
+    {
+      "title": "Focused Coding Challenge",
+      "description": "Dedicate time for uninterrupted coding to enhance your programming skills.",
+      "start_time": "15:30",
+      "end_time": "16:30",
+      "stat_rewards": {"str": 0, "int": 2, "res": 0},
+      "success_criteria": 60,
+      "measure": "minutes"
+    },
+    {
+      "title": "Evening Relaxation Walk",
+      "description": "Wind down with a relaxing walk to clear your mind after a busy day.",
+      "start_time": "18:00",
+      "end_time": "18:45",
+      "stat_rewards": {"str": 0, "int": 0, "res": 1},
+      "success_criteria": 2500,
+      "measure": "steps"
+    }
+  ]
+}
+----------------------------------------
+
+--- RESPONSE 3 ---
+{
+  "quests": [
+    {
+      "title": "Pre-Meeting Power Walk",
+      "description": "Boost your energy and focus before the morning standup with a quick power walk.",
+      "start_time": "08:00",
+      "end_time": "08:45",
+      "stat_rewards": {"str": 1, "int": 0, "res": 0},
+      "success_criteria": 3000,
+      "measure": "steps"
+    },
+    {
+      "title": "Focused Coding Challenge",
+      "description": "Dedicate time to coding tasks and improve your programming skills.",
+      "start_time": "15:15",
+      "end_time": "16:00",
+      "stat_rewards": {"str": 0, "int": 2, "res": 1},
+      "success_criteria": 45,
+      "measure": "minutes"
+    },
+    {
+      "title": "Evening Wind-Down Cardio",
+      "description": "Engage in light cardio to relax and unwind after a busy day.",
+      "start_time": "17:30",
+      "end_time": "18:15",
+      "stat_rewards": {"str": 1, "int": 0, "res": 1},
+      "success_criteria": 2500,
+      "measure": "steps"
+    }
+  ]
+}
+----------------------------------------
+

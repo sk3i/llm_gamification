@@ -1,0 +1,110 @@
+MODEL: gpt-4o
+TEMPERATURE: 0.7
+TOTAL RESPONSES: 3
+CALENDAR: days\workday.json
+USER: personas\me_positive.json
+PROMPT: prompts\one_detailed.txt
+============================================================
+
+--- RESPONSE 1 ---
+
+{
+  "quests": [
+    {
+      "title": "Morning Fitness Stroll",
+      "description": "Take a brisk walk to start your day with energy",
+      "start_time": "07:45",
+      "end_time": "08:45",
+      "stat_rewards": {"str": 1, "int": 0, "res": 0},
+      "success_criteria": 4000,
+      "measure": "steps"
+    },
+    {
+      "title": "Lunchtime Japanese Practice",
+      "description": "Dedicate your lunch break to studying Japanese",
+      "start_time": "13:15",
+      "end_time": "13:45",
+      "stat_rewards": {"str": 0, "int": 1, "res": 1},
+      "success_criteria": 20,
+      "measure": "minutes"
+    },
+    {
+      "title": "Post-Call Trading Analysis",
+      "description": "Review trading charts and strategies after the client call",
+      "start_time": "17:15",
+      "end_time": "18:00",
+      "stat_rewards": {"str": 0, "int": 2, "res": 0},
+      "success_criteria": 45,
+      "measure": "minutes"
+    }
+  ]
+}
+----------------------------------------
+
+--- RESPONSE 2 ---
+{
+  "quests": [
+    {
+      "title": "Morning Fitness Boost",
+      "description": "Get your blood pumping with a brisk walk before your meetings.",
+      "start_time": "08:00",
+      "end_time": "08:45",
+      "stat_rewards": {"str": 1, "int": 0, "res": 0},
+      "success_criteria": 3000,
+      "measure": "steps"
+    },
+    {
+      "title": "Midday Japanese Immersion",
+      "description": "Dedicate some time to studying Japanese during your lunch break.",
+      "start_time": "11:45",
+      "end_time": "12:15",
+      "stat_rewards": {"str": 0, "int": 1, "res": 0},
+      "success_criteria": 30,
+      "measure": "minutes"
+    },
+    {
+      "title": "Evening Trading Review",
+      "description": "Analyze trading charts and review your strategies to end your day.",
+      "start_time": "17:15",
+      "end_time": "18:00",
+      "stat_rewards": {"str": 0, "int": 2, "res": 0},
+      "success_criteria": 45,
+      "measure": "minutes"
+    }
+  ]
+}
+----------------------------------------
+
+--- RESPONSE 3 ---
+{"quests": [
+    {
+      "title": "Morning Cardio Kickoff",
+      "description": "Start your day with a quick cardio session to boost your energy.",
+      "start_time": "08:00",
+      "end_time": "08:45",
+      "stat_rewards": {"str": 1, "int": 0, "res": 0},
+      "success_criteria": 3000,
+      "measure": "steps"
+    },
+    {
+      "title": "Japanese Language Focus",
+      "description": "Dedicate time to studying Japanese.",
+      "start_time": "11:45",
+      "end_time": "12:15",
+      "stat_rewards": {"str": 0, "int": 1, "res": 1},
+      "success_criteria": 30,
+      "measure": "minutes"
+    },
+    {
+      "title": "Evening Trading Analysis",
+      "description": "Spend time analyzing trading charts and strategies.",
+      "start_time": "17:15",
+      "end_time": "18:00",
+      "stat_rewards": {"str": 0, "int": 2, "res": 0},
+      "success_criteria": 45,
+      "measure": "minutes"
+    }
+  ]
+}
+----------------------------------------
+

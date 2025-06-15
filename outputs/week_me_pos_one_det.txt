@@ -1,0 +1,111 @@
+MODEL: gpt-4o
+TEMPERATURE: 0.7
+TOTAL RESPONSES: 3
+CALENDAR: days\weekend.json
+USER: personas\me_positive.json
+PROMPT: prompts\one_detailed.txt
+============================================================
+
+--- RESPONSE 1 ---
+{
+  "quests": [
+    {
+      "title": "Post-Hike Recovery Stretch",
+      "description": "Engage in a stretching routine to aid muscle recovery after your hike.",
+      "start_time": "10:45",
+      "end_time": "11:00",
+      "stat_rewards": {"str": 1, "int": 0, "res": 0},
+      "success_criteria": 15,
+      "measure": "active minutes"
+    },
+    {
+      "title": "Japanese Vocabulary Booster",
+      "description": "Spend time enhancing your Japanese vocabulary before movie night.",
+      "start_time": "16:45",
+      "end_time": "18:45",
+      "stat_rewards": {"str": 0, "int": 1, "res": 1},
+      "success_criteria": 60,
+      "measure": "minutes"
+    },
+    {
+      "title": "Evening Walk",
+      "description": "Take a relaxing walk around the neighborhood after movie night to unwind.",
+      "start_time": "21:45",
+      "end_time": "22:15",
+      "stat_rewards": {"str": 1, "int": 0, "res": 0},
+      "success_criteria": 2000,
+      "measure": "steps"
+    }
+  ]
+}
+----------------------------------------
+
+--- RESPONSE 2 ---
+{
+  "quests": [
+    {
+      "title": "Midday Stroll",
+      "description": "Take a leisurely walk after the Farmer's Market to stay active",
+      "start_time": "12:15",
+      "end_time": "12:45",
+      "stat_rewards": {"str": 1, "int": 0, "res": 0},
+      "success_criteria": 2000,
+      "measure": "steps"
+    },
+    {
+      "title": "Japanese Language Practice",
+      "description": "Dedicate some time to study Japanese in the afternoon",
+      "start_time": "16:45",
+      "end_time": "17:30",
+      "stat_rewards": {"str": 0, "int": 1, "res": 1},
+      "success_criteria": 45,
+      "measure": "minutes"
+    },
+    {
+      "title": "Evening Stretch",
+      "description": "Perform a short stretching routine to unwind before movie night",
+      "start_time": "18:00",
+      "end_time": "18:45",
+      "stat_rewards": {"str": 0, "int": 0, "res": 1},
+      "success_criteria": 20,
+      "measure": "active minutes"
+    }
+  ]
+}
+----------------------------------------
+
+--- RESPONSE 3 ---
+
+{
+  "quests": [
+    {
+      "title": "Early Bird Fitness",
+      "description": "Start your day with a morning walk before the hike begins.",
+      "start_time": "07:30",
+      "end_time": "08:15",
+      "stat_rewards": {"str": 1, "int": 0, "res": 0},
+      "success_criteria": 3000,
+      "measure": "steps"
+    },
+    {
+      "title": "Japanese Study Break",
+      "description": "Use your break time between activities to study Japanese.",
+      "start_time": "16:45",
+      "end_time": "17:30",
+      "stat_rewards": {"str": 0, "int": 1, "res": 1},
+      "success_criteria": 45,
+      "measure": "minutes"
+    },
+    {
+      "title": "Evening Wind Down",
+      "description": "Enjoy some downtime by reflecting on the day or planning for tomorrow.",
+      "start_time": "21:45",
+      "end_time": "22:15",
+      "stat_rewards": {"str": 0, "int": 0, "res": 1},
+      "success_criteria": 30,
+      "measure": "minutes"
+    }
+  ]
+}
+----------------------------------------
+

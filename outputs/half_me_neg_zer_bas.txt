@@ -1,0 +1,110 @@
+MODEL: gpt-4o
+TEMPERATURE: 0.7
+TOTAL RESPONSES: 3
+CALENDAR: days\halfday.json
+USER: personas\me_negative.json
+PROMPT: prompts\zer_basic.txt
+============================================================
+
+--- RESPONSE 1 ---
+{
+  "quests": [
+    {
+      "title": "Morning Report Writing Sprint",
+      "description": "Focus on writing your weekly report with full attention.",
+      "start_time": "08:00",
+      "end_time": "09:30",
+      "stat_rewards": {"str": 0, "int": 5, "res": 2},
+      "success_criteria": 90,
+      "measure": "minutes"
+    },
+    {
+      "title": "Errand Run Challenge",
+      "description": "Complete your errands by walking briskly between locations, aiming for a high step count.",
+      "start_time": "10:00",
+      "end_time": "11:00",
+      "stat_rewards": {"str": 3, "int": 0, "res": 4},
+      "success_criteria": 3000,
+      "measure": "steps"
+    },
+    {
+      "title": "Power Gym Workout",
+      "description": "Achieve a high intensity workout by maintaining an elevated heart rate in the cardio zone for at least half of your gym session.",
+      "start_time": "11:30",
+      "end_time": "12:30",
+      "stat_rewards": {"str": 5, "int": 0, "res": 3},
+      "success_criteria": 30,
+      "measure": "active minutes"
+    }
+  ]
+}
+----------------------------------------
+
+--- RESPONSE 2 ---
+{
+  "quests": [
+    {
+      "title": "Morning Productivity Boost",
+      "description": "Spend focused time on report writing and complete it within the allocated time.",
+      "start_time": "08:00",
+      "end_time": "09:30",
+      "stat_rewards": {"str": 0, "int": 5, "res": 2},
+      "success_criteria": 90,
+      "measure": "minutes"
+    },
+    {
+      "title": "Errand Marathon",
+      "description": "Complete your errands and achieve a step count of at least 4,000 steps during this period.",
+      "start_time": "10:00",
+      "end_time": "11:00",
+      "stat_rewards": {"str": 3, "int": 0, "res": 2},
+      "success_criteria": 4000,
+      "measure": "steps"
+    },
+    {
+      "title": "Intense Gym Session",
+      "description": "Engage in a workout that keeps your heart rate in the cardio zone for at least 20 minutes.",
+      "start_time": "11:30",
+      "end_time": "12:30",
+      "stat_rewards": {"str": 5, "int": 0, "res": 3},
+      "success_criteria": 20,
+      "measure": "active minutes"
+    }
+  ]
+}
+----------------------------------------
+
+--- RESPONSE 3 ---
+{
+  "quests": [
+    {
+      "title": "Morning Power Walk",
+      "description": "Take a brisk walk to complete at least 4,000 steps before starting your errands.",
+      "start_time": "09:00",
+      "end_time": "10:00",
+      "stat_rewards": {"str": 2, "int": 0, "res": 1},
+      "success_criteria": 4000,
+      "measure": "steps"
+    },
+    {
+      "title": "Focused Writing Session",
+      "description": "Dedicate your full attention to writing the weekly report without distractions.",
+      "start_time": "08:00",
+      "end_time": "09:30",
+      "stat_rewards": {"str": 0, "int": 3, "res": 1},
+      "success_criteria": 90,
+      "measure": "minutes"
+    },
+    {
+      "title": "Evening Japanese Study",
+      "description": "Spend quality time studying Japanese to enhance your language skills.",
+      "start_time": "17:30",
+      "end_time": "18:00",
+      "stat_rewards": {"str": 0, "int": 2, "res": 1},
+      "success_criteria": 30,
+      "measure": "minutes"
+    }
+  ]
+}
+----------------------------------------
+

@@ -1,0 +1,110 @@
+MODEL: gpt-4o
+TEMPERATURE: 0.7
+TOTAL RESPONSES: 3
+CALENDAR: days\workday.json
+USER: personas\me_positive.json
+PROMPT: prompts\zer_basic.txt
+============================================================
+
+--- RESPONSE 1 ---
+{
+  "quests": [
+    {
+      "title": "Morning Fitness Boost",
+      "description": "Complete a brisk walk to reach 5,000 steps before standup meeting.",
+      "start_time": "07:00",
+      "end_time": "09:00",
+      "stat_rewards": {"str": 5, "int": 0, "res": 2},
+      "success_criteria": 5000,
+      "measure": "steps"
+    },
+    {
+      "title": "Focused Coding Session",
+      "description": "Spend focused time coding without distractions for 1.5 hours before the Code Review Session.",
+      "start_time": "11:30",
+      "end_time": "13:00",
+      "stat_rewards": {"str": 0, "int": 4, "res": 3},
+      "success_criteria": 1.5,
+      "measure": "hours"
+    },
+    {
+      "title": "Evening Japanese Study",
+      "description": "Dedicate time to studying Japanese vocabulary and grammar.",
+      "start_time": "18:00",
+      "end_time": "19:00",
+      "stat_rewards": {"str": 0, "int": 3, "res": 1},
+      "success_criteria": 45,
+      "measure": "minutes"
+    }
+  ]
+}
+----------------------------------------
+
+--- RESPONSE 2 ---
+{
+  "quests": [
+    {
+      "title": "Morning Fitness Boost",
+      "description": "Start your day with a brisk walk or jog to boost your energy.",
+      "start_time": "07:00",
+      "end_time": "08:00",
+      "stat_rewards": {"str": 2, "int": 0, "res": 1},
+      "success_criteria": 4000,
+      "measure": "steps"
+    },
+    {
+      "title": "Focus Hour: Study Japanese",
+      "description": "Dedicate an hour to studying Japanese to enhance your language skills.",
+      "start_time": "18:00",
+      "end_time": "19:00",
+      "stat_rewards": {"str": 0, "int": 3, "res": 1},
+      "success_criteria": 60,
+      "measure": "minutes"
+    },
+    {
+      "title": "Evening Trading Analysis",
+      "description": "Analyze trading charts for 45 minutes to improve your trading strategies.",
+      "start_time": "19:30",
+      "end_time": "20:15",
+      "stat_rewards": {"str": 0, "int": 2, "res": 1},
+      "success_criteria": 45,
+      "measure": "minutes"
+    }
+  ]
+}
+----------------------------------------
+
+--- RESPONSE 3 ---
+{
+  "quests": [
+    {
+      "title": "Morning Fitness Boost",
+      "description": "Achieve an elevated heart rate zone for at least 20 minutes during your morning workout.",
+      "start_time": "06:30",
+      "end_time": "07:30",
+      "stat_rewards": {"str": 3, "int": 0, "res": 1},
+      "success_criteria": 20,
+      "measure": "active minutes"
+    },
+    {
+      "title": "Focused Coding Session",
+      "description": "Spend focused time coding without distractions.",
+      "start_time": "11:30",
+      "end_time": "12:30",
+      "stat_rewards": {"str": 0, "int": 3, "res": 2},
+      "success_criteria": 45,
+      "measure": "minutes"
+    },
+    {
+      "title": "Evening Japanese Practice",
+      "description": "Study Japanese vocabulary and grammar for a set period.",
+      "start_time": "18:30",
+      "end_time": "19:30",
+      "stat_rewards": {"str": 0, "int": 2, "res": 2},
+      "success_criteria": 30,
+      "measure": "minutes"
+    }
+  ]
+}
+----------------------------------------
+

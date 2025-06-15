@@ -1,0 +1,110 @@
+MODEL: gpt-4o
+TEMPERATURE: 0.7
+TOTAL RESPONSES: 3
+CALENDAR: days\weekend.json
+USER: personas\me_negative.json
+PROMPT: prompts\one_detailed.txt
+============================================================
+
+--- RESPONSE 1 ---
+{"quests": [  
+    {
+      "title": "Pre-Market Stroll",
+      "description": "Take a walk before heading to the Farmer's Market.",
+      "start_time": "10:30",
+      "end_time": "10:45",
+      "stat_rewards": {"str": 1, "int": 0, "res": 0},
+      "success_criteria": 1500,
+      "measure": "steps"
+    },
+    {
+      "title": "Midday Japanese Study",
+      "description": "Study Japanese vocabulary and kanji before lunch.",
+      "start_time": "14:45",
+      "end_time": "15:00",
+      "stat_rewards": {"str": 0, "int": 1, "res": 0},
+      "success_criteria": 15,
+      "measure": "minutes"
+    },
+    {
+      "title": "Evening Trading Insights",
+      "description": "Review trading strategies and market trends after the movie.",
+      "start_time": "21:45",
+      "end_time": "22:15",
+      "stat_rewards": {"str": 0, "int": 1, "res": 1},
+      "success_criteria": 30,
+      "measure": "minutes"
+    }
+  ]
+}
+----------------------------------------
+
+--- RESPONSE 2 ---
+{
+  "quests": [
+    {
+      "title": "Pre-Hike Warm-Up",
+      "description": "Complete a warm-up routine to prepare for your morning hike.",
+      "start_time": "08:00",
+      "end_time": "08:15",
+      "stat_rewards": {"str": 1, "int": 0, "res": 0},
+      "success_criteria": 50,
+      "measure": "calories burned"
+    },
+    {
+      "title": "Japanese Vocabulary Sprint",
+      "description": "Spend some time studying Japanese vocabulary.",
+      "start_time": "17:00",
+      "end_time": "17:45",
+      "stat_rewards": {"str": 0, "int": 1, "res": 1},
+      "success_criteria": 30,
+      "measure": "minutes"
+    },
+    {
+      "title": "Mindful Movie Night",
+      "description": "Use the first 15 minutes of movie night to meditate.",
+      "start_time": "18:45",
+      "end_time": "19:00",
+      "stat_rewards": {"str": 0, "int": 0, "res": 1},
+      "success_criteria": 15,
+      "measure": "minutes"
+    }
+  ]
+}
+----------------------------------------
+
+--- RESPONSE 3 ---
+
+{
+  "quests": [
+    {
+      "title": "Afternoon Japanese Study",
+      "description": "Dedicate time to studying Japanese vocabulary and grammar.",
+      "start_time": "16:45",
+      "end_time": "17:45",
+      "stat_rewards": {"str": 0, "int": 1, "res": 1},
+      "success_criteria": 60,
+      "measure": "minutes"
+    },
+    {
+      "title": "Evening Fitness Challenge",
+      "description": "Engage in a high-intensity workout to boost your fitness.",
+      "start_time": "17:45",
+      "end_time": "18:45",
+      "stat_rewards": {"str": 2, "int": 0, "res": 0},
+      "success_criteria": 300,
+      "measure": "calories"
+    },
+    {
+      "title": "Pre-Movie Night Trading Review",
+      "description": "Spend time reviewing trading strategies and market trends.",
+      "start_time": "18:45",
+      "end_time": "19:00",
+      "stat_rewards": {"str": 0, "int": 1, "res": 0},
+      "success_criteria": 15,
+      "measure": "minutes"
+    }
+  ]
+}
+----------------------------------------
+

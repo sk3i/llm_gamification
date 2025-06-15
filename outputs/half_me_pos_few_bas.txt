@@ -1,0 +1,110 @@
+MODEL: gpt-4o
+TEMPERATURE: 0.7
+TOTAL RESPONSES: 3
+CALENDAR: days\halfday.json
+USER: personas\me_positive.json
+PROMPT: prompts\few_basic.txt
+============================================================
+
+--- RESPONSE 1 ---
+{
+  "quests": [
+    {
+      "title": "Morning Strength Session",
+      "description": "Complete a focused strength workout at the gym",
+      "start_time": "11:30",
+      "end_time": "12:30",
+      "stat_rewards": {"str": 2, "int": 0, "res": 0},
+      "success_criteria": 45,
+      "measure": "active minutes"
+    },
+    {
+      "title": "Japanese Language Lunch Break",
+      "description": "Use your brunch time to practice Japanese",
+      "start_time": "13:00",
+      "end_time": "14:30",
+      "stat_rewards": {"str": 0, "int": 1, "res": 0},
+      "success_criteria": 30,
+      "measure": "minutes"
+    },
+    {
+      "title": "Evening Trading Focus",
+      "description": "Dedicate time to trading and market analysis post-nap",
+      "start_time": "16:30",
+      "end_time": "17:15",
+      "stat_rewards": {"str": 0, "int": 2, "res": 0},
+      "success_criteria": 45,
+      "measure": "minutes"
+    }
+  ]
+}
+----------------------------------------
+
+--- RESPONSE 2 ---
+{
+  "quests": [
+    {
+      "title": "Morning Report Mastery",
+      "description": "Focus on writing the weekly report with full concentration",
+      "start_time": "08:00",
+      "end_time": "09:30",
+      "stat_rewards": {"str": 0, "int": 2, "res": 0},
+      "success_criteria": 75,
+      "measure": "minutes"
+    },
+    {
+      "title": "Errands Energizer",
+      "description": "Complete errands with a brisk pace to boost fitness",
+      "start_time": "10:00",
+      "end_time": "11:00",
+      "stat_rewards": {"str": 1, "int": 0, "res": 0},
+      "success_criteria": 4000,
+      "measure": "steps"
+    },
+    {
+      "title": "Japanese Learning Burst",
+      "description": "Dedicate time to studying Japanese, building on previous sessions",
+      "start_time": "16:30",
+      "end_time": "17:15",
+      "stat_rewards": {"str": 0, "int": 1, "res": 1},
+      "success_criteria": 45,
+      "measure": "minutes"
+    }
+  ]
+}
+----------------------------------------
+
+--- RESPONSE 3 ---
+{
+  "quests": [
+    {
+      "title": "Morning Writing Mastery",
+      "description": "Focus on writing your weekly report efficiently.",
+      "start_time": "08:00",
+      "end_time": "09:30",
+      "stat_rewards": {"str": 0, "int": 2, "res": 0},
+      "success_criteria": 90,
+      "measure": "minutes"
+    },
+    {
+      "title": "Midday Fitness Boost",
+      "description": "Complete your gym workout with a focus on heart rate elevation.",
+      "start_time": "11:30",
+      "end_time": "12:30",
+      "stat_rewards": {"str": 2, "int": 0, "res": 0},
+      "success_criteria": 45,
+      "measure": "active_minutes"
+    },
+    {
+      "title": "Evening Japanese Practice",
+      "description": "Dedicate time to studying Japanese in a relaxed setting.",
+      "start_time": "18:00",
+      "end_time": "18:45",
+      "stat_rewards": {"str": 0, "int": 1, "res": 1},
+      "success_criteria": 30,
+      "measure": "minutes"
+    }
+  ]
+}
+----------------------------------------
+

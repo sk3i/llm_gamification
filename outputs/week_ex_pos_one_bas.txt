@@ -1,0 +1,122 @@
+MODEL: gpt-4o
+TEMPERATURE: 0.7
+TOTAL RESPONSES: 3
+CALENDAR: days\weekend.json
+USER: personas\ex_positive.json
+PROMPT: prompts\one_basic.txt
+============================================================
+
+--- RESPONSE 1 ---
+{
+  "quests": [
+    {
+      "title": "Morning Cardio Challenge",
+      "description": "Boost your stamina with a brisk hike on Maple Trail. Aim to maintain a steady pace and reach your step goal.",
+      "start_time": "08:30",
+      "end_time": "10:30",
+      "stat_rewards": {"str": 2, "int": 0, "res": 1},
+      "success_criteria": 7500,
+      "measure": "steps"
+    },
+    {
+      "title": "Afternoon Programming Practice",
+      "description": "Dedicate some time to coding. Choose a project or a challenge and spend quality focused time on it.",
+      "start_time": "15:00",
+      "end_time": "16:30",
+      "stat_rewards": {"str": 0, "int": 3, "res": 0},
+      "success_criteria": 60,
+      "measure": "minutes"
+    },
+    {
+      "title": "Evening Relaxation and Reflection",
+      "description": "Unwind with a movie night. Before the movie, spend a few minutes reflecting on the day or planning for tomorrow.",
+      "start_time": "18:30",
+      "end_time": "19:00",
+      "stat_rewards": {"str": 0, "int": 1, "res": 2},
+      "success_criteria": 20,
+      "measure": "minutes"
+    }
+  ]
+}
+----------------------------------------
+
+--- RESPONSE 2 ---
+{
+  "quests": [
+    {
+      "title": "Maple Trail Challenge",
+      "description": "Boost your cardio by completing a brisk morning hike on Maple Trail.",
+      "start_time": "08:30",
+      "end_time": "10:30",
+      "stat_rewards": {
+        "str": 2,
+        "int": 0,
+        "res": 1
+      },
+      "success_criteria": 4500,
+      "measure": "steps"
+    },
+    {
+      "title": "Mindful Market Exploration",
+      "description": "Enjoy a stroll at the Farmer's Market and practice mindful walking.",
+      "start_time": "11:00",
+      "end_time": "12:00",
+      "stat_rewards": {
+        "str": 0,
+        "int": 1,
+        "res": 1
+      },
+      "success_criteria": 2500,
+      "measure": "steps"
+    },
+    {
+      "title": "Afternoon Coding Retreat",
+      "description": "Dedicate time to work on a programming project in the afternoon.",
+      "start_time": "15:00",
+      "end_time": "16:30",
+      "stat_rewards": {
+        "str": 0,
+        "int": 3,
+        "res": 0
+      },
+      "success_criteria": 60,
+      "measure": "minutes"
+    }
+  ]
+}
+----------------------------------------
+
+--- RESPONSE 3 ---
+{
+  "quests": [
+    {
+      "title": "Morning Cardio Adventure",
+      "description": "Enhance your cardio fitness by taking a brisk walk before starting your day with the Morning Hike.",
+      "start_time": "07:30",
+      "end_time": "08:30",
+      "stat_rewards": {"str": 1, "int": 0, "res": 0},
+      "success_criteria": 3000,
+      "measure": "steps"
+    },
+    {
+      "title": "Cognitive Recharge",
+      "description": "Dedicate time to reading and enhance your mental acuity with your favorite novel.",
+      "start_time": "15:00",
+      "end_time": "16:30",
+      "stat_rewards": {"str": 0, "int": 2, "res": 0},
+      "success_criteria": 90,
+      "measure": "minutes"
+    },
+    {
+      "title": "Evening Chill and Reflect",
+      "description": "Conclude your day with a relaxing evening by reflecting on the day's experiences.",
+      "start_time": "21:45",
+      "end_time": "22:00",
+      "stat_rewards": {"str": 0, "int": 1, "res": 1},
+      "success_criteria": 15,
+      "measure": "minutes"
+    }
+  ]
+}
+----------------------------------------
+

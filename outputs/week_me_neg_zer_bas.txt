@@ -1,0 +1,82 @@
+MODEL: gpt-4o
+TEMPERATURE: 0.7
+TOTAL RESPONSES: 3
+CALENDAR: days\weekend.json
+USER: personas\me_negative.json
+PROMPT: prompts\zer_basic.txt
+============================================================
+
+--- RESPONSE 1 ---
+{
+  "quests": [
+    {
+      "title": "Morning Hike Adventure",
+      "description": "Complete a 5,000-step hike at Maple Trail to kickstart your day with energy.",
+      "start_time": "08:30",
+      "end_time": "10:30",
+      "stat_rewards": {"str": 3, "int": 0, "res": 2},
+      "success_criteria": 5000,
+      "measure": "steps"
+    },
+    {
+      "title": "Japanese Study Boost",
+      "description": "Dedicate time to study Japanese for 45 minutes in a serene environment like your backyard.",
+      "start_time": "15:00",
+      "end_time": "16:30",
+      "stat_rewards": {"str": 0, "int": 3, "res": 1},
+      "success_criteria": 45,
+      "measure": "minutes"
+    },
+    {
+      "title": "Evening Fitness Session",
+      "description": "Burn 300 calories during your evening routine to maintain your fitness goals.",
+      "start_time": "19:00",
+      "end_time": "21:30",
+      "stat_rewards": {"str": 2, "int": 0, "res": 2},
+      "success_criteria": 300,
+      "measure": "calories"
+    }
+  ]
+}
+----------------------------------------
+
+--- RESPONSE 2 ---
+
+{
+  "quests": [
+    {
+      "title": "Morning Fitness Boost",
+      "description": "Complete a hike on Maple Trail and aim for 10,000 steps.",
+      "start_time": "08:30",
+      "end_time": "10:30",
+      "stat_rewards": {"str": 2, "int": 0, "res": 3},
+      "success_criteria": 10000,
+      "measure": "steps"
+    },
+    {
+      "title": "Japanese Study Power Hour",
+      "description": "Dedicate 60 minutes to studying Japanese using your preferred resources.",
+      "start_time": "15:00",
+      "end_time": "16:30",
+      "stat_rewards": {"str": 0, "int": 3, "res": 1},
+      "success_criteria": 60,
+      "measure": "minutes"
+    },
+    {
+      "title": "Evening Wind Down",
+      "description": "Enjoy a relaxed movie night, ensuring your heart rate stays in a resting zone for at least 90 minutes.",
+      "start_time": "19:00",
+      "end_time": "21:30",
+      "stat_rewards": {"str": 0, "int": 2, "res": 2},
+      "success_criteria": 90,
+      "measure": "minutes"
+    }
+  ]
+}
+----------------------------------------
+
+--- RESPONSE 3 ---
+
+{"quests": [ { "title": "Morning Hike Challenge", "description": "Complete a morning hike on Maple Trail, aiming for high activity and heart rate zones.", "start_time": "08:30", "end_time": "10:30", "stat_rewards": {"str": 3, "int": 0, "res": 2}, "success_criteria": 400, "measure": "active minutes" }, { "title": "Focused Japanese Study", "description": "Dedicate focused time to studying Japanese, improving your language skills.", "start_time": "15:00", "end_time": "16:30", "stat_rewards": {"str": 0, "int": 4, "res": 1}, "success_criteria": 60, "measure": "minutes" }, { "title": "Evening Trading Practice", "description": "Spend focused time analyzing trading charts, enhancing your trading skills.", "start_time": "19:00", "end_time": "21:00", "stat_rewards": {"str": 0, "int": 3, "res": 2}, "success_criteria": 90, "measure": "minutes" } ]}
+----------------------------------------
+

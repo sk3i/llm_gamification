@@ -1,0 +1,112 @@
+MODEL: gpt-4o
+TEMPERATURE: 0.7
+TOTAL RESPONSES: 3
+CALENDAR: days\workday.json
+USER: personas\me_negative.json
+PROMPT: prompts\one_basic.txt
+============================================================
+
+--- RESPONSE 1 ---
+{
+  "quests": [
+    {
+      "title": "Morning Fitness Surge",
+      "description": "Kickstart your day with a brisk walk to boost your fitness levels.",
+      "start_time": "07:30",
+      "end_time": "08:15",
+      "stat_rewards": {"str": 1, "int": 0, "res": 0},
+      "success_criteria": 4000,
+      "measure": "steps"
+    },
+    {
+      "title": "Lunchtime Language Boost",
+      "description": "Utilize your lunch break to study Japanese and improve your language skills.",
+      "start_time": "12:00",
+      "end_time": "12:30",
+      "stat_rewards": {"str": 0, "int": 2, "res": 1},
+      "success_criteria": 30,
+      "measure": "minutes"
+    },
+    {
+      "title": "Evening Trading Review",
+      "description": "Dedicate time in the evening to review trading strategies and market charts.",
+      "start_time": "17:30",
+      "end_time": "18:15",
+      "stat_rewards": {"str": 0, "int": 3, "res": 0},
+      "success_criteria": 45,
+      "measure": "minutes"
+    }
+  ]
+}
+----------------------------------------
+
+--- RESPONSE 2 ---
+{"quests": [
+    {
+      "title": "Pre-Standup Fitness Boost",
+      "description": "Start your day with a light workout to boost your energy before the morning standup.",
+      "start_time": "08:00",
+      "end_time": "08:45",
+      "stat_rewards": {"str": 1, "int": 0, "res": 1},
+      "success_criteria": 3000,
+      "measure": "steps",
+      "instructions": "Take a brisk walk or jog around your neighborhood or on a treadmill. Use your smartwatch to track your steps."
+    },
+    {
+      "title": "Lunchtime Japanese Study",
+      "description": "Dedicate your lunch break to studying Japanese and reach new language milestones.",
+      "start_time": "12:30",
+      "end_time": "13:00",
+      "stat_rewards": {"str": 0, "int": 2, "res": 0},
+      "success_criteria": 25,
+      "measure": "minutes",
+      "instructions": "Use a Japanese learning app or textbook and focus on vocabulary and grammar exercises during your lunch break."
+    },
+    {
+      "title": "Evening Trading Analysis",
+      "description": "Conclude your day with a trading session to refine your skills and stay updated with market trends.",
+      "start_time": "17:30",
+      "end_time": "18:15",
+      "stat_rewards": {"str": 0, "int": 1, "res": 1},
+      "success_criteria": 45,
+      "measure": "minutes",
+      "instructions": "Analyze stock charts and news using your preferred trading platform. Ensure focused and uninterrupted analysis time."
+    }
+  ]
+}
+----------------------------------------
+
+--- RESPONSE 3 ---
+{
+  "quests": [
+    {
+      "title": "Morning Cardio Kickstart",
+      "description": "Boost your stamina with a morning cardio session before the standup.",
+      "start_time": "08:00",
+      "end_time": "08:45",
+      "stat_rewards": {"str": 1, "int": 0, "res": 1},
+      "success_criteria": 4000,
+      "measure": "steps"
+    },
+    {
+      "title": "Lunchtime Japanese Study",
+      "description": "Utilize your lunch break to study Japanese and enhance your language skills.",
+      "start_time": "12:30",
+      "end_time": "13:00",
+      "stat_rewards": {"str": 0, "int": 1, "res": 0},
+      "success_criteria": 30,
+      "measure": "minutes"
+    },
+    {
+      "title": "Evening Trading Analysis",
+      "description": "Analyze market trends and study trading charts to advance your trading knowledge.",
+      "start_time": "17:30",
+      "end_time": "18:15",
+      "stat_rewards": {"str": 0, "int": 2, "res": 0},
+      "success_criteria": 45,
+      "measure": "minutes"
+    }
+  ]
+}
+----------------------------------------
+

@@ -1,0 +1,105 @@
+MODEL: gpt-4o
+TEMPERATURE: 0.7
+TOTAL RESPONSES: 3
+CALENDAR: days\weekend.json
+USER: personas\ex_negative.json
+PROMPT: prompts\one_detailed.txt
+============================================================
+
+--- RESPONSE 1 ---
+{"quests": [ 
+  { 
+    "title": "Afternoon Cardio Boost", 
+    "description": "Engage in a light cardio workout to stay active and refreshed", 
+    "start_time": "16:45", 
+    "end_time": "18:30", 
+    "stat_rewards": {"str": 2, "int": 0, "res": 0}, 
+    "success_criteria": 4000, 
+    "measure": "steps" 
+  }, 
+  { 
+    "title": "Evening Programming Practice", 
+    "description": "Spend time honing your programming skills", 
+    "start_time": "17:00", 
+    "end_time": "18:30", 
+    "stat_rewards": {"str": 0, "int": 2, "res": 0}, 
+    "success_criteria": 45, 
+    "measure": "minutes" 
+  }, 
+  { 
+    "title": "Mindful Movie Prep", 
+    "description": "Take a moment before the movie to practice mindfulness or meditation", 
+    "start_time": "18:45", 
+    "end_time": "19:00", 
+    "stat_rewards": {"str": 0, "int": 0, "res": 2}, 
+    "success_criteria": 10, 
+    "measure": "minutes" 
+  } 
+]}
+----------------------------------------
+
+--- RESPONSE 2 ---
+{"quests": [  
+  {  
+    "title": "Afternoon Cardio Challenge",  
+    "description": "Complete a 30-minute brisk walk or jog to boost your cardio fitness",  
+    "start_time": "16:45",  
+    "end_time": "17:45",  
+    "stat_rewards": {"str": 1, "int": 0, "res": 0},  
+    "success_criteria": 3000,  
+    "measure": "steps"  
+  },  
+  {  
+    "title": "Evening Programming Practice",  
+    "description": "Spend some quality time programming and enhancing your skills",  
+    "start_time": "17:45",  
+    "end_time": "18:45",  
+    "stat_rewards": {"str": 0, "int": 2, "res": 0},  
+    "success_criteria": 60,  
+    "measure": "minutes"  
+  },  
+  {  
+    "title": "Pre-Movie Reflection",  
+    "description": "Take a moment to reflect on your day and plan for tomorrow",  
+    "start_time": "18:45",  
+    "end_time": "19:00",  
+    "stat_rewards": {"str": 0, "int": 0, "res": 1},  
+    "success_criteria": 15,  
+    "measure": "minutes"  
+  }  
+]}
+----------------------------------------
+
+--- RESPONSE 3 ---
+{"quests": [  
+    {
+      "title": "Pre-Hike Warm-Up",
+      "description": "Prepare your body for the hike with a quick cardio session.",
+      "start_time": "07:45",
+      "end_time": "08:15",
+      "stat_rewards": {"str": 1, "int": 0, "res": 0},
+      "success_criteria": 100,
+      "measure": "calories"
+    },
+    {
+      "title": "Afternoon Programming Challenge",
+      "description": "Dedicate a focused time to work on a programming project.",
+      "start_time": "16:45",
+      "end_time": "18:45",
+      "stat_rewards": {"str": 0, "int": 2, "res": 0},
+      "success_criteria": 90,
+      "measure": "minutes"
+    },
+    {
+      "title": "Evening Wind-Down",
+      "description": "Spend time unwinding and preparing for the evening with a mindfulness session.",
+      "start_time": "18:45",
+      "end_time": "19:00",
+      "stat_rewards": {"str": 0, "int": 0, "res": 1},
+      "success_criteria": 10,
+      "measure": "minutes"
+    }
+  ]
+}
+----------------------------------------
+

@@ -1,0 +1,109 @@
+MODEL: gpt-4o
+TEMPERATURE: 0.7
+TOTAL RESPONSES: 3
+CALENDAR: days\halfday.json
+USER: personas\ex_negative.json
+PROMPT: prompts\few_basic.txt
+============================================================
+
+--- RESPONSE 1 ---
+{"quests": [
+    {
+      "title": "Morning Report Writer",
+      "description": "Focus on writing your weekly report efficiently.",
+      "start_time": "08:00",
+      "end_time": "09:30",
+      "stat_rewards": {"str": 0, "int": 2, "res": 1},
+      "success_criteria": 75,
+      "measure": "minutes"
+    },
+    {
+      "title": "Cardio Energizer",
+      "description": "Elevate your heart rate with a solid gym workout.",
+      "start_time": "11:30",
+      "end_time": "12:30",
+      "stat_rewards": {"str": 2, "int": 0, "res": 0},
+      "success_criteria": 45,
+      "measure": "active minutes"
+    },
+    {
+      "title": "Afternoon Coding Practice",
+      "description": "Dedicate time to programming tasks right after your nap.",
+      "start_time": "16:00",
+      "end_time": "17:30",
+      "stat_rewards": {"str": 0, "int": 2, "res": 0},
+      "success_criteria": 60,
+      "measure": "minutes"
+    }
+  ]
+}
+----------------------------------------
+
+--- RESPONSE 2 ---
+{
+  "quests": [
+    {
+      "title": "Morning Report Mastery",
+      "description": "Focus on completing your weekly report with high concentration.",
+      "start_time": "08:00",
+      "end_time": "09:30",
+      "stat_rewards": {"str": 0, "int": 2, "res": 0},
+      "success_criteria": 60,
+      "measure": "minutes"
+    },
+    {
+      "title": "Errand Energizer",
+      "description": "Walk briskly during your errands to stay active and maintain energy.",
+      "start_time": "10:00",
+      "end_time": "11:00",
+      "stat_rewards": {"str": 1, "int": 0, "res": 1},
+      "success_criteria": 3000,
+      "measure": "steps"
+    },
+    {
+      "title": "Cardio Conqueror",
+      "description": "Keep your heart rate elevated during your gym workout to boost fitness.",
+      "start_time": "11:30",
+      "end_time": "12:30",
+      "stat_rewards": {"str": 2, "int": 0, "res": 0},
+      "success_criteria": 30,
+      "measure": "minutes"
+    }
+  ]
+}
+----------------------------------------
+
+--- RESPONSE 3 ---
+{
+  "quests": [
+    {
+      "title": "Morning Report Writing Blitz",
+      "description": "Focus on completing your weekly report with full attention.",
+      "start_time": "08:00",
+      "end_time": "09:30",
+      "stat_rewards": {"str": 0, "int": 2, "res": 1},
+      "success_criteria": 90,
+      "measure": "minutes"
+    },
+    {
+      "title": "Errand Steps Challenge",
+      "description": "Accumulate steps while running errands to stay active.",
+      "start_time": "10:00",
+      "end_time": "11:00",
+      "stat_rewards": {"str": 1, "int": 0, "res": 0},
+      "success_criteria": 4000,
+      "measure": "steps"
+    },
+    {
+      "title": "Cardio Warrior",
+      "description": "Keep your heart rate elevated during your gym workout.",
+      "start_time": "11:30",
+      "end_time": "12:30",
+      "stat_rewards": {"str": 2, "int": 0, "res": 0},
+      "success_criteria": 45,
+      "measure": "minutes"
+    }
+  ]
+}
+----------------------------------------
+

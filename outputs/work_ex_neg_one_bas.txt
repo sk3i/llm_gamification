@@ -1,0 +1,115 @@
+MODEL: gpt-4o
+TEMPERATURE: 0.7
+TOTAL RESPONSES: 3
+CALENDAR: days\workday.json
+USER: personas\ex_negative.json
+PROMPT: prompts\one_basic.txt
+============================================================
+
+--- RESPONSE 1 ---
+{
+  "quests": [
+    {
+      "title": "Pre-Standup Cardio Burst",
+      "description": "Get your energy up with a quick cardio session before the morning standup.",
+      "start_time": "08:00",
+      "end_time": "08:45",
+      "stat_rewards": {"str": 1, "int": 0, "res": 1},
+      "success_criteria": 4000,
+      "measure": "steps",
+      "instructions": "Take a brisk walk or jog around your neighborhood or on a treadmill to reach your step goal."
+    },
+    {
+      "title": "Focused Programming Push",
+      "description": "Dedicate uninterrupted time to work on coding tasks.",
+      "start_time": "15:00",
+      "end_time": "16:00",
+      "stat_rewards": {"str": 0, "int": 2, "res": 0},
+      "success_criteria": 60,
+      "measure": "minutes",
+      "instructions": "Engage in coding activities without distractions. Use this time to tackle challenging programming tasks."
+    },
+    {
+      "title": "Evening Relaxation and Planning",
+      "description": "Wind down with a session of relaxation and planning for tomorrow.",
+      "start_time": "18:00",
+      "end_time": "18:30",
+      "stat_rewards": {"str": 0, "int": 1, "res": 1},
+      "success_criteria": 30,
+      "measure": "minutes",
+      "instructions": "Spend this time reflecting on your day, journaling, or planning your tasks for the next day in a calm environment."
+    }
+  ]
+}
+----------------------------------------
+
+--- RESPONSE 2 ---
+{
+  "quests": [
+    {
+      "title": "Power Start Cardio",
+      "description": "Boost your energy with a morning cardio session before the day's meetings.",
+      "start_time": "07:30",
+      "end_time": "08:15",
+      "stat_rewards": {"str": 1, "int": 0, "res": 1},
+      "success_criteria": 4000,
+      "measure": "steps",
+      "instructions": "Take a brisk walk or jog outside or on a treadmill to reach at least 4000 steps."
+    },
+    {
+      "title": "Focused Coding Block",
+      "description": "Enhance your programming skills by dedicating time to code post-lunch.",
+      "start_time": "13:00",
+      "end_time": "13:30",
+      "stat_rewards": {"str": 0, "int": 1, "res": 0},
+      "success_criteria": 20,
+      "measure": "minutes",
+      "instructions": "Focus exclusively on coding tasks, minimizing distractions, for at least 20 minutes."
+    },
+    {
+      "title": "Evening Unwind and Reflect",
+      "description": "Reflect on your day's achievements and prepare for tomorrow.",
+      "start_time": "17:30",
+      "end_time": "18:00",
+      "stat_rewards": {"str": 0, "int": 1, "res": 1},
+      "success_criteria": 30,
+      "measure": "minutes",
+      "instructions": "Spend time journaling or planning your next day to wind down and prepare mentally."
+    }
+  ]
+}
+----------------------------------------
+
+--- RESPONSE 3 ---
+{"quests": [
+    {
+      "title": "Morning Cardio Challenge",
+      "description": "Start your day with a burst of energy by completing a cardio session before your meetings.",
+      "start_time": "07:30",
+      "end_time": "08:15",
+      "stat_rewards": {"str": 1, "int": 0, "res": 1},
+      "success_criteria": 4000,
+      "measure": "steps"
+    },
+    {
+      "title": "Focused Coding Session",
+      "description": "Dedicate time to improve your programming skills by focusing on coding tasks.",
+      "start_time": "15:30",
+      "end_time": "16:00",
+      "stat_rewards": {"str": 0, "int": 2, "res": 0},
+      "success_criteria": 30,
+      "measure": "minutes"
+    },
+    {
+      "title": "End-of-Day Wind Down",
+      "description": "Reflect on your day and prepare for tomorrow with a relaxing activity of your choice.",
+      "start_time": "17:30",
+      "end_time": "18:00",
+      "stat_rewards": {"str": 0, "int": 1, "res": 1},
+      "success_criteria": 25,
+      "measure": "minutes"
+    }
+  ]
+}
+----------------------------------------
+

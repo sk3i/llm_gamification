@@ -1,0 +1,83 @@
+MODEL: gpt-4o
+TEMPERATURE: 0.7
+TOTAL RESPONSES: 3
+CALENDAR: days\halfday.json
+USER: personas\ex_negative.json
+PROMPT: prompts\zer_detailed.txt
+============================================================
+
+--- RESPONSE 1 ---
+
+{"quests": [ {"title": "Morning Cardio Boost", "description": "Achieve 2500 steps walking before your gym workout.", "start_time": "09:45", "end_time": "11:15", "stat_rewards": {"str": 1, "int": 0, "res": 0}, "success_criteria": 2500, "measure": "steps"}, {"title": "Focused Writing Session", "description": "Spend 60 minutes on writing activities after your brunch.", "start_time": "14:45", "end_time": "15:45", "stat_rewards": {"str": 0, "int": 2, "res": 0}, "success_criteria": 60, "measure": "minutes"}, {"title": "Evening Programming Practice", "description": "Spend 45 minutes on coding activities to enhance your skills.", "start_time": "16:15", "end_time": "17:00", "stat_rewards": {"str": 0, "int": 1, "res": 1}, "success_criteria": 45, "measure": "minutes"} ]}
+----------------------------------------
+
+--- RESPONSE 2 ---
+
+{
+  "quests": [
+    {
+      "title": "Morning Cardio Boost",
+      "description": "Complete a brisk walk of 3500 steps before starting your report writing session.",
+      "start_time": "06:30",
+      "end_time": "07:45",
+      "stat_rewards": {"str": 1, "int": 0, "res": 0},
+      "success_criteria": 3500,
+      "measure": "steps"
+    },
+    {
+      "title": "Focused Writing Session",
+      "description": "Dedicate 75 minutes to writing your weekly report with minimal distractions.",
+      "start_time": "08:15",
+      "end_time": "09:30",
+      "stat_rewards": {"str": 0, "int": 2, "res": 0},
+      "success_criteria": 75,
+      "measure": "minutes"
+    },
+    {
+      "title": "Evening Programming Challenge",
+      "description": "Spend an uninterrupted hour coding to enhance your skills.",
+      "start_time": "18:15",
+      "end_time": "19:15",
+      "stat_rewards": {"str": 0, "int": 1, "res": 1},
+      "success_criteria": 60,
+      "measure": "minutes"
+    }
+  ]
+}
+----------------------------------------
+
+--- RESPONSE 3 ---
+
+{
+  "quests": [
+    {
+      "title": "Morning Cardio Boost",
+      "description": "Take 4000 steps before starting your errands.",
+      "start_time": "09:30",
+      "end_time": "10:00",
+      "stat_rewards": {"str": 2, "int": 0, "res": 0},
+      "success_criteria": 4000,
+      "measure": "steps"
+    },
+    {
+      "title": "Focus Time: Report Writing",
+      "description": "Spend 60 minutes focused on writing your weekly report.",
+      "start_time": "08:00",
+      "end_time": "09:15",
+      "stat_rewards": {"str": 0, "int": 1, "res": 1},
+      "success_criteria": 60,
+      "measure": "minutes"
+    },
+    {
+      "title": "Post-Workout Programming Sprint",
+      "description": "Dedicate 30 minutes to coding immediately after your gym session.",
+      "start_time": "12:45",
+      "end_time": "13:15",
+      "stat_rewards": {"str": 0, "int": 1, "res": 1},
+      "success_criteria": 30,
+      "measure": "minutes"
+    }
+  ]
+}
+----------------------------------------
+

@@ -1,0 +1,125 @@
+MODEL: gpt-4o
+TEMPERATURE: 0.7
+TOTAL RESPONSES: 3
+CALENDAR: days\workday.json
+USER: personas\me_negative.json
+PROMPT: prompts\zer_detailed.txt
+============================================================
+
+--- RESPONSE 1 ---
+
+{
+  "quests": [
+    {
+      "title": "Morning Fitness Boost",
+      "description": "Complete a brisk walk for 30 minutes before the Morning Standup to kickstart your day",
+      "start_time": "07:30",
+      "end_time": "08:15",
+      "stat_rewards": {"str": 2, "int": 0, "res": 0},
+      "success_criteria": 30,
+      "measure": "active minutes"
+    },
+    {
+      "title": "Focused Japanese Study",
+      "description": "Dedicate 30 minutes to studying Japanese vocabulary and grammar after lunch",
+      "start_time": "13:15",
+      "end_time": "13:45",
+      "stat_rewards": {"str": 0, "int": 2, "res": 0},
+      "success_criteria": 30,
+      "measure": "minutes"
+    },
+    {
+      "title": "Evening Trading Review",
+      "description": "Spend 45 minutes reviewing today's trading activity and make notes for improvement",
+      "start_time": "17:15",
+      "end_time": "18:15",
+      "stat_rewards": {"str": 0, "int": 1, "res": 1},
+      "success_criteria": 45,
+      "measure": "minutes"
+    }
+  ]
+}
+----------------------------------------
+
+--- RESPONSE 2 ---
+
+{
+  "quests": [
+    {
+      "title": "Morning Power Walk",
+      "description": "Take a brisk walk before the morning standup to energize your day.",
+      "start_time": "07:30",
+      "end_time": "08:30",
+      "stat_rewards": {"str": 2, "int": 0, "res": 0},
+      "success_criteria": 4000,
+      "measure": "steps"
+    },
+    {
+      "title": "Focused Japanese Study",
+      "description": "Dedicate time to studying Japanese vocabulary and grammar.",
+      "start_time": "11:45",
+      "end_time": "12:15",
+      "stat_rewards": {"str": 0, "int": 2, "res": 0},
+      "success_criteria": 30,
+      "measure": "minutes"
+    },
+    {
+      "title": "Evening Trading Analysis",
+      "description": "Analyze trading charts to improve your trading strategies.",
+      "start_time": "17:15",
+      "end_time": "18:00",
+      "stat_rewards": {"str": 0, "int": 1, "res": 1},
+      "success_criteria": 45,
+      "measure": "minutes"
+    }
+  ]
+}
+----------------------------------------
+
+--- RESPONSE 3 ---
+
+{
+  "quests": [
+    {
+      "title": "Morning Fitness Boost",
+      "description": "Start your day with a brisk walk to energize yourself. Aim for a step count of 3,000 steps.",
+      "start_time": "07:30",
+      "end_time": "08:30",
+      "stat_rewards": {
+        "str": 1,
+        "int": 0,
+        "res": 0
+      },
+      "success_criteria": 3000,
+      "measure": "steps"
+    },
+    {
+      "title": "Focused Coding Session",
+      "description": "Engage in uninterrupted coding for 1 hour. Avoid distractions and focus on enhancing your coding skills.",
+      "start_time": "11:45",
+      "end_time": "12:45",
+      "stat_rewards": {
+        "str": 0,
+        "int": 1,
+        "res": 0
+      },
+      "success_criteria": 60,
+      "measure": "minutes"
+    },
+    {
+      "title": "Japanese Language Study",
+      "description": "Dedicate 45 minutes to studying Japanese. Use language apps or study materials to improve your skills.",
+      "start_time": "17:15",
+      "end_time": "18:00",
+      "stat_rewards": {
+        "str": 0,
+        "int": 1,
+        "res": 1
+      },
+      "success_criteria": 45,
+      "measure": "minutes"
+    }
+  ]
+}
+----------------------------------------
+

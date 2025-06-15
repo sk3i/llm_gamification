@@ -1,0 +1,116 @@
+MODEL: gpt-4o
+TEMPERATURE: 0.7
+TOTAL RESPONSES: 3
+CALENDAR: days\halfday.json
+USER: personas\me_positive.json
+PROMPT: prompts\one_basic.txt
+============================================================
+
+--- RESPONSE 1 ---
+{
+  "quests": [
+    {
+      "title": "Morning Power Walk",
+      "description": "Kickstart your day with a brisk walk before diving into your weekly report writing.",
+      "start_time": "07:00",
+      "end_time": "07:45",
+      "stat_rewards": {"str": 1, "int": 0, "res": 0},
+      "success_criteria": 4000,
+      "measure": "steps",
+      "instructions": "Track your steps using your smartwatch during this time."
+    },
+    {
+      "title": "Focused Trading Study",
+      "description": "Allocate time for analyzing trading trends to strengthen your skills.",
+      "start_time": "18:00",
+      "end_time": "19:00",
+      "stat_rewards": {"str": 0, "int": 2, "res": 0},
+      "success_criteria": 60,
+      "measure": "minutes",
+      "instructions": "Ensure you are focusing on trading activities, track your time using desktop activity monitoring."
+    },
+    {
+      "title": "Japanese Language Practice",
+      "description": "Dedicate time to enhancing your Japanese language skills.",
+      "start_time": "19:30",
+      "end_time": "20:00",
+      "stat_rewards": {"str": 0, "int": 1, "res": 1},
+      "success_criteria": 30,
+      "measure": "minutes",
+      "instructions": "Focus on Japanese studying activities, track your time using desktop activity monitoring."
+    }
+  ]
+}
+----------------------------------------
+
+--- RESPONSE 2 ---
+{
+  "quests": [
+    {
+      "title": "Morning Report Writing Efficiency",
+      "description": "Maximize productivity by focusing on report writing tasks.",
+      "start_time": "08:00",
+      "end_time": "09:30",
+      "stat_rewards": {"str": 0, "int": 2, "res": 1},
+      "success_criteria": 75,
+      "measure": "minutes",
+      "instructions": "Dedicate this time exclusively to writing your weekly report without distractions."
+    },
+    {
+      "title": "Errand Power Walk",
+      "description": "Combine errands with a brisk walk to boost your fitness level.",
+      "start_time": "10:00",
+      "end_time": "11:00",
+      "stat_rewards": {"str": 1, "int": 0, "res": 0},
+      "success_criteria": 4000,
+      "measure": "steps",
+      "instructions": "Complete your errands while maintaining a brisk walking pace to meet your step goal."
+    },
+    {
+      "title": "Focused Japanese Study",
+      "description": "Enhance your Japanese language skills with a focused study session.",
+      "start_time": "16:30",
+      "end_time": "17:00",
+      "stat_rewards": {"str": 0, "int": 1, "res": 1},
+      "success_criteria": 30,
+      "measure": "minutes",
+      "instructions": "Use this time to study Japanese, focusing on vocabulary and grammar practice."
+    }
+  ]
+}
+----------------------------------------
+
+--- RESPONSE 3 ---
+{
+  "quests": [
+    {
+      "title": "Morning Fitness Boost",
+      "description": "Start your day with an energizing workout session to build strength.",
+      "start_time": "11:30",
+      "end_time": "12:30",
+      "stat_rewards": {"str": 2, "int": 0, "res": 1},
+      "success_criteria": 300,
+      "measure": "calories"
+    },
+    {
+      "title": "Japanese Study Power Hour",
+      "description": "Dedicate time to immerse yourself in Japanese learning.",
+      "start_time": "16:15",
+      "end_time": "17:15",
+      "stat_rewards": {"str": 0, "int": 3, "res": 0},
+      "success_criteria": 60,
+      "measure": "minutes"
+    },
+    {
+      "title": "Evening Trading Analysis",
+      "description": "Spend time analyzing trading charts to hone your skills.",
+      "start_time": "17:30",
+      "end_time": "18:30",
+      "stat_rewards": {"str": 0, "int": 2, "res": 1},
+      "success_criteria": 60,
+      "measure": "minutes"
+    }
+  ]
+}
+----------------------------------------
+

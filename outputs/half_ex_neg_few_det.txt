@@ -1,0 +1,108 @@
+MODEL: gpt-4o
+TEMPERATURE: 0.7
+TOTAL RESPONSES: 3
+CALENDAR: days\halfday.json
+USER: personas\ex_negative.json
+PROMPT: prompts\few_detailed.txt
+============================================================
+
+--- RESPONSE 1 ---
+{"quests": [  
+  {  
+    "title": "Post-Errands Cardio Burst",  
+    "description": "Take a brisk walk after your errands to boost your cardio fitness.",  
+    "start_time": "11:00",  
+    "end_time": "11:25",  
+    "stat_rewards": {"str": 1, "int": 0, "res": 0},  
+    "success_criteria": 2000,  
+    "measure": "steps"  
+  },  
+  {  
+    "title": "Programming Power Hour",  
+    "description": "Focus on programming tasks for one hour before your nap.",  
+    "start_time": "14:45",  
+    "end_time": "15:45",  
+    "stat_rewards": {"str": 0, "int": 1, "res": 1},  
+    "success_criteria": 60,  
+    "measure": "minutes"  
+  },  
+  {  
+    "title": "Evening Wind-down Reading",  
+    "description": "Spend some time reading to relax and unwind for the evening.",  
+    "start_time": "16:15",  
+    "end_time": "17:00",  
+    "stat_rewards": {"str": 0, "int": 1, "res": 0},  
+    "success_criteria": 30,  
+    "measure": "minutes"  
+  }  
+]}
+----------------------------------------
+
+--- RESPONSE 2 ---
+{
+  "quests": [
+    {
+      "title": "Morning Energy Walk",
+      "description": "Start your day with a brisk walk before your report writing session.",
+      "start_time": "06:45",
+      "end_time": "07:45",
+      "stat_rewards": {"str": 1, "int": 0, "res": 0},
+      "success_criteria": 3000,
+      "measure": "steps"
+    },
+    {
+      "title": "Post-Errands Cardio Boost",
+      "description": "Enhance your cardio fitness with an active session before heading to the gym.",
+      "start_time": "11:00",
+      "end_time": "11:30",
+      "stat_rewards": {"str": 1, "int": 0, "res": 0},
+      "success_criteria": 20,
+      "measure": "active_minutes"
+    },
+    {
+      "title": "Evening Programming Focus",
+      "description": "Dedicate time to programming practice or a project after your rest period.",
+      "start_time": "16:30",
+      "end_time": "18:00",
+      "stat_rewards": {"str": 0, "int": 2, "res": 0},
+      "success_criteria": 60,
+      "measure": "minutes"
+    }
+  ]
+}
+----------------------------------------
+
+--- RESPONSE 3 ---
+{
+  "quests": [
+    {
+      "title": "Post-Errands Step Challenge",
+      "description": "Complete a brisk walk after running errands to meet your step goal",
+      "start_time": "11:00",
+      "end_time": "11:30",
+      "stat_rewards": {"str": 1, "int": 0, "res": 0},
+      "success_criteria": 3000,
+      "measure": "steps"
+    },
+    {
+      "title": "Programming Practice",
+      "description": "Focus on coding tasks or projects during your free afternoon",
+      "start_time": "16:15",
+      "end_time": "17:30",
+      "stat_rewards": {"str": 0, "int": 2, "res": 0},
+      "success_criteria": 60,
+      "measure": "minutes"
+    },
+    {
+      "title": "Evening Relaxation",
+      "description": "Spend time unwinding with a mindfulness or relaxation activity",
+      "start_time": "18:00",
+      "end_time": "18:30",
+      "stat_rewards": {"str": 0, "int": 0, "res": 2},
+      "success_criteria": 30,
+      "measure": "minutes"
+    }
+  ]
+}
+----------------------------------------
+

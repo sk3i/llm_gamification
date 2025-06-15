@@ -1,0 +1,53 @@
+MODEL: gpt-4o
+TEMPERATURE: 0.7
+TOTAL RESPONSES: 3
+CALENDAR: days\workday.json
+USER: personas\ex_positive.json
+PROMPT: prompts\zer_detailed.txt
+============================================================
+
+--- RESPONSE 1 ---
+
+{
+  "quests": [
+    {
+      "title": "Morning Cardio Boost",
+      "description": "Complete a 30-minute brisk walk or jog before starting your day.",
+      "start_time": "07:00",
+      "end_time": "07:45",
+      "stat_rewards": {"str": 1, "int": 0, "res": 0},
+      "success_criteria": 3000,
+      "measure": "steps"
+    },
+    {
+      "title": "Deep Work Coding Session",
+      "description": "Focus on coding tasks for 45 minutes without interruptions.",
+      "start_time": "11:45",
+      "end_time": "12:30",
+      "stat_rewards": {"str": 0, "int": 1, "res": 0},
+      "success_criteria": 45,
+      "measure": "minutes"
+    },
+    {
+      "title": "Evening Wind-Down Walk",
+      "description": "Take a relaxing 20-minute walk to clear your mind after work.",
+      "start_time": "17:15",
+      "end_time": "18:00",
+      "stat_rewards": {"str": 1, "int": 0, "res": 1},
+      "success_criteria": 2000,
+      "measure": "steps"
+    }
+  ]
+}
+----------------------------------------
+
+--- RESPONSE 2 ---
+
+{"quests": [ {"title": "Morning Cardio Boost", "description": "Complete a brisk walk or jog to achieve at least 3000 steps.", "start_time": "07:00", "end_time": "08:30", "stat_rewards": {"str": 1, "int": 0, "res": 0}, "success_criteria": 3000, "measure": "steps"}, {"title": "Focused Programming Block", "description": "Dedicate time to focus solely on programming tasks.", "start_time": "11:45", "end_time": "12:15", "stat_rewards": {"str": 0, "int": 1, "res": 0}, "success_criteria": 30, "measure": "minutes"}, {"title": "Evening Wind Down Walk", "description": "Take an evening walk to reach a total of 8000 steps for the day.", "start_time": "18:15", "end_time": "19:45", "stat_rewards": {"str": 1, "int": 0, "res": 1}, "success_criteria": 8000, "measure": "steps"} ]}
+----------------------------------------
+
+--- RESPONSE 3 ---
+
+{"quests": [{"title": "Morning Cardio Boost","description": "Complete a brisk walk achieving at least 3000 steps before the morning standup","start_time": "07:00","end_time": "08:45","stat_rewards": {"str": 2, "int": 0, "res": 0},"success_criteria": 3000,"measure": "steps"},{"title": "Focused Coding Session","description": "Spend 60 minutes coding on your project without distractions","start_time": "11:45","end_time": "12:30","stat_rewards": {"str": 0, "int": 2, "res": 0},"success_criteria": 60,"measure": "minutes"},{"title": "Evening Wind Down Walk","description": "Take a relaxing walk achieving at least 4000 steps after the client call","start_time": "17:15","end_time": "19:00","stat_rewards": {"str": 2, "int": 0, "res": 1},"success_criteria": 4000,"measure": "steps"}]}
+----------------------------------------
+

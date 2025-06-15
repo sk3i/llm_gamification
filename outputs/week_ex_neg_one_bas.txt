@@ -1,0 +1,108 @@
+MODEL: gpt-4o
+TEMPERATURE: 0.7
+TOTAL RESPONSES: 3
+CALENDAR: days\weekend.json
+USER: personas\ex_negative.json
+PROMPT: prompts\one_basic.txt
+============================================================
+
+--- RESPONSE 1 ---
+{
+  "quests": [
+    {
+      "title": "Trailblazer Challenge",
+      "description": "Complete the morning hike with an elevated heart rate to boost cardio fitness.",
+      "start_time": "08:30",
+      "end_time": "10:30",
+      "stat_rewards": {"str": 2, "int": 0, "res": 1},
+      "success_criteria": 60,
+      "measure": "active_minutes"
+    },
+    {
+      "title": "Coding Focus Hour",
+      "description": "Spend an hour programming to enhance your coding skills.",
+      "start_time": "17:00",
+      "end_time": "18:00",
+      "stat_rewards": {"str": 0, "int": 3, "res": 0},
+      "success_criteria": 60,
+      "measure": "minutes"
+    },
+    {
+      "title": "Evening Wind Down",
+      "description": "Relax and recharge with a light activity after your movie night.",
+      "start_time": "21:30",
+      "end_time": "22:00",
+      "stat_rewards": {"str": 0, "int": 0, "res": 2},
+      "success_criteria": 1500,
+      "measure": "steps"
+    }
+  ]
+}
+----------------------------------------
+
+--- RESPONSE 2 ---
+{
+  "quests": [
+    {
+      "title": "Nature's Challenge",
+      "description": "Maximize your cardio by hiking the Maple Trail",
+      "start_time": "08:30",
+      "end_time": "10:30",
+      "stat_rewards": {"str": 2, "int": 0, "res": 1},
+      "success_criteria": 8000,
+      "measure": "steps"
+    },
+    {
+      "title": "Market Stroll",
+      "description": "Explore the farmer's market with a brisk walk",
+      "start_time": "11:00",
+      "end_time": "12:00",
+      "stat_rewards": {"str": 1, "int": 0, "res": 0},
+      "success_criteria": 3000,
+      "measure": "steps"
+    },
+    {
+      "title": "Afternoon Coding Focus",
+      "description": "Spend time coding to enhance your programming skills",
+      "start_time": "15:00",
+      "end_time": "16:30",
+      "stat_rewards": {"str": 0, "int": 3, "res": 1},
+      "success_criteria": 60,
+      "measure": "minutes"
+    }
+  ]
+}
+----------------------------------------
+
+--- RESPONSE 3 ---
+{"quests": [
+    {
+        "title": "Morning Hike Challenge",
+        "description": "Boost your fitness by completing a cardio-intensive morning hike.",
+        "start_time": "08:30",
+        "end_time": "10:30",
+        "stat_rewards": {"str": 2, "int": 0, "res": 1},
+        "success_criteria": 8000,
+        "measure": "steps"
+    },
+    {
+        "title": "Afternoon Focus Session",
+        "description": "Dedicate time to programming or related activities.",
+        "start_time": "15:00",
+        "end_time": "16:30",
+        "stat_rewards": {"str": 0, "int": 2, "res": 0},
+        "success_criteria": 60,
+        "measure": "minutes"
+    },
+    {
+        "title": "Evening Relaxation and Reflection",
+        "description": "Wind down with a movie and reflect on the day.",
+        "start_time": "19:00",
+        "end_time": "21:30",
+        "stat_rewards": {"str": 0, "int": 0, "res": 2},
+        "success_criteria": 30,
+        "measure": "minutes"
+    }
+]}
+----------------------------------------
+

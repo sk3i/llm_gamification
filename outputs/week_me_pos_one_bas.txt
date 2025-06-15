@@ -1,0 +1,112 @@
+MODEL: gpt-4o
+TEMPERATURE: 0.7
+TOTAL RESPONSES: 3
+CALENDAR: days\weekend.json
+USER: personas\me_positive.json
+PROMPT: prompts\one_basic.txt
+============================================================
+
+--- RESPONSE 1 ---
+{
+  "quests": [
+    {
+      "title": "Maple Trail Challenge",
+      "description": "Complete your morning hike to boost your fitness levels.",
+      "start_time": "08:30",
+      "end_time": "10:30",
+      "stat_rewards": {"str": 2, "int": 0, "res": 1},
+      "success_criteria": 8000,
+      "measure": "steps"
+    },
+    {
+      "title": "Japanese Language Immersion",
+      "description": "Dedicate time in the afternoon to immerse yourself in Japanese studies.",
+      "start_time": "15:00",
+      "end_time": "16:30",
+      "stat_rewards": {"str": 0, "int": 2, "res": 0},
+      "success_criteria": 60,
+      "measure": "minutes"
+    },
+    {
+      "title": "Evening Wind Down",
+      "description": "Relax and reflect during your movie night, ensuring a restful end to the day.",
+      "start_time": "19:00",
+      "end_time": "21:30",
+      "stat_rewards": {"str": 0, "int": 1, "res": 1},
+      "success_criteria": 120,
+      "measure": "active minutes"
+    }
+  ]
+}
+----------------------------------------
+
+--- RESPONSE 2 ---
+{
+  "quests": [
+    {
+      "title": "Morning Hike Challenge",
+      "description": "Enhance your fitness by completing a hike on the Maple Trail.",
+      "start_time": "08:30",
+      "end_time": "10:30",
+      "stat_rewards": {"str": 2, "int": 0, "res": 1},
+      "success_criteria": 7500,
+      "measure": "steps"
+    },
+    {
+      "title": "Japanese Language Study",
+      "description": "Dedicate time to studying Japanese to improve language skills.",
+      "start_time": "16:30",
+      "end_time": "17:00",
+      "stat_rewards": {"str": 0, "int": 1, "res": 0},
+      "success_criteria": 30,
+      "measure": "minutes"
+    },
+    {
+      "title": "Evening Film Analysis",
+      "description": "Watch and analyze the movie for plot and language understanding.",
+      "start_time": "19:00",
+      "end_time": "21:30",
+      "stat_rewards": {"str": 0, "int": 2, "res": 0},
+      "success_criteria": 120,
+      "measure": "minutes"
+    }
+  ]
+}
+----------------------------------------
+
+--- RESPONSE 3 ---
+{"quests": [
+    {
+      "title": "Maple Trail Fitness Challenge",
+      "description": "Enhance your fitness by increasing activity during the morning hike.",
+      "start_time": "08:30",
+      "end_time": "10:30",
+      "stat_rewards": {"str": 2, "int": 0, "res": 1},
+      "success_criteria": 8000,
+      "measure": "steps",
+      "instructions": "Ensure your smartwatch is tracking and aim to complete at least 8000 steps during the hike."
+    },
+    {
+      "title": "Farmer's Market Mental Stroll",
+      "description": "Clear your mind and engage in mindful walking during your market visit.",
+      "start_time": "11:00",
+      "end_time": "12:00",
+      "stat_rewards": {"str": 0, "int": 1, "res": 1},
+      "success_criteria": 3000,
+      "measure": "steps",
+      "instructions": "Focus on mindful walking as you explore the market, aiming for 3000 steps."
+    },
+    {
+      "title": "Japanese Reading Retreat",
+      "description": "Practice your Japanese by reading a Japanese novel or text for a focused session.",
+      "start_time": "15:00",
+      "end_time": "16:30",
+      "stat_rewards": {"str": 0, "int": 2, "res": 0},
+      "success_criteria": 60,
+      "measure": "minutes",
+      "instructions": "Dedicate at least 60 minutes to reading in Japanese. Track the time spent focused on this activity."
+    }
+  ]
+}
+----------------------------------------
+

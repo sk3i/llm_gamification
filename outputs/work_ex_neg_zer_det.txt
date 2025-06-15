@@ -1,0 +1,112 @@
+MODEL: gpt-4o
+TEMPERATURE: 0.7
+TOTAL RESPONSES: 3
+CALENDAR: days\workday.json
+USER: personas\ex_negative.json
+PROMPT: prompts\zer_detailed.txt
+============================================================
+
+--- RESPONSE 1 ---
+
+{
+  "quests": [
+    {
+      "title": "Morning Cardio Burst",
+      "description": "Complete a 20-minute intense cardio session before your standup meeting.",
+      "start_time": "08:00",
+      "end_time": "08:45",
+      "stat_rewards": {"str": 2, "int": 0, "res": 0},
+      "success_criteria": 150,
+      "measure": "active minutes"
+    },
+    {
+      "title": "Focused Programming Session",
+      "description": "Spend focused time coding with minimal distractions.",
+      "start_time": "11:45",
+      "end_time": "12:15",
+      "stat_rewards": {"str": 0, "int": 2, "res": 0},
+      "success_criteria": 30,
+      "measure": "minutes"
+    },
+    {
+      "title": "Evening Wind-down Walk",
+      "description": "Take a relaxing walk to reach a total of 7000 steps by the end of the day.",
+      "start_time": "17:15",
+      "end_time": "18:00",
+      "stat_rewards": {"str": 1, "int": 0, "res": 1},
+      "success_criteria": 7000,
+      "measure": "steps"
+    }
+  ]
+}
+----------------------------------------
+
+--- RESPONSE 2 ---
+
+{
+  "quests": [
+    {
+      "title": "Morning Energizer Walk",
+      "description": "Take a brisk walk to start your day with energy.",
+      "start_time": "08:00",
+      "end_time": "08:45",
+      "stat_rewards": {"str": 1, "int": 0, "res": 0},
+      "success_criteria": 3000,
+      "measure": "steps"
+    },
+    {
+      "title": "Focused Coding Session",
+      "description": "Dedicate time for focused coding without interruptions.",
+      "start_time": "11:45",
+      "end_time": "12:15",
+      "stat_rewards": {"str": 0, "int": 1, "res": 0},
+      "success_criteria": 30,
+      "measure": "minutes"
+    },
+    {
+      "title": "Evening Cardio Boost",
+      "description": "Engage in an active workout session to boost your heart rate.",
+      "start_time": "17:15",
+      "end_time": "18:00",
+      "stat_rewards": {"str": 1, "int": 0, "res": 1},
+      "success_criteria": 200,
+      "measure": "active calories burned"
+    }
+  ]
+}
+----------------------------------------
+
+--- RESPONSE 3 ---
+{
+  "quests": [
+    {
+      "title": "Morning Cardio Boost",
+      "description": "Complete a brisk walk or jog to reach a step count of 3000 by the start of work.",
+      "start_time": "07:00",
+      "end_time": "08:45",
+      "stat_rewards": {"str": 2, "int": 0, "res": 0},
+      "success_criteria": 3000,
+      "measure": "steps"
+    },
+    {
+      "title": "Focused Coding Block",
+      "description": "Spend uninterrupted time coding to enhance your skills and complete tasks. Aim for 60 minutes of focus time.",
+      "start_time": "11:45",
+      "end_time": "12:30",
+      "stat_rewards": {"str": 0, "int": 1, "res": 0},
+      "success_criteria": 60,
+      "measure": "minutes"
+    },
+    {
+      "title": "Evening Wind Down Walk",
+      "description": "Take an evening walk to achieve a calm state and accumulate an additional 4000 steps.",
+      "start_time": "17:15",
+      "end_time": "19:00",
+      "stat_rewards": {"str": 1, "int": 0, "res": 1},
+      "success_criteria": 4000,
+      "measure": "steps"
+    }
+  ]
+}
+----------------------------------------
+

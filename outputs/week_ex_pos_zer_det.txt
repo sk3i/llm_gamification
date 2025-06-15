@@ -1,0 +1,113 @@
+MODEL: gpt-4o
+TEMPERATURE: 0.7
+TOTAL RESPONSES: 3
+CALENDAR: days\weekend.json
+USER: personas\ex_positive.json
+PROMPT: prompts\zer_detailed.txt
+============================================================
+
+--- RESPONSE 1 ---
+
+{
+  "quests": [
+    {
+      "title": "Morning Cardio Boost",
+      "description": "Walk 5000 steps during the morning hike to enhance your cardio routine.",
+      "start_time": "08:15",
+      "end_time": "10:45",
+      "stat_rewards": {"str": 1, "int": 0, "res": 0},
+      "success_criteria": 5000,
+      "measure": "steps"
+    },
+    {
+      "title": "Creative Coding Sprint",
+      "description": "Spend 45 minutes coding or learning a new programming concept between events.",
+      "start_time": "14:45",
+      "end_time": "15:45",
+      "stat_rewards": {"str": 0, "int": 1, "res": 0},
+      "success_criteria": 45,
+      "measure": "minutes"
+    },
+    {
+      "title": "Evening Mindfulness and Reflection",
+      "description": "Spend at least 20 minutes reflecting on your day or meditating before movie night.",
+      "start_time": "18:30",
+      "end_time": "19:00",
+      "stat_rewards": {"str": 0, "int": 0, "res": 1},
+      "success_criteria": 20,
+      "measure": "minutes"
+    }
+  ]
+}
+----------------------------------------
+
+--- RESPONSE 2 ---
+
+{
+  "quests": [
+    {
+      "title": "Morning Cardio Boost",
+      "description": "Complete a brisk walk or a light jog during your Morning Hike.",
+      "start_time": "08:45",
+      "end_time": "10:15",
+      "stat_rewards": {"str": 1, "int": 0, "res": 0},
+      "success_criteria": 5000,
+      "measure": "steps"
+    },
+    {
+      "title": "Afternoon Reading Challenge",
+      "description": "Spend uninterrupted time reading your novel.",
+      "start_time": "15:15",
+      "end_time": "16:15",
+      "stat_rewards": {"str": 0, "int": 1, "res": 0},
+      "success_criteria": 60,
+      "measure": "minutes"
+    },
+    {
+      "title": "Evening Coding Session",
+      "description": "Spend focused time coding to improve your skills.",
+      "start_time": "17:00",
+      "end_time": "18:45",
+      "stat_rewards": {"str": 0, "int": 1, "res": 1},
+      "success_criteria": 75,
+      "measure": "minutes"
+    }
+  ]
+}
+----------------------------------------
+
+--- RESPONSE 3 ---
+
+{
+  "quests": [
+    {
+      "title": "Morning Cardio Boost",
+      "description": "Take a brisk walk after your Morning Hike to reach a total of 8000 steps for the morning.",
+      "start_time": "10:45",
+      "end_time": "11:00",
+      "stat_rewards": {"str": 2, "int": 0, "res": 1},
+      "success_criteria": 8000,
+      "measure": "steps"
+    },
+    {
+      "title": "Focused Reading Session",
+      "description": "Spend focused time reading your novel, ensuring at least 45 minutes of reading without distractions.",
+      "start_time": "15:15",
+      "end_time": "16:30",
+      "stat_rewards": {"str": 0, "int": 2, "res": 1},
+      "success_criteria": 45,
+      "measure": "minutes"
+    },
+    {
+      "title": "Evening Reflection",
+      "description": "Reflect on your day and journal for at least 30 minutes before Movie Night begins.",
+      "start_time": "17:30",
+      "end_time": "18:15",
+      "stat_rewards": {"str": 0, "int": 1, "res": 1},
+      "success_criteria": 30,
+      "measure": "minutes"
+    }
+  ]
+}
+----------------------------------------
+

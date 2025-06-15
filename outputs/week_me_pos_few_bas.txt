@@ -1,0 +1,113 @@
+MODEL: gpt-4o
+TEMPERATURE: 0.7
+TOTAL RESPONSES: 3
+CALENDAR: days\weekend.json
+USER: personas\me_positive.json
+PROMPT: prompts\few_basic.txt
+============================================================
+
+--- RESPONSE 1 ---
+{
+  "quests": [
+    {
+      "title": "Hiking Adventure",
+      "description": "Enjoy a morning hike and aim to achieve a high step count",
+      "start_time": "08:30",
+      "end_time": "10:30",
+      "stat_rewards": {"str": 1, "int": 0, "res": 1},
+      "success_criteria": 10000,
+      "measure": "steps"
+    },
+    {
+      "title": "Language Immersion",
+      "description": "Dedicate time to studying Japanese while enjoying a peaceful setting",
+      "start_time": "15:00",
+      "end_time": "16:30",
+      "stat_rewards": {"str": 0, "int": 2, "res": 0},
+      "success_criteria": 60,
+      "measure": "minutes"
+    },
+    {
+      "title": "Evening Relaxation",
+      "description": "Wind down with a movie, ensuring a restful and relaxing evening",
+      "start_time": "19:00",
+      "end_time": "21:30",
+      "stat_rewards": {"str": 0, "int": 0, "res": 2},
+      "success_criteria": 150,
+      "measure": "minutes"
+    }
+  ]
+}
+----------------------------------------
+
+--- RESPONSE 2 ---
+{
+  "quests": [
+    {
+      "title": "Maple Trail Adventure",
+      "description": "Enjoy a vigorous hike to start your day right!",
+      "start_time": "08:30",
+      "end_time": "10:30",
+      "stat_rewards": {"str": 1, "int": 0, "res": 1},
+      "success_criteria": 8000,
+      "measure": "steps",
+      "instructions": "Track your steps during the hike using your smartwatch."
+    },
+    {
+      "title": "Market Browsing Fitness",
+      "description": "Maintain an active pace while exploring the farmer's market.",
+      "start_time": "11:00",
+      "end_time": "12:00",
+      "stat_rewards": {"str": 1, "int": 0, "res": 0},
+      "success_criteria": 50,
+      "measure": "active minutes",
+      "instructions": "Aim to stay in motion and engage in brisk walking while at the market."
+    },
+    {
+      "title": "Japanese Reading Retreat",
+      "description": "Immerse yourself in a Japanese novel to enhance your language skills.",
+      "start_time": "15:00",
+      "end_time": "16:30",
+      "stat_rewards": {"str": 0, "int": 2, "res": 0},
+      "success_criteria": 90,
+      "measure": "minutes",
+      "instructions": "Dedicate this time to reading a novel in Japanese, focusing on comprehension and vocabulary."
+    }
+  ]
+}
+----------------------------------------
+
+--- RESPONSE 3 ---
+{
+  "quests": [
+    {
+      "title": "Mountain Strider",
+      "description": "Complete your morning hike with a vigorous pace",
+      "start_time": "08:30",
+      "end_time": "10:30",
+      "stat_rewards": {"str": 2, "int": 0, "res": 1},
+      "success_criteria": 10000,
+      "measure": "steps"
+    },
+    {
+      "title": "Farmer's Market Explorer",
+      "description": "Engage in active walking and exploration during your market visit",
+      "start_time": "11:00",
+      "end_time": "12:00",
+      "stat_rewards": {"str": 1, "int": 0, "res": 0},
+      "success_criteria": 3000,
+      "measure": "steps"
+    },
+    {
+      "title": "Japanese Reading Lounge",
+      "description": "Spend quality time reading your novel and integrate Japanese study",
+      "start_time": "15:00",
+      "end_time": "16:30",
+      "stat_rewards": {"str": 0, "int": 1, "res": 1},
+      "success_criteria": 60,
+      "measure": "minutes"
+    }
+  ]
+}
+----------------------------------------
+

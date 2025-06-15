@@ -1,0 +1,113 @@
+MODEL: gpt-4o
+TEMPERATURE: 0.7
+TOTAL RESPONSES: 3
+CALENDAR: days\halfday.json
+USER: personas\ex_positive.json
+PROMPT: prompts\zer_detailed.txt
+============================================================
+
+--- RESPONSE 1 ---
+
+{
+  "quests": [
+    {
+      "title": "Morning Cardio Boost",
+      "description": "Complete a 30-minute cardio session before starting your day.",
+      "start_time": "07:00",
+      "end_time": "07:45",
+      "stat_rewards": {"str": 2, "int": 0, "res": 0},
+      "success_criteria": 30,
+      "measure": "active minutes"
+    },
+    {
+      "title": "Focused Programming Session",
+      "description": "Spend 45 minutes coding, focusing on your current project.",
+      "start_time": "09:45",
+      "end_time": "10:45",
+      "stat_rewards": {"str": 0, "int": 2, "res": 0},
+      "success_criteria": 45,
+      "measure": "minutes"
+    },
+    {
+      "title": "Healthy Steps Challenge",
+      "description": "Achieve a total of 7000 steps throughout the day.",
+      "start_time": "06:00",
+      "end_time": "22:00",
+      "stat_rewards": {"str": 1, "int": 0, "res": 1},
+      "success_criteria": 7000,
+      "measure": "steps"
+    }
+  ]
+}
+----------------------------------------
+
+--- RESPONSE 2 ---
+
+{
+  "quests": [
+    {
+      "title": "Morning Cardio Boost",
+      "description": "Complete a brisk walk or jog to reach 3000 steps before your errands.",
+      "start_time": "07:00",
+      "end_time": "09:45",
+      "stat_rewards": {"str": 1, "int": 0, "res": 0},
+      "success_criteria": 3000,
+      "measure": "steps"
+    },
+    {
+      "title": "Focused Coding Session",
+      "description": "Spend uninterrupted time coding for 45 minutes.",
+      "start_time": "09:45",
+      "end_time": "11:15",
+      "stat_rewards": {"str": 0, "int": 1, "res": 0},
+      "success_criteria": 45,
+      "measure": "minutes"
+    },
+    {
+      "title": "Evening Wind Down",
+      "description": "Engage in any relaxing activity to keep your active minutes low, not exceeding 30 minutes post-nap.",
+      "start_time": "16:15",
+      "end_time": "20:00",
+      "stat_rewards": {"str": 0, "int": 0, "res": 1},
+      "success_criteria": 30,
+      "measure": "active minutes"
+    }
+  ]
+}
+----------------------------------------
+
+--- RESPONSE 3 ---
+
+{
+  "quests": [
+    {
+      "title": "Morning Cardio",
+      "description": "Complete a cardio session that reaches at least 30 active minutes.",
+      "start_time": "07:00",
+      "end_time": "07:45",
+      "stat_rewards": {"str": 1, "int": 0, "res": 0},
+      "success_criteria": 30,
+      "measure": "active minutes"
+    },
+    {
+      "title": "Focused Writing",
+      "description": "Spend focused time writing the weekly report.",
+      "start_time": "08:15",
+      "end_time": "09:15",
+      "stat_rewards": {"str": 0, "int": 1, "res": 0},
+      "success_criteria": 60,
+      "measure": "minutes"
+    },
+    {
+      "title": "Evening Programming",
+      "description": "Dedicate time to programming, focusing on your current project.",
+      "start_time": "16:15",
+      "end_time": "17:15",
+      "stat_rewards": {"str": 0, "int": 1, "res": 1},
+      "success_criteria": 60,
+      "measure": "minutes"
+    }
+  ]
+}
+----------------------------------------
+

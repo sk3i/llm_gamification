@@ -1,0 +1,110 @@
+MODEL: gpt-4o
+TEMPERATURE: 0.7
+TOTAL RESPONSES: 3
+CALENDAR: days\workday.json
+USER: personas\ex_negative.json
+PROMPT: prompts\few_basic.txt
+============================================================
+
+--- RESPONSE 1 ---
+{
+  "quests": [
+    {
+      "title": "Morning Cardio Boost",
+      "description": "Start your day with a brisk walk to energize and get your heart rate up.",
+      "start_time": "07:30",
+      "end_time": "08:30",
+      "stat_rewards": {"str": 1, "int": 0, "res": 1},
+      "success_criteria": 4000,
+      "measure": "steps"
+    },
+    {
+      "title": "Focused Programming Session",
+      "description": "Dedicate time to coding tasks and enhance your programming skills.",
+      "start_time": "11:45",
+      "end_time": "12:30",
+      "stat_rewards": {"str": 0, "int": 1, "res": 1},
+      "success_criteria": 45,
+      "measure": "minutes"
+    },
+    {
+      "title": "Evening Wind Down Walk",
+      "description": "Take a relaxing walk after your last meeting to decompress.",
+      "start_time": "17:15",
+      "end_time": "18:00",
+      "stat_rewards": {"str": 1, "int": 0, "res": 1},
+      "success_criteria": 3000,
+      "measure": "steps"
+    }
+  ]
+}
+----------------------------------------
+
+--- RESPONSE 2 ---
+{
+  "quests": [
+    {
+      "title": "Morning Cardio Boost",
+      "description": "Kickstart your day with a brisk walk before the standup meeting.",
+      "start_time": "08:00",
+      "end_time": "08:45",
+      "stat_rewards": {"str": 1, "int": 0, "res": 0},
+      "success_criteria": 3500,
+      "measure": "steps"
+    },
+    {
+      "title": "Focused Coding Session",
+      "description": "Engage in deep work on coding tasks after lunch.",
+      "start_time": "13:00",
+      "end_time": "13:30",
+      "stat_rewards": {"str": 0, "int": 2, "res": 0},
+      "success_criteria": 30,
+      "measure": "minutes"
+    },
+    {
+      "title": "Evening Wind Down",
+      "description": "Reflect on the day's achievements and plan for tomorrow.",
+      "start_time": "17:30",
+      "end_time": "18:00",
+      "stat_rewards": {"str": 0, "int": 1, "res": 1},
+      "success_criteria": 25,
+      "measure": "minutes"
+    }
+  ]
+}
+----------------------------------------
+
+--- RESPONSE 3 ---
+{
+  "quests": [
+    {
+      "title": "Morning Cardio Boost",
+      "description": "Start your day with a brisk walk to get your energy levels up before the standup meeting.",
+      "start_time": "08:00",
+      "end_time": "08:45",
+      "stat_rewards": {"str": 1, "int": 0, "res": 0},
+      "success_criteria": 3000,
+      "measure": "steps"
+    },
+    {
+      "title": "Programming Focus Session",
+      "description": "Dedicate time to coding and solving problems during the code review session.",
+      "start_time": "13:30",
+      "end_time": "15:00",
+      "stat_rewards": {"str": 0, "int": 2, "res": 0},
+      "success_criteria": 75,
+      "measure": "minutes"
+    },
+    {
+      "title": "Evening Reflection and Planning",
+      "description": "Reflect on the day's achievements and plan for tomorrow in a quiet setting.",
+      "start_time": "17:30",
+      "end_time": "18:00",
+      "stat_rewards": {"str": 0, "int": 1, "res": 1},
+      "success_criteria": 20,
+      "measure": "minutes"
+    }
+  ]
+}
+----------------------------------------
+

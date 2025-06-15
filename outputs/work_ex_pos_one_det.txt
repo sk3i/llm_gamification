@@ -1,0 +1,110 @@
+MODEL: gpt-4o
+TEMPERATURE: 0.7
+TOTAL RESPONSES: 3
+CALENDAR: days\workday.json
+USER: personas\ex_positive.json
+PROMPT: prompts\one_detailed.txt
+============================================================
+
+--- RESPONSE 1 ---
+{
+  "quests": [
+    {
+      "title": "Early Bird Cardio",
+      "description": "Kickstart your day with a brisk walk or jog.",
+      "start_time": "07:30",
+      "end_time": "08:30",
+      "stat_rewards": {"str": 2, "int": 0, "res": 0},
+      "success_criteria": 4000,
+      "measure": "steps"
+    },
+    {
+      "title": "Focused Coding Block",
+      "description": "Dedicate uninterrupted time to programming tasks.",
+      "start_time": "15:15",
+      "end_time": "15:45",
+      "stat_rewards": {"str": 0, "int": 1, "res": 0},
+      "success_criteria": 30,
+      "measure": "minutes"
+    },
+    {
+      "title": "Post-Work Relaxation",
+      "description": "Engage in a relaxation activity or meditation session to unwind.",
+      "start_time": "17:15",
+      "end_time": "17:45",
+      "stat_rewards": {"str": 0, "int": 0, "res": 1},
+      "success_criteria": 30,
+      "measure": "minutes"
+    }
+  ]
+}
+----------------------------------------
+
+--- RESPONSE 2 ---
+{
+  "quests": [
+    {
+      "title": "Morning Cardio Boost",
+      "description": "Start your day with a refreshing walk to energize for the meetings ahead.",
+      "start_time": "07:45",
+      "end_time": "08:45",
+      "stat_rewards": {"str": 1, "int": 0, "res": 0},
+      "success_criteria": 4000,
+      "measure": "steps"
+    },
+    {
+      "title": "Focused Coding Session",
+      "description": "Dedicate time to improving your programming skills.",
+      "start_time": "11:45",
+      "end_time": "12:15",
+      "stat_rewards": {"str": 0, "int": 1, "res": 1},
+      "success_criteria": 30,
+      "measure": "minutes"
+    },
+    {
+      "title": "Evening Relaxation Stretch",
+      "description": "Wind down your day with a relaxing stretching session to improve resilience.",
+      "start_time": "17:15",
+      "end_time": "17:45",
+      "stat_rewards": {"str": 0, "int": 0, "res": 2},
+      "success_criteria": 30,
+      "measure": "minutes"
+    }
+  ]
+}
+----------------------------------------
+
+--- RESPONSE 3 ---
+{
+  "quests": [
+    {
+      "title": "Morning Cardio Warm-Up",
+      "description": "Start your day with a brisk walk to boost your energy and meet your cardio goal.",
+      "start_time": "07:30",
+      "end_time": "08:45",
+      "stat_rewards": {"str": 1, "int": 0, "res": 0},
+      "success_criteria": 4000,
+      "measure": "steps"
+    },
+    {
+      "title": "Focused Coding Session",
+      "description": "Dedicate time to programming tasks to enhance your skills.",
+      "start_time": "15:15",
+      "end_time": "15:45",
+      "stat_rewards": {"str": 0, "int": 1, "res": 0},
+      "success_criteria": 30,
+      "measure": "minutes"
+    },
+    {
+      "title": "Evening Relaxation and Reflection",
+      "description": "Spend some quiet time reflecting on your day and planning for tomorrow.",
+      "start_time": "17:15",
+      "end_time": "17:45",
+      "stat_rewards": {"str": 0, "int": 0, "res": 1},
+      "success_criteria": 30,
+      "measure": "minutes"
+    }
+  ]
+}
+----------------------------------------
+

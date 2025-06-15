@@ -1,0 +1,110 @@
+MODEL: gpt-4o
+TEMPERATURE: 0.7
+TOTAL RESPONSES: 3
+CALENDAR: days\weekend.json
+USER: personas\me_negative.json
+PROMPT: prompts\few_basic.txt
+============================================================
+
+--- RESPONSE 1 ---
+{
+  "quests": [
+    {
+      "title": "Trailblazer Trek",
+      "description": "Complete your morning hike with energy and enthusiasm.",
+      "start_time": "08:30",
+      "end_time": "10:30",
+      "stat_rewards": {"str": 2, "int": 0, "res": 1},
+      "success_criteria": 8000,
+      "measure": "steps"
+    },
+    {
+      "title": "Market Explorer",
+      "description": "Visit the farmer's market and explore new produce or items.",
+      "start_time": "11:00",
+      "end_time": "12:00",
+      "stat_rewards": {"str": 0, "int": 1, "res": 0},
+      "success_criteria": 1500,
+      "measure": "steps"
+    },
+    {
+      "title": "Japanese Reading Retreat",
+      "description": "Spend time reading a Japanese novel to enhance language skills.",
+      "start_time": "15:00",
+      "end_time": "16:30",
+      "stat_rewards": {"str": 0, "int": 2, "res": 0},
+      "success_criteria": 60,
+      "measure": "minutes"
+    }
+  ]
+}
+----------------------------------------
+
+--- RESPONSE 2 ---
+{
+  "quests": [
+    {
+      "title": "Morning Hike Adventure",
+      "description": "Complete your hike on Maple Trail with a steady pace to enhance fitness.",
+      "start_time": "08:30",
+      "end_time": "10:30",
+      "stat_rewards": {"str": 2, "int": 0, "res": 1},
+      "success_criteria": 10000,
+      "measure": "steps"
+    },
+    {
+      "title": "Market Exploration",
+      "description": "Visit the Farmer's Market and walk around to enjoy some fresh air and exercise.",
+      "start_time": "11:00",
+      "end_time": "12:00",
+      "stat_rewards": {"str": 1, "int": 0, "res": 0},
+      "success_criteria": 2500,
+      "measure": "steps"
+    },
+    {
+      "title": "Japanese Study Session",
+      "description": "Dedicate focused time to studying Japanese to enhance your language skills.",
+      "start_time": "15:00",
+      "end_time": "16:30",
+      "stat_rewards": {"str": 0, "int": 2, "res": 0},
+      "success_criteria": 60,
+      "measure": "minutes"
+    }
+  ]
+}
+----------------------------------------
+
+--- RESPONSE 3 ---
+{
+  "quests": [
+    {
+      "title": "Trail Blazer",
+      "description": "Achieve a vigorous pace during your morning hike at Maple Trail",
+      "start_time": "08:30",
+      "end_time": "10:30",
+      "stat_rewards": {"str": 2, "int": 0, "res": 1},
+      "success_criteria": 600,
+      "measure": "calories burned"
+    },
+    {
+      "title": "Market Steps",
+      "description": "Walk briskly while exploring the Downtown Market",
+      "start_time": "11:00",
+      "end_time": "12:00",
+      "stat_rewards": {"str": 1, "int": 0, "res": 0},
+      "success_criteria": 4000,
+      "measure": "steps"
+    },
+    {
+      "title": "Japanese Reading Retreat",
+      "description": "Dedicate focused time to reading your novel and studying Japanese",
+      "start_time": "15:00",
+      "end_time": "16:30",
+      "stat_rewards": {"str": 0, "int": 2, "res": 0},
+      "success_criteria": 90,
+      "measure": "minutes"
+    }
+  ]
+}
+----------------------------------------
+

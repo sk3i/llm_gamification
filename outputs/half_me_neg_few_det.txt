@@ -1,0 +1,108 @@
+MODEL: gpt-4o
+TEMPERATURE: 0.7
+TOTAL RESPONSES: 3
+CALENDAR: days\halfday.json
+USER: personas\me_negative.json
+PROMPT: prompts\few_detailed.txt
+============================================================
+
+--- RESPONSE 1 ---
+{"quests": [  
+    {
+      "title": "Japanese Language Boost",
+      "description": "Enhance your Japanese skills through focused study",
+      "start_time": "09:45",
+      "end_time": "10:00",
+      "stat_rewards": {"str": 0, "int": 1, "res": 0},
+      "success_criteria": 15,
+      "measure": "minutes"
+    },
+    {
+      "title": "Midday Cardio Challenge",
+      "description": "Push yourself during your gym workout by maintaining an elevated heart rate",
+      "start_time": "11:30",
+      "end_time": "12:30",
+      "stat_rewards": {"str": 1, "int": 0, "res": 0},
+      "success_criteria": 30,
+      "measure": "active minutes"
+    },
+    {
+      "title": "Evening Trading Study",
+      "description": "Dedicate time to studying trading charts to meet your learning goals",
+      "start_time": "16:15",
+      "end_time": "17:00",
+      "stat_rewards": {"str": 0, "int": 1, "res": 1},
+      "success_criteria": 45,
+      "measure": "minutes"
+    }
+  ]
+}
+----------------------------------------
+
+--- RESPONSE 2 ---
+{
+  "quests": [
+    {
+      "title": "Early Morning Japanese Study",
+      "description": "Dedicate time to studying Japanese vocabulary and grammar before your day starts.",
+      "start_time": "07:00",
+      "end_time": "07:45",
+      "stat_rewards": {"str": 0, "int": 1, "res": 0},
+      "success_criteria": 30,
+      "measure": "minutes"
+    },
+    {
+      "title": "Errand Energetic Steps",
+      "description": "Increase your step count while running errands to boost your fitness level.",
+      "start_time": "10:00",
+      "end_time": "11:00",
+      "stat_rewards": {"str": 1, "int": 0, "res": 0},
+      "success_criteria": 4000,
+      "measure": "steps"
+    },
+    {
+      "title": "Evening Trading Practice",
+      "description": "Spend focused time on trading charts and market analysis.",
+      "start_time": "16:15",
+      "end_time": "17:00",
+      "stat_rewards": {"str": 0, "int": 1, "res": 1},
+      "success_criteria": 45,
+      "measure": "minutes"
+    }
+  ]
+}
+----------------------------------------
+
+--- RESPONSE 3 ---
+{"quests": [  
+    {
+      "title": "Morning Movement",
+      "description": "Kickstart your day with a brisk walk before your report writing session.",
+      "start_time": "07:00",
+      "end_time": "07:45",
+      "stat_rewards": {"str": 1, "int": 0, "res": 0},
+      "success_criteria": 3000,
+      "measure": "steps"
+    },
+    {
+      "title": "Japanese Learning Burst",
+      "description": "Spend some focused time on studying Japanese before your errands.",
+      "start_time": "09:45",
+      "end_time": "10:00",
+      "stat_rewards": {"str": 0, "int": 1, "res": 1},
+      "success_criteria": 15,
+      "measure": "minutes"
+    },
+    {
+      "title": "Post-Brunch Trading Session",
+      "description": "Utilize the afternoon to study trading charts and strategies.",
+      "start_time": "14:45",
+      "end_time": "15:45",
+      "stat_rewards": {"str": 0, "int": 2, "res": 0},
+      "success_criteria": 60,
+      "measure": "minutes"
+    }
+  ]
+}
+----------------------------------------
+

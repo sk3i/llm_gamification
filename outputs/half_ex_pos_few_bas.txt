@@ -1,0 +1,116 @@
+MODEL: gpt-4o
+TEMPERATURE: 0.7
+TOTAL RESPONSES: 3
+CALENDAR: days\halfday.json
+USER: personas\ex_positive.json
+PROMPT: prompts\few_basic.txt
+============================================================
+
+--- RESPONSE 1 ---
+{
+  "quests": [
+    {
+      "title": "Report Writing Focus",
+      "description": "Concentrate on writing your weekly report with minimal distractions.",
+      "start_time": "08:00",
+      "end_time": "09:30",
+      "stat_rewards": {"str": 0, "int": 2, "res": 0},
+      "success_criteria": 60,
+      "measure": "minutes",
+      "instructions": "Dedicate at least 60 minutes to writing, focusing on the task at hand without diversions."
+    },
+    {
+      "title": "Errand Steps Challenge",
+      "description": "Complete your errands while achieving a step goal.",
+      "start_time": "10:00",
+      "end_time": "11:00",
+      "stat_rewards": {"str": 1, "int": 0, "res": 0},
+      "success_criteria": 3000,
+      "measure": "steps",
+      "instructions": "Track your steps with your smartwatch and aim to achieve at least 3000 steps during your errands."
+    },
+    {
+      "title": "Gym Cardio Boost",
+      "description": "Enhance your cardio session by maintaining an elevated heart rate.",
+      "start_time": "11:30",
+      "end_time": "12:30",
+      "stat_rewards": {"str": 2, "int": 0, "res": 0},
+      "success_criteria": 45,
+      "measure": "minutes",
+      "instructions": "Keep your heart rate in the cardio zone for at least 45 minutes during your gym workout."
+    }
+  ]
+}
+----------------------------------------
+
+--- RESPONSE 2 ---
+{
+  "quests": [
+    {
+      "title": "Morning Writing Focus",
+      "description": "Concentrate on your weekly report writing task",
+      "start_time": "08:00",
+      "end_time": "09:30",
+      "stat_rewards": {"str": 0, "int": 2, "res": 0},
+      "success_criteria": 90,
+      "measure": "minutes",
+      "instructions": "Ensure you are focused and distraction-free during this time to maximize productivity."
+    },
+    {
+      "title": "Cardio Strength Boost",
+      "description": "Stay active during your errands by walking briskly",
+      "start_time": "10:00",
+      "end_time": "11:00",
+      "stat_rewards": {"str": 1, "int": 0, "res": 1},
+      "success_criteria": 4000,
+      "measure": "steps",
+      "instructions": "Use this time to walk quickly between errands to get your heart rate up."
+    },
+    {
+      "title": "Fitness Focus",
+      "description": "Maintain elevated heart rate during your gym workout session",
+      "start_time": "11:30",
+      "end_time": "12:30",
+      "stat_rewards": {"str": 2, "int": 0, "res": 0},
+      "success_criteria": 40,
+      "measure": "minutes in elevated heart rate zone",
+      "instructions": "Focus on cardio exercises such as running or cycling to keep your heart rate elevated."
+    }
+  ]
+}
+----------------------------------------
+
+--- RESPONSE 3 ---
+{
+  "quests": [
+    {
+      "title": "Morning Report Writing",
+      "description": "Focus on writing your weekly report with minimal distractions.",
+      "start_time": "08:00",
+      "end_time": "09:30",
+      "stat_rewards": {"str": 0, "int": 2, "res": 0},
+      "success_criteria": 90,
+      "measure": "minutes"
+    },
+    {
+      "title": "Errands & Cardio Combo",
+      "description": "Complete your errands while ensuring you walk enough to meet your cardio goal.",
+      "start_time": "10:00",
+      "end_time": "11:00",
+      "stat_rewards": {"str": 1, "int": 0, "res": 1},
+      "success_criteria": 4000,
+      "measure": "steps"
+    },
+    {
+      "title": "Strength in the Gym",
+      "description": "Focus on a balanced gym workout, maintaining elevated heart rate to boost your strength.",
+      "start_time": "11:30",
+      "end_time": "12:30",
+      "stat_rewards": {"str": 2, "int": 0, "res": 0},
+      "success_criteria": 45,
+      "measure": "minutes"
+    }
+  ]
+}
+----------------------------------------
+

@@ -1,0 +1,111 @@
+MODEL: gpt-4o
+TEMPERATURE: 0.7
+TOTAL RESPONSES: 3
+CALENDAR: days\weekend.json
+USER: personas\me_positive.json
+PROMPT: prompts\zer_basic.txt
+============================================================
+
+--- RESPONSE 1 ---
+{
+  "quests": [
+    {
+      "title": "Morning Hike Challenge",
+      "description": "Complete your hike on Maple Trail and achieve at least 10,000 steps.",
+      "start_time": "08:30",
+      "end_time": "10:30",
+      "stat_rewards": {"str": 3, "int": 0, "res": 2},
+      "success_criteria": 10000,
+      "measure": "steps"
+    },
+    {
+      "title": "Afternoon Japanese Study",
+      "description": "Continue your Japanese study by dedicating 45 minutes to learning new vocabulary and practicing reading.",
+      "start_time": "15:00",
+      "end_time": "16:30",
+      "stat_rewards": {"str": 0, "int": 3, "res": 1},
+      "success_criteria": 45,
+      "measure": "minutes"
+    },
+    {
+      "title": "Evening Relaxation Movie",
+      "description": "Enjoy a movie night with a lowered resting heart rate during the movie to promote relaxation.",
+      "start_time": "19:00",
+      "end_time": "21:30",
+      "stat_rewards": {"str": 0, "int": 1, "res": 2},
+      "success_criteria": 75,
+      "measure": "average heart rate bpm"
+    }
+  ]
+}
+----------------------------------------
+
+--- RESPONSE 2 ---
+{
+  "quests": [
+    {
+      "title": "Morning Hike Challenge",
+      "description": "Complete the hike at Maple Trail by walking a total of 8,000 steps.",
+      "start_time": "08:30",
+      "end_time": "10:30",
+      "stat_rewards": {"str": 3, "int": 0, "res": 2},
+      "success_criteria": 8000,
+      "measure": "steps"
+    },
+    {
+      "title": "Study Japanese",
+      "description": "Dedicate focused time to studying Japanese for an hour.",
+      "start_time": "15:00",
+      "end_time": "16:30",
+      "stat_rewards": {"str": 0, "int": 2, "res": 1},
+      "success_criteria": 60,
+      "measure": "minutes"
+    },
+    {
+      "title": "Productive Browsing and Learning",
+      "description": "Spend at least 45 minutes researching trading strategies online.",
+      "start_time": "17:00",
+      "end_time": "18:00",
+      "stat_rewards": {"str": 0, "int": 3, "res": 0},
+      "success_criteria": 45,
+      "measure": "minutes"
+    }
+  ]
+}
+----------------------------------------
+
+--- RESPONSE 3 ---
+
+{
+  "quests": [
+    {
+      "title": "Morning Hike Challenge",
+      "description": "Complete a brisk hike at Maple Trail to boost your fitness",
+      "start_time": "08:30",
+      "end_time": "10:30",
+      "stat_rewards": {"str": 3, "int": 0, "res": 2},
+      "success_criteria": 10000,
+      "measure": "steps"
+    },
+    {
+      "title": "Japanese Study Sprint",
+      "description": "Dedicate uninterrupted time to studying Japanese using language apps or materials",
+      "start_time": "15:00",
+      "end_time": "16:30",
+      "stat_rewards": {"str": 0, "int": 3, "res": 1},
+      "success_criteria": 60,
+      "measure": "minutes"
+    },
+    {
+      "title": "Evening Relaxation Walk",
+      "description": "Take a relaxing walk around your neighborhood to unwind from the day",
+      "start_time": "21:30",
+      "end_time": "22:00",
+      "stat_rewards": {"str": 1, "int": 0, "res": 2},
+      "success_criteria": 2000,
+      "measure": "steps"
+    }
+  ]
+}
+----------------------------------------
+

@@ -1,0 +1,110 @@
+MODEL: gpt-4o
+TEMPERATURE: 0.7
+TOTAL RESPONSES: 3
+CALENDAR: days\weekend.json
+USER: personas\ex_positive.json
+PROMPT: prompts\zer_basic.txt
+============================================================
+
+--- RESPONSE 1 ---
+{
+  "quests": [
+    {
+      "title": "Morning Cardio Boost",
+      "description": "Complete a morning hike, focusing on maintaining a heart rate in the cardio zone.",
+      "start_time": "08:30",
+      "end_time": "10:30",
+      "stat_rewards": {"str": 2, "int": 0, "res": 3},
+      "success_criteria": 60,
+      "measure": "active minutes in cardio zone"
+    },
+    {
+      "title": "Mindful Browsing",
+      "description": "Spend focused time browsing topics of interest, minimizing distractions.",
+      "start_time": "11:00",
+      "end_time": "12:00",
+      "stat_rewards": {"str": 0, "int": 2, "res": 1},
+      "success_criteria": 30,
+      "measure": "productive browsing minutes"
+    },
+    {
+      "title": "Evening Step Challenge",
+      "description": "Accumulate additional steps throughout the day, aiming to surpass your typical daily steps.",
+      "start_time": "19:00",
+      "end_time": "21:30",
+      "stat_rewards": {"str": 1, "int": 0, "res": 2},
+      "success_criteria": 7000,
+      "measure": "steps"
+    }
+  ]
+}
+----------------------------------------
+
+--- RESPONSE 2 ---
+{
+  "quests": [
+    {
+      "title": "Morning Cardio Boost",
+      "description": "Complete a brisk hike during your Morning Hike event",
+      "start_time": "08:30",
+      "end_time": "10:30",
+      "stat_rewards": {"str": 2, "int": 0, "res": 3},
+      "success_criteria": 10000,
+      "measure": "steps"
+    },
+    {
+      "title": "Focused Reading",
+      "description": "Read your novel for 90 uninterrupted minutes",
+      "start_time": "15:00",
+      "end_time": "16:30",
+      "stat_rewards": {"str": 0, "int": 2, "res": 2},
+      "success_criteria": 90,
+      "measure": "minutes"
+    },
+    {
+      "title": "Evening Programming Challenge",
+      "description": "Spend quality time coding or working on a programming project",
+      "start_time": "17:00",
+      "end_time": "19:00",
+      "stat_rewards": {"str": 0, "int": 3, "res": 1},
+      "success_criteria": 60,
+      "measure": "minutes"
+    }
+  ]
+}
+----------------------------------------
+
+--- RESPONSE 3 ---
+{
+  "quests": [
+    {
+      "title": "Conquer the Maple Trail",
+      "description": "Complete a morning hike on the Maple Trail by walking 7000 steps.",
+      "start_time": "08:30",
+      "end_time": "10:30",
+      "stat_rewards": {"str": 3, "int": 0, "res": 2},
+      "success_criteria": 7000,
+      "measure": "steps"
+    },
+    {
+      "title": "Focus and Code",
+      "description": "Spend 90 minutes coding to enhance your programming skills.",
+      "start_time": "16:30",
+      "end_time": "18:00",
+      "stat_rewards": {"str": 0, "int": 4, "res": 1},
+      "success_criteria": 90,
+      "measure": "minutes"
+    },
+    {
+      "title": "Evening Cardio Boost",
+      "description": "Achieve 40 active minutes during your movie night by incorporating light exercises.",
+      "start_time": "19:00",
+      "end_time": "21:30",
+      "stat_rewards": {"str": 2, "int": 0, "res": 3},
+      "success_criteria": 40,
+      "measure": "active minutes"
+    }
+  ]
+}
+----------------------------------------
+

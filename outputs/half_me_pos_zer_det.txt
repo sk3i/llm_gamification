@@ -1,0 +1,83 @@
+MODEL: gpt-4o
+TEMPERATURE: 0.7
+TOTAL RESPONSES: 3
+CALENDAR: days\halfday.json
+USER: personas\me_positive.json
+PROMPT: prompts\zer_detailed.txt
+============================================================
+
+--- RESPONSE 1 ---
+
+{
+  "quests": [
+    {
+      "title": "Morning Walk",
+      "description": "Start your day with a brisk walk to boost your energy levels. Aim to walk 3,000 steps before breakfast.",
+      "start_time": "06:30",
+      "end_time": "07:30",
+      "stat_rewards": {"str": 1, "int": 0, "res": 0},
+      "success_criteria": 3000,
+      "measure": "steps"
+    },
+    {
+      "title": "Focused Report Writing",
+      "description": "Spend focused time writing your weekly report. Ensure at least 60 minutes of active writing.",
+      "start_time": "08:00",
+      "end_time": "09:30",
+      "stat_rewards": {"str": 0, "int": 1, "res": 0},
+      "success_criteria": 60,
+      "measure": "minutes"
+    },
+    {
+      "title": "Japanese Language Practice",
+      "description": "Dedicate time to study Japanese. Focus on vocabulary and grammar for at least 30 minutes.",
+      "start_time": "17:00",
+      "end_time": "17:45",
+      "stat_rewards": {"str": 0, "int": 1, "res": 1},
+      "success_criteria": 30,
+      "measure": "minutes"
+    }
+  ]
+}
+----------------------------------------
+
+--- RESPONSE 2 ---
+
+{"quests": [{"title": "Morning Walk Boost", "description": "Take a brisk walk to increase your step count and enjoy some fresh air before starting your errands.", "start_time": "09:15", "end_time": "09:45", "stat_rewards": {"str": 1, "int": 0, "res": 0}, "success_criteria": 2500, "measure": "steps"}, {"title": "Focused Report Writing", "description": "Complete your weekly report without distractions.", "start_time": "08:00", "end_time": "09:15", "stat_rewards": {"str": 0, "int": 2, "res": 0}, "success_criteria": 60, "measure": "minutes"}, {"title": "Japanese Language Practice", "description": "Dedicate time to study Japanese vocabulary and grammar.", "start_time": "16:15", "end_time": "17:00", "stat_rewards": {"str": 0, "int": 1, "res": 1}, "success_criteria": 45, "measure": "minutes"}]}
+----------------------------------------
+
+--- RESPONSE 3 ---
+
+{
+  "quests": [
+    {
+      "title": "Morning Steps Boost",
+      "description": "Walk 2,000 steps before starting your errands.",
+      "start_time": "09:45",
+      "end_time": "10:00",
+      "stat_rewards": {"str": 1, "int": 0, "res": 0},
+      "success_criteria": 2000,
+      "measure": "steps"
+    },
+    {
+      "title": "Focused Trading Study",
+      "description": "Engage in a focused trading study session. Analyze charts and trading patterns for at least 45 minutes.",
+      "start_time": "16:15",
+      "end_time": "17:15",
+      "stat_rewards": {"str": 0, "int": 1, "res": 0},
+      "success_criteria": 45,
+      "measure": "minutes"
+    },
+    {
+      "title": "Evening Japanese Mastery",
+      "description": "Dedicate 30 minutes to studying Japanese, focusing on vocabulary expansion.",
+      "start_time": "17:30",
+      "end_time": "18:00",
+      "stat_rewards": {"str": 0, "int": 1, "res": 1},
+      "success_criteria": 30,
+      "measure": "minutes"
+    }
+  ]
+}
+----------------------------------------
+

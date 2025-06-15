@@ -1,0 +1,110 @@
+MODEL: gpt-4o
+TEMPERATURE: 0.7
+TOTAL RESPONSES: 3
+CALENDAR: days\halfday.json
+USER: personas\ex_negative.json
+PROMPT: prompts\one_detailed.txt
+============================================================
+
+--- RESPONSE 1 ---
+{
+  "quests": [
+    {
+      "title": "Pre-Errands Cardio Boost",
+      "description": "Get your heart rate up with a quick cardio session before running errands.",
+      "start_time": "09:30",
+      "end_time": "09:45",
+      "stat_rewards": {"str": 1, "int": 0, "res": 0},
+      "success_criteria": 100,
+      "measure": "calories"
+    },
+    {
+      "title": "Afternoon Programming Challenge",
+      "description": "Spend focused time on programming tasks to improve your coding skills.",
+      "start_time": "16:15",
+      "end_time": "17:15",
+      "stat_rewards": {"str": 0, "int": 1, "res": 1},
+      "success_criteria": 60,
+      "measure": "minutes"
+    },
+    {
+      "title": "Evening Wind Down Walk",
+      "description": "Relax and clear your mind with a calming walk after a busy day.",
+      "start_time": "18:00",
+      "end_time": "18:45",
+      "stat_rewards": {"str": 0, "int": 0, "res": 1},
+      "success_criteria": 3000,
+      "measure": "steps"
+    }
+  ]
+}
+----------------------------------------
+
+--- RESPONSE 2 ---
+{
+  "quests": [
+    {
+      "title": "Morning Cardio Push",
+      "description": "Start your day with a brisk walk to meet your cardio goal before errands.",
+      "start_time": "09:30",
+      "end_time": "09:45",
+      "stat_rewards": {"str": 1, "int": 0, "res": 0},
+      "success_criteria": 1500,
+      "measure": "steps"
+    },
+    {
+      "title": "Programming Power Hour",
+      "description": "Focus exclusively on programming tasks to enhance your skills.",
+      "start_time": "16:15",
+      "end_time": "17:15",
+      "stat_rewards": {"str": 0, "int": 1, "res": 1},
+      "success_criteria": 60,
+      "measure": "minutes"
+    },
+    {
+      "title": "Evening Relaxation Routine",
+      "description": "Spend some time on winding down with a relaxing activity, such as meditation or reading, to boost resilience.",
+      "start_time": "17:30",
+      "end_time": "18:00",
+      "stat_rewards": {"str": 0, "int": 0, "res": 2},
+      "success_criteria": 30,
+      "measure": "minutes"
+    }
+  ]
+}
+----------------------------------------
+
+--- RESPONSE 3 ---
+{
+  "quests": [
+    {
+      "title": "Pre-Evening Cardio Boost",
+      "description": "Complete a light cardio session before your evening break.",
+      "start_time": "16:15",
+      "end_time": "16:45",
+      "stat_rewards": {"str": 1, "int": 0, "res": 0},
+      "success_criteria": 2500,
+      "measure": "steps"
+    },
+    {
+      "title": "Focused Programming Block",
+      "description": "Work on your programming tasks to enhance your skills.",
+      "start_time": "09:45",
+      "end_time": "10:45",
+      "stat_rewards": {"str": 0, "int": 1, "res": 0},
+      "success_criteria": 30,
+      "measure": "minutes"
+    },
+    {
+      "title": "Evening Reflection Session",
+      "description": "Spend time reflecting on your day and planning for tomorrow.",
+      "start_time": "16:45",
+      "end_time": "17:15",
+      "stat_rewards": {"str": 0, "int": 0, "res": 1},
+      "success_criteria": 20,
+      "measure": "minutes"
+    }
+  ]
+}
+----------------------------------------
+

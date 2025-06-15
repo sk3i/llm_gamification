@@ -1,0 +1,106 @@
+MODEL: gpt-4o
+TEMPERATURE: 0.7
+TOTAL RESPONSES: 3
+CALENDAR: days\halfday.json
+USER: personas\ex_positive.json
+PROMPT: prompts\one_basic.txt
+============================================================
+
+--- RESPONSE 1 ---
+{"quests": [
+    {
+      "title": "Morning Cardio Boost",
+      "description": "Start your day with an energizing workout to improve your cardio fitness.",
+      "start_time": "06:30",
+      "end_time": "07:15",
+      "stat_rewards": {"str": 1, "int": 0, "res": 1},
+      "success_criteria": 4000,
+      "measure": "steps"
+    },
+    {
+      "title": "Focused Report Writing",
+      "description": "Dedicate time to complete your weekly report with full concentration.",
+      "start_time": "08:00",
+      "end_time": "09:30",
+      "stat_rewards": {"str": 0, "int": 3, "res": 0},
+      "success_criteria": 90,
+      "measure": "minutes"
+    },
+    {
+      "title": "Afternoon Programming Practice",
+      "description": "Spend time enhancing your programming skills post-nap.",
+      "start_time": "16:30",
+      "end_time": "18:00",
+      "stat_rewards": {"str": 0, "int": 2, "res": 1},
+      "success_criteria": 60,
+      "measure": "minutes"
+    }
+  ]
+}
+----------------------------------------
+
+--- RESPONSE 2 ---
+{"quests": [  
+  {  
+    "title": "Morning Cardio Burst",  
+    "description": "Jumpstart your day with a quick cardio session before writing your weekly report.",  
+    "start_time": "07:00",  
+    "end_time": "07:45",  
+    "stat_rewards": {"str": 1, "int": 0, "res": 0},  
+    "success_criteria": 3000,  
+    "measure": "steps"  
+  },  
+  {  
+    "title": "Focused Report Writing",  
+    "description": "Utilize your morning energy to complete your weekly report efficiently.",  
+    "start_time": "08:00",  
+    "end_time": "09:30",  
+    "stat_rewards": {"str": 0, "int": 2, "res": 0},  
+    "success_criteria": 90,  
+    "measure": "minutes"  
+  },  
+  {  
+    "title": "Stamina Boost at the Gym",  
+    "description": "Increase your stamina with a strong workout session.",  
+    "start_time": "11:30",  
+    "end_time": "12:30",  
+    "stat_rewards": {"str": 2, "int": 0, "res": 1},  
+    "success_criteria": 300,  
+    "measure": "active minutes"  
+  }  
+]}
+----------------------------------------
+
+--- RESPONSE 3 ---
+{"quests": [  
+    {
+      "title": "Morning Cardio Boost",
+      "description": "Jumpstart your day with a quick cardio session before the weekly report writing.",
+      "start_time": "07:00",
+      "end_time": "07:45",
+      "stat_rewards": {"str": 1, "int": 0, "res": 0},
+      "success_criteria": 3000,
+      "measure": "steps"
+    },
+    {
+      "title": "Focused Programming Hour",
+      "description": "Dedicate time to coding or learning new programming skills at home.",
+      "start_time": "16:30",
+      "end_time": "17:30",
+      "stat_rewards": {"str": 0, "int": 2, "res": 0},
+      "success_criteria": 60,
+      "measure": "minutes"
+    },
+    {
+      "title": "Evening Wind Down",
+      "description": "Relax and reflect on the day with a short walk or light stretching.",
+      "start_time": "18:00",
+      "end_time": "18:30",
+      "stat_rewards": {"str": 0, "int": 0, "res": 1},
+      "success_criteria": 1500,
+      "measure": "steps"
+    }
+  ]
+}
+----------------------------------------
+

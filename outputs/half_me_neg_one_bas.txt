@@ -1,0 +1,109 @@
+MODEL: gpt-4o
+TEMPERATURE: 0.7
+TOTAL RESPONSES: 3
+CALENDAR: days\halfday.json
+USER: personas\me_negative.json
+PROMPT: prompts\one_basic.txt
+============================================================
+
+--- RESPONSE 1 ---
+{"quests": [
+    {
+      "title": "Morning Fitness Burst",
+      "description": "Kickstart your day with an energizing walk before errands",
+      "start_time": "09:00",
+      "end_time": "10:00",
+      "stat_rewards": {"str": 1, "int": 0, "res": 0},
+      "success_criteria": 4000,
+      "measure": "steps"
+    },
+    {
+      "title": "Cognitive Flexibility Training",
+      "description": "Engage in a trading analysis session to sharpen your mind",
+      "start_time": "16:30",
+      "end_time": "17:15",
+      "stat_rewards": {"str": 0, "int": 2, "res": 1},
+      "success_criteria": 45,
+      "measure": "minutes"
+    },
+    {
+      "title": "Japanese Language Mastery",
+      "description": "Dedicate time to study Japanese and enhance your language skills",
+      "start_time": "17:30",
+      "end_time": "18:00",
+      "stat_rewards": {"str": 0, "int": 1, "res": 1},
+      "success_criteria": 30,
+      "measure": "minutes"
+    }
+  ]
+}
+----------------------------------------
+
+--- RESPONSE 2 ---
+{
+  "quests": [
+    {
+      "title": "Morning Cardio Kickstart",
+      "description": "Boost your energy with a quick cardio session before starting your day.",
+      "start_time": "07:00",
+      "end_time": "07:45",
+      "stat_rewards": {"str": 1, "int": 0, "res": 0},
+      "success_criteria": 3000,
+      "measure": "steps"
+    },
+    {
+      "title": "Japanese Study Break",
+      "description": "Utilize your break time for focused Japanese study to improve your language skills.",
+      "start_time": "10:00",
+      "end_time": "11:00",
+      "stat_rewards": {"str": 0, "int": 2, "res": 0},
+      "success_criteria": 45,
+      "measure": "minutes"
+    },
+    {
+      "title": "Evening Trading Reflection",
+      "description": "Reflect and plan your trading strategies for the upcoming week.",
+      "start_time": "16:30",
+      "end_time": "17:15",
+      "stat_rewards": {"str": 0, "int": 1, "res": 1},
+      "success_criteria": 30,
+      "measure": "minutes"
+    }
+  ]
+}
+----------------------------------------
+
+--- RESPONSE 3 ---
+{
+  "quests": [
+    {
+      "title": "Morning Fitness Routine",
+      "description": "Start your day with a morning workout to boost your energy levels for the day ahead.",
+      "start_time": "07:00",
+      "end_time": "07:45",
+      "stat_rewards": {"str": 2, "int": 0, "res": 0},
+      "success_criteria": 100,
+      "measure": "active minutes"
+    },
+    {
+      "title": "Japanese Language Study",
+      "description": "Enhance your language skills by dedicating time to study Japanese.",
+      "start_time": "17:00",
+      "end_time": "17:30",
+      "stat_rewards": {"str": 0, "int": 1, "res": 1},
+      "success_criteria": 30,
+      "measure": "minutes"
+    },
+    {
+      "title": "Evening Trading Analysis",
+      "description": "Review and analyze trading charts to improve your trading skills.",
+      "start_time": "18:00",
+      "end_time": "18:45",
+      "stat_rewards": {"str": 0, "int": 2, "res": 0},
+      "success_criteria": 45,
+      "measure": "minutes"
+    }
+  ]
+}
+----------------------------------------
+

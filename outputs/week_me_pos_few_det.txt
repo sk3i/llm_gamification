@@ -1,0 +1,110 @@
+MODEL: gpt-4o
+TEMPERATURE: 0.7
+TOTAL RESPONSES: 3
+CALENDAR: days\weekend.json
+USER: personas\me_positive.json
+PROMPT: prompts\few_detailed.txt
+============================================================
+
+--- RESPONSE 1 ---
+{
+  "quests": [
+    {
+      "title": "Post-Hike Stretch",
+      "description": "Perform a stretching routine to cool down after your morning hike.",
+      "start_time": "10:45",
+      "end_time": "11:00",
+      "stat_rewards": {"str": 1, "int": 0, "res": 0},
+      "success_criteria": 15,
+      "measure": "minutes"
+    },
+    {
+      "title": "Japanese Vocabulary Builder",
+      "description": "Study Japanese vocabulary using your preferred method.",
+      "start_time": "16:45",
+      "end_time": "17:30",
+      "stat_rewards": {"str": 0, "int": 2, "res": 0},
+      "success_criteria": 45,
+      "measure": "minutes"
+    },
+    {
+      "title": "Evening Trading Review",
+      "description": "Spend time reviewing your trading strategies and insights.",
+      "start_time": "17:45",
+      "end_time": "18:45",
+      "stat_rewards": {"str": 0, "int": 1, "res": 1},
+      "success_criteria": 60,
+      "measure": "minutes"
+    }
+  ]
+}
+----------------------------------------
+
+--- RESPONSE 2 ---
+{
+  "quests": [
+    {
+      "title": "Post-Hike Recovery Walk",
+      "description": "After your morning hike, take a leisurely walk to help with recovery and enjoy the scenery.",
+      "start_time": "10:45",
+      "end_time": "11:00",
+      "stat_rewards": {"str": 1, "int": 0, "res": 0},
+      "success_criteria": 1000,
+      "measure": "steps"
+    },
+    {
+      "title": "Japanese Learning Burst",
+      "description": "Dedicate time to studying Japanese before your afternoon activities.",
+      "start_time": "14:45",
+      "end_time": "15:00",
+      "stat_rewards": {"str": 0, "int": 1, "res": 0},
+      "success_criteria": 15,
+      "measure": "minutes"
+    },
+    {
+      "title": "Evening Market Research",
+      "description": "Spend time learning about trading strategies or market trends.",
+      "start_time": "16:45",
+      "end_time": "18:45",
+      "stat_rewards": {"str": 0, "int": 1, "res": 1},
+      "success_criteria": 90,
+      "measure": "minutes"
+    }
+  ]
+}
+----------------------------------------
+
+--- RESPONSE 3 ---
+{
+  "quests": [
+    {
+      "title": "Morning Muscle Maintenance",
+      "description": "Engage in a pre-hike warm-up and post-hike cool-down.",
+      "start_time": "07:45",
+      "end_time": "08:15",
+      "stat_rewards": {"str": 1, "int": 0, "res": 0},
+      "success_criteria": 20,
+      "measure": "active minutes"
+    },
+    {
+      "title": "Market Stroll Steps",
+      "description": "Walk around the Farmer's Market to accumulate steps.",
+      "start_time": "11:00",
+      "end_time": "12:00",
+      "stat_rewards": {"str": 1, "int": 0, "res": 0},
+      "success_criteria": 3000,
+      "measure": "steps"
+    },
+    {
+      "title": "Japanese Language Immersion",
+      "description": "Practice Japanese through reading or listening during your free time.",
+      "start_time": "16:45",
+      "end_time": "18:30",
+      "stat_rewards": {"str": 0, "int": 1, "res": 1},
+      "success_criteria": 60,
+      "measure": "minutes"
+    }
+  ]
+}
+----------------------------------------
+

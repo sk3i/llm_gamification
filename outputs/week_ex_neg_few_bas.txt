@@ -1,0 +1,115 @@
+MODEL: gpt-4o
+TEMPERATURE: 0.7
+TOTAL RESPONSES: 3
+CALENDAR: days\weekend.json
+USER: personas\ex_negative.json
+PROMPT: prompts\few_basic.txt
+============================================================
+
+--- RESPONSE 1 ---
+{
+  "quests": [
+    {
+      "title": "Trailblazer Challenge",
+      "description": "Complete your morning hike with a step count goal to boost your cardio health.",
+      "start_time": "08:30",
+      "end_time": "10:30",
+      "stat_rewards": {"str": 1, "int": 0, "res": 1},
+      "success_criteria": 7000,
+      "measure": "steps",
+      "instructions": "Use your smartwatch to track your steps during the hike on Maple Trail."
+    },
+    {
+      "title": "Market Mindfulness",
+      "description": "Stay present and enjoy the experience at the Farmer's Market by walking actively.",
+      "start_time": "11:00",
+      "end_time": "12:00",
+      "stat_rewards": {"str": 0, "int": 1, "res": 0},
+      "success_criteria": 2000,
+      "measure": "steps",
+      "instructions": "Engage in brisk walking while browsing the market."
+    },
+    {
+      "title": "Focused Reading",
+      "description": "Immerse yourself in a novel to enhance your concentration and relaxation skills.",
+      "start_time": "15:00",
+      "end_time": "16:30",
+      "stat_rewards": {"str": 0, "int": 2, "res": 0},
+      "success_criteria": 90,
+      "measure": "minutes",
+      "instructions": "Track your reading time and avoid distractions to reach the goal."
+    }
+  ]
+}
+----------------------------------------
+
+--- RESPONSE 2 ---
+{
+  "quests": [
+    {
+      "title": "Trailblazer Trek",
+      "description": "Boost your cardio by maintaining a brisk pace during your morning hike.",
+      "start_time": "08:30",
+      "end_time": "10:30",
+      "stat_rewards": {"str": 2, "int": 0, "res": 1},
+      "success_criteria": 8000,
+      "measure": "steps"
+    },
+    {
+      "title": "Market Explorer",
+      "description": "Engage in a mindful exploration of the Farmer's Market, focusing on fresh produce.",
+      "start_time": "11:00",
+      "end_time": "12:00",
+      "stat_rewards": {"str": 0, "int": 1, "res": 1},
+      "success_criteria": 3000,
+      "measure": "steps"
+    },
+    {
+      "title": "Reading Retreat",
+      "description": "Dedicate time to reading your novel and immerse yourself in the story.",
+      "start_time": "15:00",
+      "end_time": "16:30",
+      "stat_rewards": {"str": 0, "int": 2, "res": 0},
+      "success_criteria": 60,
+      "measure": "minutes"
+    }
+  ]
+}
+----------------------------------------
+
+--- RESPONSE 3 ---
+{"quests": [  
+    {  
+      "title": "Trailblazer Challenge",  
+      "description": "Push your limits on the Morning Hike by maintaining an active pace.",  
+      "start_time": "08:30",  
+      "end_time": "10:30",  
+      "stat_rewards": {"str": 2, "int": 0, "res": 1},  
+      "success_criteria": 10000,  
+      "measure": "steps",  
+      "instructions": "Make sure to sync your smartwatch data before and after the hike to accurately track your steps."  
+    },  
+    {  
+      "title": "Farmer's Market Stroll",  
+      "description": "Enjoy a leisurely walk through the market while increasing your active minutes.",  
+      "start_time": "11:00",  
+      "end_time": "12:00",  
+      "stat_rewards": {"str": 1, "int": 0, "res": 0},  
+      "success_criteria": 30,  
+      "measure": "active minutes",  
+      "instructions": "Take your time exploring the market and aim to keep moving to accumulate active minutes."  
+    },  
+    {  
+      "title": "Afternoon Knowledge Quest",  
+      "description": "Engage your intellect by reading and reflecting on your novel.",  
+      "start_time": "15:00",  
+      "end_time": "16:30",  
+      "stat_rewards": {"str": 0, "int": 2, "res": 0},  
+      "success_criteria": 90,  
+      "measure": "minutes",  
+      "instructions": "Set up a cozy reading spot and dive into your novel, ensuring minimal distractions to maximize focus."  
+    }  
+  ]  
+}
+----------------------------------------
+

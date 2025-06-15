@@ -1,0 +1,109 @@
+MODEL: gpt-4o
+TEMPERATURE: 0.7
+TOTAL RESPONSES: 3
+CALENDAR: days\halfday.json
+USER: personas\ex_positive.json
+PROMPT: prompts\few_detailed.txt
+============================================================
+
+--- RESPONSE 1 ---
+{
+  "quests": [
+    {
+      "title": "Morning Flex",
+      "description": "Start your day with a light stretching routine to prepare for the busy day ahead.",
+      "start_time": "09:30",
+      "end_time": "09:45",
+      "stat_rewards": {"str": 1, "int": 0, "res": 0},
+      "success_criteria": 15,
+      "measure": "active_minutes"
+    },
+    {
+      "title": "Cardio Boost",
+      "description": "Focus on maintaining an elevated heart rate during your gym workout session.",
+      "start_time": "11:30",
+      "end_time": "12:30",
+      "stat_rewards": {"str": 2, "int": 0, "res": 0},
+      "success_criteria": 40,
+      "measure": "active_minutes"
+    },
+    {
+      "title": "Code Mastery",
+      "description": "Dedicate time to programming by working on a project or learning something new.",
+      "start_time": "16:15",
+      "end_time": "17:45",
+      "stat_rewards": {"str": 0, "int": 2, "res": 0},
+      "success_criteria": 90,
+      "measure": "minutes"
+    }
+  ]
+}
+----------------------------------------
+
+--- RESPONSE 2 ---
+{
+  "quests": [
+    {
+      "title": "Morning Programming Focus",
+      "description": "Dedicate time to programming tasks before starting your day.",
+      "start_time": "06:30",
+      "end_time": "07:45",
+      "stat_rewards": {"str": 0, "int": 1, "res": 0},
+      "success_criteria": 60,
+      "measure": "minutes"
+    },
+    {
+      "title": "Errands Energy Walk",
+      "description": "Achieve 4000 steps while running your errands.",
+      "start_time": "09:45",
+      "end_time": "11:15",
+      "stat_rewards": {"str": 1, "int": 0, "res": 0},
+      "success_criteria": 4000,
+      "measure": "steps"
+    },
+    {
+      "title": "Midday Cardio Burst",
+      "description": "Keep your heart rate elevated during your gym workout.",
+      "start_time": "11:30",
+      "end_time": "12:30",
+      "stat_rewards": {"str": 1, "int": 0, "res": 0},
+      "success_criteria": 30,
+      "measure": "minutes"
+    }
+  ]
+}
+----------------------------------------
+
+--- RESPONSE 3 ---
+{"quests": [  
+    {  
+      "title": "Morning Cardio Blast",  
+      "description": "Complete a brisk walk before starting your day",  
+      "start_time": "06:30",  
+      "end_time": "07:45",  
+      "stat_rewards": {"str": 1, "int": 0, "res": 0},  
+      "success_criteria": 3000,  
+      "measure": "steps"  
+    },  
+    {  
+      "title": "Programming Power Hour",  
+      "description": "Focus on programming tasks to enhance your skills",  
+      "start_time": "09:45",  
+      "end_time": "10:45",  
+      "stat_rewards": {"str": 0, "int": 2, "res": 0},  
+      "success_criteria": 60,  
+      "measure": "minutes"  
+    },  
+    {  
+      "title": "Evening Wind Down",  
+      "description": "Practice relaxation techniques or plan for the next day",  
+      "start_time": "16:15",  
+      "end_time": "17:00",  
+      "stat_rewards": {"str": 0, "int": 0, "res": 2},  
+      "success_criteria": 30,  
+      "measure": "minutes"  
+    }  
+  ]  
+}
+----------------------------------------
+

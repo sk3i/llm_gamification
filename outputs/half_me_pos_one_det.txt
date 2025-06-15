@@ -1,0 +1,108 @@
+MODEL: gpt-4o
+TEMPERATURE: 0.7
+TOTAL RESPONSES: 3
+CALENDAR: days\halfday.json
+USER: personas\me_positive.json
+PROMPT: prompts\one_detailed.txt
+============================================================
+
+--- RESPONSE 1 ---
+{
+  "quests": [
+    {
+      "title": "Morning Fitness Boost",
+      "description": "Take a brisk walk to start your day with energy.",
+      "start_time": "09:45",
+      "end_time": "10:00",
+      "stat_rewards": {"str": 1, "int": 0, "res": 0},
+      "success_criteria": 1500,
+      "measure": "steps"
+    },
+    {
+      "title": "Midday Japanese Study",
+      "description": "Dedicate time to study Japanese vocabulary after errands.",
+      "start_time": "11:00",
+      "end_time": "11:30",
+      "stat_rewards": {"str": 0, "int": 1, "res": 0},
+      "success_criteria": 30,
+      "measure": "minutes"
+    },
+    {
+      "title": "Evening Trading Analysis",
+      "description": "Analyze trading charts and trends to enhance your skills.",
+      "start_time": "16:15",
+      "end_time": "17:00",
+      "stat_rewards": {"str": 0, "int": 1, "res": 1},
+      "success_criteria": 45,
+      "measure": "minutes"
+    }
+  ]
+}
+----------------------------------------
+
+--- RESPONSE 2 ---
+{
+  "quests": [
+    {
+      "title": "Pre-Errands Power Walk",
+      "description": "Boost your energy with a brisk walk before running errands.",
+      "start_time": "09:30",
+      "end_time": "09:45",
+      "stat_rewards": {"str": 1, "int": 0, "res": 0},
+      "success_criteria": 1500,
+      "measure": "steps"
+    },
+    {
+      "title": "Mindful Japanese Study",
+      "description": "Dedicate time to studying Japanese after your gym workout.",
+      "start_time": "12:45",
+      "end_time": "13:00",
+      "stat_rewards": {"str": 0, "int": 1, "res": 0},
+      "success_criteria": 15,
+      "measure": "minutes"
+    },
+    {
+      "title": "Evening Trading Analysis",
+      "description": "Focus on studying trading charts and analysis.",
+      "start_time": "16:15",
+      "end_time": "16:45",
+      "stat_rewards": {"str": 0, "int": 1, "res": 1},
+      "success_criteria": 30,
+      "measure": "minutes"
+    }
+  ]
+}
+----------------------------------------
+
+--- RESPONSE 3 ---
+{"quests": [  
+    {  
+      "title": "Pre-Gym Warm-up Walk",  
+      "description": "Take a brisk walk before heading to the gym to warm up your body.",  
+      "start_time": "09:45",  
+      "end_time": "10:45",  
+      "stat_rewards": {"str": 1, "int": 0, "res": 0},  
+      "success_criteria": 3000,  
+      "measure": "steps"  
+    },  
+    {  
+      "title": "Japanese Language Study",  
+      "description": "Dedicate some time to studying Japanese grammar and vocabulary.",  
+      "start_time": "16:15",  
+      "end_time": "17:00",  
+      "stat_rewards": {"str": 0, "int": 1, "res": 1},  
+      "success_criteria": 45,  
+      "measure": "minutes"  
+    },  
+    {  
+      "title": "Evening Trading Session",  
+      "description": "Analyze and study trading charts to improve your trading skills.",  
+      "start_time": "17:15",  
+      "end_time": "18:00",  
+      "stat_rewards": {"str": 0, "int": 1, "res": 0},  
+      "success_criteria": 45,  
+      "measure": "minutes"  
+    }  
+]}
+----------------------------------------
+

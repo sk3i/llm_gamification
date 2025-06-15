@@ -1,0 +1,110 @@
+MODEL: gpt-4o
+TEMPERATURE: 0.7
+TOTAL RESPONSES: 3
+CALENDAR: days\weekend.json
+USER: personas\me_negative.json
+PROMPT: prompts\one_basic.txt
+============================================================
+
+--- RESPONSE 1 ---
+{
+  "quests": [
+    {
+      "title": "Morning Trail Adventure",
+      "description": "Boost your fitness by taking an invigorating hike during the morning.",
+      "start_time": "08:30",
+      "end_time": "10:30",
+      "stat_rewards": {"str": 2, "int": 0, "res": 1},
+      "success_criteria": 8000,
+      "measure": "steps"
+    },
+    {
+      "title": "Market Mindfulness",
+      "description": "Engage with local traders and practice Japanese greetings at the Farmer's Market.",
+      "start_time": "11:00",
+      "end_time": "12:00",
+      "stat_rewards": {"str": 0, "int": 1, "res": 2},
+      "success_criteria": 3,
+      "measure": "interactions"
+    },
+    {
+      "title": "Evening Study Session",
+      "description": "Dedicate time to study Japanese in the comfort of your backyard.",
+      "start_time": "15:00",
+      "end_time": "16:30",
+      "stat_rewards": {"str": 0, "int": 2, "res": 0},
+      "success_criteria": 60,
+      "measure": "minutes"
+    }
+  ]
+}
+----------------------------------------
+
+--- RESPONSE 2 ---
+{
+  "quests": [
+    {
+      "title": "Maple Trail Power Hike",
+      "description": "Boost your fitness by completing a challenging hike on the Maple Trail.",
+      "start_time": "08:30",
+      "end_time": "10:30",
+      "stat_rewards": {"str": 2, "int": 0, "res": 1},
+      "success_criteria": 7000,
+      "measure": "steps"
+    },
+    {
+      "title": "Japanese Study Session",
+      "description": "Dedicate focused time to studying Japanese and improve your language skills.",
+      "start_time": "16:45",
+      "end_time": "17:45",
+      "stat_rewards": {"str": 0, "int": 1, "res": 1},
+      "success_criteria": 60,
+      "measure": "minutes"
+    },
+    {
+      "title": "Evening Mindfulness & Reflection",
+      "description": "Reflect on your day and plan for tomorrow while practicing mindfulness.",
+      "start_time": "22:00",
+      "end_time": "22:30",
+      "stat_rewards": {"str": 0, "int": 1, "res": 1},
+      "success_criteria": 25,
+      "measure": "minutes"
+    }
+  ]
+}
+----------------------------------------
+
+--- RESPONSE 3 ---
+{
+  "quests": [
+    {
+      "title": "Morning Hike Challenge",
+      "description": "Enhance your fitness by achieving a higher step count during your hike.",
+      "start_time": "08:30",
+      "end_time": "10:30",
+      "stat_rewards": {"str": 2, "int": 0, "res": 1},
+      "success_criteria": 8000,
+      "measure": "steps"
+    },
+    {
+      "title": "Japanese Study Focus",
+      "description": "Dedicate focused time to enhancing your Japanese skills before lunch.",
+      "start_time": "11:00",
+      "end_time": "12:00",
+      "stat_rewards": {"str": 0, "int": 2, "res": 1},
+      "success_criteria": 45,
+      "measure": "minutes"
+    },
+    {
+      "title": "Evening Chill & Learn",
+      "description": "Combine relaxation with learning by watching a Japanese movie or series.",
+      "start_time": "19:00",
+      "end_time": "21:30",
+      "stat_rewards": {"str": 0, "int": 1, "res": 2},
+      "success_criteria": 60,
+      "measure": "minutes"
+    }
+  ]
+}
+----------------------------------------
+

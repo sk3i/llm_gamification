@@ -1,0 +1,83 @@
+MODEL: gpt-4o
+TEMPERATURE: 0.7
+TOTAL RESPONSES: 3
+CALENDAR: days\weekend.json
+USER: personas\ex_negative.json
+PROMPT: prompts\zer_detailed.txt
+============================================================
+
+--- RESPONSE 1 ---
+
+{"quests": [{"title": "Morning Cardio Boost", "description": "Achieve a minimum of 4000 steps during the morning hike on Maple Trail.", "start_time": "08:30", "end_time": "10:00", "stat_rewards": {"str": 1, "int": 0, "res": 0}, "success_criteria": 4000, "measure": "steps"}, {"title": "Focused Learning", "description": "Spend at least 45 minutes reading your novel in the backyard.", "start_time": "15:15", "end_time": "16:30", "stat_rewards": {"str": 0, "int": 1, "res": 0}, "success_criteria": 45, "measure": "minutes"}, {"title": "Evening Relaxation", "description": "Keep the heart rate below 100 BPM for at least 90 minutes during movie night.", "start_time": "19:15", "end_time": "21:30", "stat_rewards": {"str": 0, "int": 0, "res": 1}, "success_criteria": 90, "measure": "minutes"}]}
+----------------------------------------
+
+--- RESPONSE 2 ---
+
+{
+  "quests": [
+    {
+      "title": "Morning Cardio Boost",
+      "description": "Complete a brisk walk during your morning hike to reach 5000 steps.",
+      "start_time": "08:15",
+      "end_time": "10:45",
+      "stat_rewards": {"str": 1, "int": 0, "res": 0},
+      "success_criteria": 5000,
+      "measure": "steps"
+    },
+    {
+      "title": "Afternoon Focus Session",
+      "description": "Spend 45 minutes reading a novel in your backyard.",
+      "start_time": "14:45",
+      "end_time": "16:45",
+      "stat_rewards": {"str": 0, "int": 1, "res": 0},
+      "success_criteria": 45,
+      "measure": "minutes"
+    },
+    {
+      "title": "Evening Relaxation",
+      "description": "Enjoy a movie night without interruptions, tracking at least 2 hours of movie time.",
+      "start_time": "18:45",
+      "end_time": "21:45",
+      "stat_rewards": {"str": 0, "int": 0, "res": 2},
+      "success_criteria": 120,
+      "measure": "minutes"
+    }
+  ]
+}
+----------------------------------------
+
+--- RESPONSE 3 ---
+
+{
+  "quests": [
+    {
+      "title": "Morning Cardio Challenge",
+      "description": "Complete a brisk morning hike covering at least 4000 steps.",
+      "start_time": "08:15",
+      "end_time": "10:45",
+      "stat_rewards": {"str": 2, "int": 0, "res": 0},
+      "success_criteria": 4000,
+      "measure": "steps"
+    },
+    {
+      "title": "Focused Reading Session",
+      "description": "Spend focused time reading your novel for at least 60 minutes.",
+      "start_time": "14:45",
+      "end_time": "16:45",
+      "stat_rewards": {"str": 0, "int": 2, "res": 0},
+      "success_criteria": 60,
+      "measure": "minutes"
+    },
+    {
+      "title": "Evening Relaxation",
+      "description": "Maintain a resting heart rate below 80 BPM for 30 minutes during movie night.",
+      "start_time": "18:45",
+      "end_time": "21:45",
+      "stat_rewards": {"str": 0, "int": 0, "res": 2},
+      "success_criteria": 30,
+      "measure": "minutes"
+    }
+  ]
+}
+----------------------------------------
+

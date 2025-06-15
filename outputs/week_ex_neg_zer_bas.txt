@@ -1,0 +1,110 @@
+MODEL: gpt-4o
+TEMPERATURE: 0.7
+TOTAL RESPONSES: 3
+CALENDAR: days\weekend.json
+USER: personas\ex_negative.json
+PROMPT: prompts\zer_basic.txt
+============================================================
+
+--- RESPONSE 1 ---
+{
+  "quests": [
+    {
+      "title": "Morning Cardio Boost",
+      "description": "Boost your cardio by staying in the moderate heart rate zone during your morning hike.",
+      "start_time": "08:30",
+      "end_time": "10:30",
+      "stat_rewards": {"str": 3, "int": 0, "res": 5},
+      "success_criteria": 60,
+      "measure": "active minutes"
+    },
+    {
+      "title": "Focused Programming Sprint",
+      "description": "Dedicate time to work on your programming project to make up for the previously unfinished quest.",
+      "start_time": "16:30",
+      "end_time": "18:00",
+      "stat_rewards": {"str": 0, "int": 5, "res": 2},
+      "success_criteria": 60,
+      "measure": "minutes"
+    },
+    {
+      "title": "Evening Step Challenge",
+      "description": "Complete a step challenge by reaching 8000 steps before the end of the day.",
+      "start_time": "19:30",
+      "end_time": "21:30",
+      "stat_rewards": {"str": 4, "int": 0, "res": 3},
+      "success_criteria": 8000,
+      "measure": "steps"
+    }
+  ]
+}
+----------------------------------------
+
+--- RESPONSE 2 ---
+{
+  "quests": [
+    {
+      "title": "Morning Cardio Challenge",
+      "description": "Complete a brisk morning hike on Maple Trail.",
+      "start_time": "08:30",
+      "end_time": "10:30",
+      "stat_rewards": {"str": 3, "int": 0, "res": 5},
+      "success_criteria": 5000,
+      "measure": "steps"
+    },
+    {
+      "title": "Focus on Programming",
+      "description": "Spend dedicated time coding or learning about programming.",
+      "start_time": "16:30",
+      "end_time": "18:00",
+      "stat_rewards": {"str": 0, "int": 4, "res": 2},
+      "success_criteria": 60,
+      "measure": "minutes"
+    },
+    {
+      "title": "Evening Relaxation Walk",
+      "description": "Take a relaxing walk to unwind before movie night.",
+      "start_time": "18:00",
+      "end_time": "19:00",
+      "stat_rewards": {"str": 1, "int": 0, "res": 3},
+      "success_criteria": 3000,
+      "measure": "steps"
+    }
+  ]
+}
+----------------------------------------
+
+--- RESPONSE 3 ---
+{
+  "quests": [
+    {
+      "title": "Morning Hike Challenge",
+      "description": "Complete a hike on the Maple Trail and reach a step count goal",
+      "start_time": "08:30",
+      "end_time": "10:30",
+      "stat_rewards": {"str": 2, "int": 0, "res": 3},
+      "success_criteria": 5000,
+      "measure": "steps"
+    },
+    {
+      "title": "Market Exploration",
+      "description": "Visit the Farmer's Market and achieve a calorie burn goal",
+      "start_time": "11:00",
+      "end_time": "12:00",
+      "stat_rewards": {"str": 1, "int": 0, "res": 2},
+      "success_criteria": 150,
+      "measure": "calories"
+    },
+    {
+      "title": "Afternoon Reading",
+      "description": "Read your novel in the backyard and spend focused time without distractions",
+      "start_time": "15:00",
+      "end_time": "16:30",
+      "stat_rewards": {"str": 0, "int": 3, "res": 1},
+      "success_criteria": 90,
+      "measure": "minutes"
+    }
+  ]
+}
+----------------------------------------
+

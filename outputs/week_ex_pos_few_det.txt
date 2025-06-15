@@ -1,0 +1,110 @@
+MODEL: gpt-4o
+TEMPERATURE: 0.7
+TOTAL RESPONSES: 3
+CALENDAR: days\weekend.json
+USER: personas\ex_positive.json
+PROMPT: prompts\few_detailed.txt
+============================================================
+
+--- RESPONSE 1 ---
+{
+  "quests": [
+    {
+      "title": "Morning Cardio Boost",
+      "description": "Add an extra cardio session to your morning routine before the hike.",
+      "start_time": "07:30",
+      "end_time": "08:15",
+      "stat_rewards": {"str": 1, "int": 0, "res": 0},
+      "success_criteria": 2500,
+      "measure": "steps"
+    },
+    {
+      "title": "Afternoon Coding Challenge",
+      "description": "Dedicate time to solving programming puzzles or coding tasks.",
+      "start_time": "17:00",
+      "end_time": "18:30",
+      "stat_rewards": {"str": 0, "int": 2, "res": 0},
+      "success_criteria": 60,
+      "measure": "minutes"
+    },
+    {
+      "title": "Evening Wind Down",
+      "description": "Engage in a relaxing activity like meditation or journaling before movie night.",
+      "start_time": "18:00",
+      "end_time": "18:45",
+      "stat_rewards": {"str": 0, "int": 0, "res": 2},
+      "success_criteria": 30,
+      "measure": "minutes"
+    }
+  ]
+}
+----------------------------------------
+
+--- RESPONSE 2 ---
+{
+  "quests": [
+    {
+      "title": "Morning Mobility",
+      "description": "Start your day with a short yoga session to enhance flexibility and relax your mind before the hike.",
+      "start_time": "07:45",
+      "end_time": "08:15",
+      "stat_rewards": {"str": 0, "int": 1, "res": 1},
+      "success_criteria": 20,
+      "measure": "minutes"
+    },
+    {
+      "title": "Market Exploration",
+      "description": "Walk around and explore the market, aiming to reach a step goal during your visit.",
+      "start_time": "11:00",
+      "end_time": "12:00",
+      "stat_rewards": {"str": 1, "int": 0, "res": 0},
+      "success_criteria": 3000,
+      "measure": "steps"
+    },
+    {
+      "title": "Coding Adventure",
+      "description": "Dedicate time to programming during the afternoon before your movie night. Focus on problem-solving or learning new concepts.",
+      "start_time": "17:00",
+      "end_time": "18:30",
+      "stat_rewards": {"str": 0, "int": 2, "res": 0},
+      "success_criteria": 60,
+      "measure": "minutes"
+    }
+  ]
+}
+----------------------------------------
+
+--- RESPONSE 3 ---
+{
+  "quests": [
+    {
+      "title": "Afternoon Code Crusade",
+      "description": "Dedicate time to programming or coding practice after your lunch break.",
+      "start_time": "14:45",
+      "end_time": "16:45",
+      "stat_rewards": {"str": 0, "int": 2, "res": 0},
+      "success_criteria": 60,
+      "measure": "minutes"
+    },
+    {
+      "title": "Step Up Your Game",
+      "description": "Achieve a step goal by incorporating movement into your day's activities.",
+      "start_time": "16:45",
+      "end_time": "18:45",
+      "stat_rewards": {"str": 1, "int": 0, "res": 0},
+      "success_criteria": 4000,
+      "measure": "steps"
+    },
+    {
+      "title": "Evening Relaxation",
+      "description": "Engage in a calming activity or meditation before movie night.",
+      "start_time": "18:45",
+      "end_time": "19:00",
+      "stat_rewards": {"str": 0, "int": 0, "res": 1},
+      "success_criteria": 15,
+      "measure": "minutes"
+    }
+  ]
+}
+----------------------------------------
+

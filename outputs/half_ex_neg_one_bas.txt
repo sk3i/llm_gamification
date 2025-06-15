@@ -1,0 +1,109 @@
+MODEL: gpt-4o
+TEMPERATURE: 0.7
+TOTAL RESPONSES: 3
+CALENDAR: days\halfday.json
+USER: personas\ex_negative.json
+PROMPT: prompts\one_basic.txt
+============================================================
+
+--- RESPONSE 1 ---
+{
+  "quests": [
+    {
+      "title": "Morning Cardio Burst",
+      "description": "Start your day with a brisk walk or jog before your report writing session.",
+      "start_time": "07:00",
+      "end_time": "07:45",
+      "stat_rewards": {"str": 2, "int": 0, "res": 0},
+      "success_criteria": 3000,
+      "measure": "steps"
+    },
+    {
+      "title": "Focused Report Writing",
+      "description": "Dedicate time to complete your weekly report with full focus.",
+      "start_time": "08:00",
+      "end_time": "09:30",
+      "stat_rewards": {"str": 0, "int": 3, "res": 1},
+      "success_criteria": 90,
+      "measure": "minutes"
+    },
+    {
+      "title": "Evening Wind Down",
+      "description": "Engage in a restful activity such as meditation or light reading before dinner.",
+      "start_time": "17:00",
+      "end_time": "17:30",
+      "stat_rewards": {"str": 0, "int": 1, "res": 2},
+      "success_criteria": 30,
+      "measure": "minutes"
+    }
+  ]
+}
+----------------------------------------
+
+--- RESPONSE 2 ---
+{
+  "quests": [
+    {
+      "title": "Morning Cardio Kickstart",
+      "description": "Boost your energy with a morning cardio session before starting your errands.",
+      "start_time": "07:00",
+      "end_time": "07:45",
+      "stat_rewards": {"str": 2, "int": 0, "res": 1},
+      "success_criteria": 3000,
+      "measure": "steps"
+    },
+    {
+      "title": "Focused Report Writing",
+      "description": "Dedicate uninterrupted time to complete your weekly report.",
+      "start_time": "08:00",
+      "end_time": "09:30",
+      "stat_rewards": {"str": 0, "int": 3, "res": 0},
+      "success_criteria": 90,
+      "measure": "minutes"
+    },
+    {
+      "title": "Post-Gym Programming",
+      "description": "After your workout, spend some time on a programming project to sharpen your skills.",
+      "start_time": "12:45",
+      "end_time": "13:45",
+      "stat_rewards": {"str": 0, "int": 2, "res": 1},
+      "success_criteria": 60,
+      "measure": "minutes"
+    }
+  ]
+}
+----------------------------------------
+
+--- RESPONSE 3 ---
+{"quests": [
+    {
+      "title": "Morning Report Writing Challenge",
+      "description": "Focus on writing the weekly report with full concentration.",
+      "start_time": "08:00",
+      "end_time": "09:30",
+      "stat_rewards": {"str": 0, "int": 2, "res": 1},
+      "success_criteria": 90,
+      "measure": "minutes"
+    },
+    {
+      "title": "Midday Cardio Boost",
+      "description": "Complete a cardio workout at the gym to meet your fitness goal.",
+      "start_time": "11:30",
+      "end_time": "12:30",
+      "stat_rewards": {"str": 2, "int": 0, "res": 0},
+      "success_criteria": 400,
+      "measure": "calories"
+    },
+    {
+      "title": "Afternoon Relaxation Recharge",
+      "description": "Take a mindful nap or engage in quiet relaxation to recharge.",
+      "start_time": "15:00",
+      "end_time": "16:00",
+      "stat_rewards": {"str": 0, "int": 0, "res": 2},
+      "success_criteria": 30,
+      "measure": "minutes"
+    }
+  ]
+}
+----------------------------------------
+

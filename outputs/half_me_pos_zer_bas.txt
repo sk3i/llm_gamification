@@ -1,0 +1,110 @@
+MODEL: gpt-4o
+TEMPERATURE: 0.7
+TOTAL RESPONSES: 3
+CALENDAR: days\halfday.json
+USER: personas\me_positive.json
+PROMPT: prompts\zer_basic.txt
+============================================================
+
+--- RESPONSE 1 ---
+{
+  "quests": [
+    {
+      "title": "Morning Writing Focus",
+      "description": "Dedicate focused time to writing the weekly report.",
+      "start_time": "08:00",
+      "end_time": "09:30",
+      "stat_rewards": {"str": 0, "int": 5, "res": 2},
+      "success_criteria": 90,
+      "measure": "minutes"
+    },
+    {
+      "title": "Active Errands",
+      "description": "Walk briskly while running errands to reach a step goal.",
+      "start_time": "10:00",
+      "end_time": "11:00",
+      "stat_rewards": {"str": 4, "int": 0, "res": 3},
+      "success_criteria": 4000,
+      "measure": "steps"
+    },
+    {
+      "title": "Intense Gym Session",
+      "description": "Achieve a high-intensity workout at the gym, focusing on strength training.",
+      "start_time": "11:30",
+      "end_time": "12:30",
+      "stat_rewards": {"str": 8, "int": 0, "res": 5},
+      "success_criteria": 35,
+      "measure": "active minutes"
+    }
+  ]
+}
+----------------------------------------
+
+--- RESPONSE 2 ---
+{
+  "quests": [
+    {
+      "title": "Early Morning Report Writing",
+      "description": "Focus on writing the weekly report without distractions.",
+      "start_time": "08:00",
+      "end_time": "09:30",
+      "stat_rewards": {"str": 0, "int": 3, "res": 2},
+      "success_criteria": 90,
+      "measure": "minutes"
+    },
+    {
+      "title": "Midday Fitness Boost",
+      "description": "Complete a gym workout session focusing on strength training.",
+      "start_time": "11:30",
+      "end_time": "12:30",
+      "stat_rewards": {"str": 4, "int": 0, "res": 3},
+      "success_criteria": 400,
+      "measure": "calories burned"
+    },
+    {
+      "title": "Evening Japanese Study Session",
+      "description": "Engage in a focused study session to improve Japanese language skills.",
+      "start_time": "17:00",
+      "end_time": "17:45",
+      "stat_rewards": {"str": 0, "int": 2, "res": 1},
+      "success_criteria": 45,
+      "measure": "minutes"
+    }
+  ]
+}
+----------------------------------------
+
+--- RESPONSE 3 ---
+{
+  "quests": [
+    {
+      "title": "Morning Cardio Burst",
+      "description": "Complete a brisk walk or light jog before starting your day.",
+      "start_time": "07:00",
+      "end_time": "08:00",
+      "stat_rewards": {"str": 2, "int": 0, "res": 3},
+      "success_criteria": 3000,
+      "measure": "steps"
+    },
+    {
+      "title": "Focused Writing Session",
+      "description": "Dedicate focused time to complete your weekly report without distractions.",
+      "start_time": "08:00",
+      "end_time": "09:30",
+      "stat_rewards": {"str": 0, "int": 4, "res": 2},
+      "success_criteria": 90,
+      "measure": "minutes"
+    },
+    {
+      "title": "Strength Building Workout",
+      "description": "Complete a full workout session at the gym, focusing on building strength.",
+      "start_time": "11:30",
+      "end_time": "12:30",
+      "stat_rewards": {"str": 5, "int": 0, "res": 3},
+      "success_criteria": 200,
+      "measure": "calories burned"
+    }
+  ]
+}
+----------------------------------------
+

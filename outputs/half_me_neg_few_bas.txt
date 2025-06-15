@@ -1,0 +1,110 @@
+MODEL: gpt-4o
+TEMPERATURE: 0.7
+TOTAL RESPONSES: 3
+CALENDAR: days\halfday.json
+USER: personas\me_negative.json
+PROMPT: prompts\few_basic.txt
+============================================================
+
+--- RESPONSE 1 ---
+{
+  "quests": [
+    {
+      "title": "Errand Energizer",
+      "description": "Stay active while running errands by walking briskly between stops.",
+      "start_time": "10:00",
+      "end_time": "11:00",
+      "stat_rewards": {"str": 1, "int": 0, "res": 0},
+      "success_criteria": 3000,
+      "measure": "steps"
+    },
+    {
+      "title": "Japanese Language Immersion",
+      "description": "Dedicate time to studying Japanese and enhance your language skills.",
+      "start_time": "15:00",
+      "end_time": "16:00",
+      "stat_rewards": {"str": 0, "int": 2, "res": 0},
+      "success_criteria": 45,
+      "measure": "minutes"
+    },
+    {
+      "title": "Fitness Focus",
+      "description": "Maximize your workout by maintaining an elevated heart rate.",
+      "start_time": "11:30",
+      "end_time": "12:30",
+      "stat_rewards": {"str": 2, "int": 0, "res": 0},
+      "success_criteria": 40,
+      "measure": "active minutes"
+    }
+  ]
+}
+----------------------------------------
+
+--- RESPONSE 2 ---
+{
+  "quests": [
+    {
+      "title": "Morning Strength Training",
+      "description": "Enhance your fitness by maintaining an elevated heart rate during your gym session.",
+      "start_time": "11:30",
+      "end_time": "12:30",
+      "stat_rewards": {"str": 2, "int": 0, "res": 0},
+      "success_criteria": 45,
+      "measure": "minutes"
+    },
+    {
+      "title": "Japanese Language Boost",
+      "description": "Dedicate time to studying Japanese vocabulary or grammar.",
+      "start_time": "16:30",
+      "end_time": "17:15",
+      "stat_rewards": {"str": 0, "int": 1, "res": 0},
+      "success_criteria": 30,
+      "measure": "minutes"
+    },
+    {
+      "title": "Evening Trading Strategy",
+      "description": "Focus on trading strategies and studying charts to enhance your skills.",
+      "start_time": "18:00",
+      "end_time": "19:00",
+      "stat_rewards": {"str": 0, "int": 2, "res": 0},
+      "success_criteria": 45,
+      "measure": "minutes"
+    }
+  ]
+}
+----------------------------------------
+
+--- RESPONSE 3 ---
+{
+  "quests": [
+    {
+      "title": "Morning Report Power-Up",
+      "description": "Complete your weekly report with focused effort and attention.",
+      "start_time": "08:00",
+      "end_time": "09:30",
+      "stat_rewards": {"str": 0, "int": 1, "res": 1},
+      "success_criteria": 90,
+      "measure": "minutes"
+    },
+    {
+      "title": "Errands Efficiency Challenge",
+      "description": "Complete all your errands while maintaining a brisk pace.",
+      "start_time": "10:00",
+      "end_time": "11:00",
+      "stat_rewards": {"str": 1, "int": 0, "res": 1},
+      "success_criteria": 3000,
+      "measure": "steps"
+    },
+    {
+      "title": "Japanese Study Focus",
+      "description": "Dedicate time to studying Japanese with full concentration.",
+      "start_time": "16:30",
+      "end_time": "17:00",
+      "stat_rewards": {"str": 0, "int": 1, "res": 0},
+      "success_criteria": 30,
+      "measure": "minutes"
+    }
+  ]
+}
+----------------------------------------
+

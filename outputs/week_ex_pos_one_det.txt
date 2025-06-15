@@ -1,0 +1,113 @@
+MODEL: gpt-4o
+TEMPERATURE: 0.7
+TOTAL RESPONSES: 3
+CALENDAR: days\weekend.json
+USER: personas\ex_positive.json
+PROMPT: prompts\one_detailed.txt
+============================================================
+
+--- RESPONSE 1 ---
+
+{
+  "quests": [
+    {
+      "title": "Post-Hike Stretch",
+      "description": "Perform a stretching routine after your morning hike to improve flexibility and recovery.",
+      "start_time": "10:45",
+      "end_time": "11:00",
+      "stat_rewards": {"str": 1, "int": 0, "res": 1},
+      "success_criteria": 15,
+      "measure": "minutes"
+    },
+    {
+      "title": "Afternoon Coding Challenge",
+      "description": "Engage in a focused coding session to work on your programming skills.",
+      "start_time": "16:45",
+      "end_time": "18:45",
+      "stat_rewards": {"str": 0, "int": 2, "res": 0},
+      "success_criteria": 90,
+      "measure": "minutes"
+    },
+    {
+      "title": "Evening Cardio Boost",
+      "description": "Complete a quick cardio session to end your day on a high note.",
+      "start_time": "21:45",
+      "end_time": "22:15",
+      "stat_rewards": {"str": 1, "int": 0, "res": 0},
+      "success_criteria": 150,
+      "measure": "calories_burned"
+    }
+  ]
+}
+----------------------------------------
+
+--- RESPONSE 2 ---
+
+{
+  "quests": [
+    {
+      "title": "Pre-Market Cardio Burst",
+      "description": "Engage in a quick cardio session to start your day with energy",
+      "start_time": "07:15",
+      "end_time": "08:00",
+      "stat_rewards": {"str": 1, "int": 0, "res": 0},
+      "success_criteria": 2500,
+      "measure": "steps"
+    },
+    {
+      "title": "Programming Power Hour",
+      "description": "Dedicate focused time to work on your programming skills",
+      "start_time": "17:00",
+      "end_time": "18:00",
+      "stat_rewards": {"str": 0, "int": 2, "res": 0},
+      "success_criteria": 60,
+      "measure": "minutes"
+    },
+    {
+      "title": "Evening Mindfulness Routine",
+      "description": "Practice mindfulness or meditation to unwind before movie night",
+      "start_time": "18:15",
+      "end_time": "18:45",
+      "stat_rewards": {"str": 0, "int": 0, "res": 1},
+      "success_criteria": 30,
+      "measure": "minutes"
+    }
+  ]
+}
+----------------------------------------
+
+--- RESPONSE 3 ---
+
+{
+  "quests": [
+    {
+      "title": "Early Bird Cardio Burst",
+      "description": "Start your day with a quick cardio session before the hike",
+      "start_time": "07:30",
+      "end_time": "08:15",
+      "stat_rewards": {"str": 1, "int": 0, "res": 0},
+      "success_criteria": 1500,
+      "measure": "steps"
+    },
+    {
+      "title": "Afternoon Coding Challenge",
+      "description": "Dedicate time to programming during your free afternoon",
+      "start_time": "16:45",
+      "end_time": "18:45",
+      "stat_rewards": {"str": 0, "int": 1, "res": 1},
+      "success_criteria": 60,
+      "measure": "minutes"
+    },
+    {
+      "title": "Mindful Movie Night Prep",
+      "description": "Take time to unwind and mentally prepare for movie night",
+      "start_time": "18:45",
+      "end_time": "19:00",
+      "stat_rewards": {"str": 0, "int": 0, "res": 1},
+      "success_criteria": 15,
+      "measure": "minutes"
+    }
+  ]
+}
+----------------------------------------
+

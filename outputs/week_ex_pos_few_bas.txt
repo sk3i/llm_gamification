@@ -1,0 +1,111 @@
+MODEL: gpt-4o
+TEMPERATURE: 0.7
+TOTAL RESPONSES: 3
+CALENDAR: days\weekend.json
+USER: personas\ex_positive.json
+PROMPT: prompts\few_basic.txt
+============================================================
+
+--- RESPONSE 1 ---
+
+{
+  "quests": [
+    {
+      "title": "Trailblazer Trek",
+      "description": "Maximize your cardio benefits during the morning hike by maintaining an elevated heart rate.",
+      "start_time": "08:30",
+      "end_time": "10:30",
+      "stat_rewards": {"str": 1, "int": 0, "res": 1},
+      "success_criteria": 60,
+      "measure": "active minutes"
+    },
+    {
+      "title": "Market Explorer",
+      "description": "Engage in an active exploration of the Farmer's Market. Aim to walk briskly and cover a good distance.",
+      "start_time": "11:00",
+      "end_time": "12:00",
+      "stat_rewards": {"str": 1, "int": 0, "res": 0},
+      "success_criteria": 2500,
+      "measure": "steps"
+    },
+    {
+      "title": "Leisurely Learning",
+      "description": "Dedicate time to reading and enjoy your novel in the backyard.",
+      "start_time": "15:00",
+      "end_time": "16:30",
+      "stat_rewards": {"str": 0, "int": 2, "res": 0},
+      "success_criteria": 90,
+      "measure": "minutes"
+    }
+  ]
+}
+----------------------------------------
+
+--- RESPONSE 2 ---
+{
+  "quests": [
+    {
+      "title": "Trailblazer's Trek",
+      "description": "Enhance your cardio endurance during the Morning Hike at Maple Trail.",
+      "start_time": "08:30",
+      "end_time": "10:30",
+      "stat_rewards": {"str": 2, "int": 0, "res": 1},
+      "success_criteria": 6000,
+      "measure": "steps"
+    },
+    {
+      "title": "Market Mindfulness",
+      "description": "Engage in focused browsing and purchasing at the Farmer's Market.",
+      "start_time": "11:00",
+      "end_time": "12:00",
+      "stat_rewards": {"str": 0, "int": 0, "res": 1},
+      "success_criteria": 30,
+      "measure": "active minutes"
+    },
+    {
+      "title": "Literary Escape",
+      "description": "Immerse yourself in reading the novel in your backyard.",
+      "start_time": "15:00",
+      "end_time": "16:30",
+      "stat_rewards": {"str": 0, "int": 2, "res": 0},
+      "success_criteria": 90,
+      "measure": "minutes"
+    }
+  ]
+}
+----------------------------------------
+
+--- RESPONSE 3 ---
+{
+  "quests": [
+    {
+      "title": "Trailblazer",
+      "description": "Maximize your cardio workout during the Morning Hike by maintaining an active heart rate.",
+      "start_time": "08:30",
+      "end_time": "10:30",
+      "stat_rewards": {"str": 2, "int": 0, "res": 1},
+      "success_criteria": 90,
+      "measure": "active minutes"
+    },
+    {
+      "title": "Market Explorer",
+      "description": "Engage in brisk walking at the Farmer's Market to stay active.",
+      "start_time": "11:00",
+      "end_time": "12:00",
+      "stat_rewards": {"str": 1, "int": 0, "res": 0},
+      "success_criteria": 3000,
+      "measure": "steps"
+    },
+    {
+      "title": "Literature Dive",
+      "description": "Immerse yourself in a novel reading session to relax and unwind.",
+      "start_time": "15:00",
+      "end_time": "16:30",
+      "stat_rewards": {"str": 0, "int": 1, "res": 1},
+      "success_criteria": 90,
+      "measure": "minutes"
+    }
+  ]
+}
+----------------------------------------
+

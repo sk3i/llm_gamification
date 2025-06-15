@@ -1,0 +1,113 @@
+MODEL: gpt-4o
+TEMPERATURE: 0.7
+TOTAL RESPONSES: 3
+CALENDAR: days\workday.json
+USER: personas\me_positive.json
+PROMPT: prompts\one_basic.txt
+============================================================
+
+--- RESPONSE 1 ---
+{
+  "quests": [
+    {
+      "title": "Morning Fitness Boost",
+      "description": "Start your day with a refreshing walk before your meetings",
+      "start_time": "08:00",
+      "end_time": "08:45",
+      "stat_rewards": {"str": 1, "int": 0, "res": 0},
+      "success_criteria": 3000,
+      "measure": "steps"
+    },
+    {
+      "title": "Midday Language Learning",
+      "description": "Utilize your lunch break to study Japanese",
+      "start_time": "12:00",
+      "end_time": "12:30",
+      "stat_rewards": {"str": 0, "int": 1, "res": 1},
+      "success_criteria": 30,
+      "measure": "minutes"
+    },
+    {
+      "title": "Evening Trading Analysis",
+      "description": "Dedicate time after work to analyze trading charts",
+      "start_time": "17:30",
+      "end_time": "18:15",
+      "stat_rewards": {"str": 0, "int": 2, "res": 0},
+      "success_criteria": 45,
+      "measure": "minutes"
+    }
+  ]
+}
+----------------------------------------
+
+--- RESPONSE 2 ---
+{
+  "quests": [
+    {
+      "title": "Midday Fitness Boost",
+      "description": "Take a quick walk to refresh and re-energize during your lunch break.",
+      "start_time": "12:00",
+      "end_time": "12:30",
+      "stat_rewards": {"str": 1, "int": 0, "res": 0},
+      "success_criteria": 2000,
+      "measure": "steps"
+    },
+    {
+      "title": "Japanese Language Study",
+      "description": "Dedicate time to studying Japanese after your workday.",
+      "start_time": "17:30",
+      "end_time": "18:15",
+      "stat_rewards": {"str": 0, "int": 2, "res": 0},
+      "success_criteria": 45,
+      "measure": "minutes"
+    },
+    {
+      "title": "Evening Reflection and Planning",
+      "description": "Spend time reflecting on the day and planning for tomorrow.",
+      "start_time": "18:30",
+      "end_time": "19:00",
+      "stat_rewards": {"str": 0, "int": 0, "res": 2},
+      "success_criteria": 30,
+      "measure": "minutes"
+    }
+  ]
+}
+----------------------------------------
+
+--- RESPONSE 3 ---
+{
+  "quests": [
+    {
+      "title": "Morning Fitness Kickstart",
+      "description": "Start your day with a quick walk to boost your energy and focus.",
+      "start_time": "08:00",
+      "end_time": "08:45",
+      "stat_rewards": {"str": 1, "int": 0, "res": 0},
+      "success_criteria": 3000,
+      "measure": "steps",
+      "instructions": "Take a brisk walk around your neighborhood or on a treadmill before your Morning Standup."
+    },
+    {
+      "title": "Lunchtime Japanese Study",
+      "description": "Dedicate your lunch break to studying Japanese, enhancing your language skills.",
+      "start_time": "12:30",
+      "end_time": "13:00",
+      "stat_rewards": {"str": 0, "int": 1, "res": 0},
+      "success_criteria": 30,
+      "measure": "minutes",
+      "instructions": "Use a language app or flashcards to study Japanese during your lunch break in the cafeteria."
+    },
+    {
+      "title": "Evening Workout Unwind",
+      "description": "Engage in a relaxing workout to wrap up your day, focusing on fitness and resilience.",
+      "start_time": "17:30",
+      "end_time": "18:15",
+      "stat_rewards": {"str": 1, "int": 0, "res": 1},
+      "success_criteria": 150,
+      "measure": "calories",
+      "instructions": "Perform a light workout such as yoga, stretching, or a short run to burn at least 150 calories."
+    }
+  ]
+}
+----------------------------------------
+

@@ -1,0 +1,112 @@
+MODEL: gpt-4o
+TEMPERATURE: 0.7
+TOTAL RESPONSES: 3
+CALENDAR: days\weekend.json
+USER: personas\me_positive.json
+PROMPT: prompts\zer_detailed.txt
+============================================================
+
+--- RESPONSE 1 ---
+
+{
+  "quests": [
+    {
+      "title": "Morning Fitness Boost",
+      "description": "Complete a 30-minute brisk walk before the hike to warm up.",
+      "start_time": "08:00",
+      "end_time": "08:30",
+      "stat_rewards": {"str": 1, "int": 0, "res": 0},
+      "success_criteria": 30,
+      "measure": "active minutes"
+    },
+    {
+      "title": "Japanese Vocabulary Practice",
+      "description": "Spend 30 minutes studying Japanese vocabulary.",
+      "start_time": "16:45",
+      "end_time": "17:15",
+      "stat_rewards": {"str": 0, "int": 1, "res": 0},
+      "success_criteria": 30,
+      "measure": "minutes"
+    },
+    {
+      "title": "Evening Calorie Burn",
+      "description": "Achieve 200 active calories burned through a short workout.",
+      "start_time": "17:30",
+      "end_time": "18:00",
+      "stat_rewards": {"str": 1, "int": 0, "res": 1},
+      "success_criteria": 200,
+      "measure": "calories"
+    }
+  ]
+}
+----------------------------------------
+
+--- RESPONSE 2 ---
+
+{
+  "quests": [
+    {
+      "title": "Morning Hike Challenge",
+      "description": "Complete a brisk hike on the Maple Trail and aim for 7000 steps.",
+      "start_time": "08:30",
+      "end_time": "10:15",
+      "stat_rewards": {"str": 2, "int": 0, "res": 0},
+      "success_criteria": 7000,
+      "measure": "steps"
+    },
+    {
+      "title": "Language Enrichment",
+      "description": "Dedicate focused time to study Japanese vocabulary and grammar.",
+      "start_time": "16:45",
+      "end_time": "17:45",
+      "stat_rewards": {"str": 0, "int": 2, "res": 0},
+      "success_criteria": 60,
+      "measure": "minutes"
+    },
+    {
+      "title": "Evening Trading Skills",
+      "description": "Analyze trading charts and trends to enhance your trading skills.",
+      "start_time": "17:45",
+      "end_time": "18:45",
+      "stat_rewards": {"str": 0, "int": 2, "res": 1},
+      "success_criteria": 60,
+      "measure": "minutes"
+    }
+  ]
+}
+----------------------------------------
+
+--- RESPONSE 3 ---
+{
+  "quests": [
+    {
+      "title": "Morning Hike Challenge",
+      "description": "Complete at least 5,000 steps during your Morning Hike.",
+      "start_time": "08:15",
+      "end_time": "10:45",
+      "stat_rewards": {"str": 2, "int": 0, "res": 0},
+      "success_criteria": 5000,
+      "measure": "steps"
+    },
+    {
+      "title": "Japanese Study Session",
+      "description": "Study Japanese for 30 minutes before your afternoon activities.",
+      "start_time": "16:45",
+      "end_time": "17:30",
+      "stat_rewards": {"str": 0, "int": 1, "res": 0},
+      "success_criteria": 30,
+      "measure": "minutes"
+    },
+    {
+      "title": "Evening Stretch and Relaxation",
+      "description": "Engage in a 20-minute stretching session to unwind after Movie Night.",
+      "start_time": "21:45",
+      "end_time": "22:15",
+      "stat_rewards": {"str": 0, "int": 0, "res": 1},
+      "success_criteria": 20,
+      "measure": "minutes"
+    }
+  ]
+}
+----------------------------------------
+

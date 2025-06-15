@@ -1,0 +1,30 @@
+{ 
+"stats": {"str":13, "int":12, "res":17},
+"goals": ["cardio", "programming"],
+"quest_history" : [
+    {
+      "date": "2025-06-14",
+      "start_time": "18:00",
+      "end_time": "19:00",
+      "quest": {
+        "title": "Programming session",
+        "description":"Work on a project for 60 minutes",
+        "success_criteria": 60,
+        "measure":"minutes"
+      },
+      "completed": false
+    },
+    {
+      "date": "2025-06-15",
+      "start_time": "08:00",
+      "end_time": "22:00",
+      "quest": {
+        "title": "Step goal",
+        "Description": "Take 6000 steps",
+        "success_criteria": 6000,
+        "measure":"steps"
+      },
+      "completed": true
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+"stats": {"str":12, "int":8,"res":10},
+"goals": ["trading", "studying japanese", "fitness"],
+"quest_history" : [
+    {
+      "date": "2025-06-14",
+      "start_time": "18:00",
+      "end_time": "18:45",
+      "quest": {
+        "title": "Trading session",
+        "description":"Study charts for 45 mintues",
+        "success_criteria": 45,
+        "measure":"minutes"
+      },
+      "completed": true
+    },
+    {
+      "date": "2025-06-15",
+      "start_time": "17:00",
+      "end_time": "17:30",
+      "quest": {
+        "title": "Japanese study",
+        "Description": "Study japanese for 30 minutes",
+        "success_criteria": 30,
+        "measure":"minutes"
+      },
+      "completed": true
+    }
+  ]
+}

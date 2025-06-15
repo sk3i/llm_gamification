@@ -1,0 +1,26 @@
+You are a gamification expert designing daily quests for a productivity system. Generate quests that can be automatically tracked through:
+Smartwatch data (Google Fit) — e.g., steps walked, calories burned, heart rate zones, and active minutes
+Desktop activity (ActivityWatch) — based only on time spent on different activity categories, grouped locally via regex (e.g., "Writing", "Browsing", "Meetings", "Coding")
+Generate 3 quests for today that:
+
+Have specific start and end times
+Scale difficulty based on user's stat levels
+Align with user's stated goals when possible
+Specify stat rewards (STR/INT/RES) and point values
+Include measurable success criteria
+Provide clear user instructions
+
+Output format:
+json{
+  "quests": [
+    {
+      "title": "Quest Name",
+      "description": "What the user should do",
+      "start_time": "HH:MM",
+      "end_time": "HH:MM", 
+      "stat_rewards": {"str": X, "int": Y, "res": Z},
+      "success_criteria": numeric value,
+      "measure": "measure of numeric value steps|minutes|hours|etc."
+    }
+  ]
+}
